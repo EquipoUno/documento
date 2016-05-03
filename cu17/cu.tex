@@ -1,0 +1,39 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{ID: CU1_1}{Iniciar sesión como dependiente}{
+		\UCitem{Versión}{1.0}
+		\UCitem{Actor}{Dependiente}
+		%\UCitem{Propósito}{Que el Paciente puede obtener una cita en el momento que lo requiera.}
+		\UCitem{Resumen}{Los dependientes están a cargo de la entrega de medicamentos, así como la generación
+de recibos para la compra de los mismos. Para poder acceder a éstas opciones del sistema, el dependiente
+debe iniciar sesión con su cuenta de tipo "Dependiente".}
+		\UCitem{Entradas}{Nombre de usuario y contraseña.}
+		\UCitem{Salidas}{IUCompra.}
+		\UCitem{Origen}{Teclado.}
+		\UCitem{Destino}{Pantalla}
+		\UCitem{Precondiciones}{Tener molestias, hacer una cita, tener un historial medico en la clinica(en caso de no, hacer uno), llehar 10 min. antes, pagar la consulta, que el docotor haya asistido.}
+		\UCitem{Postcondiciones}{El actor tendrá acceso a las opciones que un dependiente de la farmacia tiene.}
+		\UCitem{Errores}{No hay internet. El servidor está apagado.}
+		\UCitem{Volatilidad}{Baja.}
+		\UCitem{Madurez}{Media-Alta.}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] El actor ingresa nombre de usuario en la IULogin  \IUref{UI23}{Pantalla de Control de Acceso}\label{CU17Login}.
+		\UCpaso[\UCactor]El actor ingresa la contraseña de la cuenta en la IULogin  \IUref{UI23}{Pantalla de Control de Acceso}\label{CU17Login}.
+		\UCpasoEl sistema verifica que exista cuenta de tipo "Dependiente" con el nombre de usuario ingresado.
+		\UCpaso El sistema verifica que la contraseña ingresada coincida con la de la cuenta encontrada [Tray-alt DatosIncorrectos]
+		\UCpaso El sistema otorga el acceso y le muestra la IUCompra al actor.
+		\UCpaso Fin del CU1.
+	\end{UCtrayectoria}
+		
+%-------------------------------------- TERMINA descripción del caso de uso.
