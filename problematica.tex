@@ -1,0 +1,86 @@
+En \'este cap\'itulo se describir\'a al an\'alisis realizado para identificar los procesos llevados a cabo dentro de la cl\'inica, los problemas de la misma, sus causas y propuestas para solucionarlo
+
+%--------------------------------------------------
+\section{Contexto del sistema}
+
+	La cl\'inica m\'edica de homeopat\'a requiere de un sistema que realice las funciones que se realizan dentro de ella, y lleve el control de las citas por internet, llevar control sobre inventarios en farmacia as\' como los expedientes m\'edicos, con el fin de garantizar un mejor servicio a los pacientes de dicha cl\'inica.
+La cl\'inica cuenta con 12 consultorios y una farmacia. Para que una consulta sea llevada a cabo, es necesario
+que exista una cita previa, ya sea para Consulta General o Especialidad, la \'unica diferencia entre ambas es el costo y el docotr que atienda la consulta.
+Para obtener una cita m\'edica es necesario llamar al tel\'efono de la cl\'inica, acudir personalmente a la misma, o bien, realizarla a trav\'es del sitio web de la cl\'inica. En caso de que no haya cupo en el horario que el usuario desee en ning\'un consultorio, se lo notificar\'a para que escoja un nuevo horario y/o fecha. Despu\'es de realizar la cita, el usuario recibir\'a u n\'umero de folio, con el cual deber\'a pagar en la caja de la cl\'inica a m\'as tardar diez minutos antes de la cita programada. En caso de que la cita no sea pagada en \'este tiempo, uno de los pacientes de espera podr\'a ingresar a esa consulta.
+Al finaliza una consulta, el paciente recibir\'a una receta, la cual, en caso de querer abastecerla en la cl\'inica misma, deber\'a ir al m\'odulo de Farmacia para tomar un recibo de pago, pagar la cantidad indicada en el recibo en la caja, devolver el recibo con sello de "`Pagado"', y finalmente recoger sus medicamentos y su receta con sello de "`Entregado"'.
+
+%--------------------------------------------------
+\section{Procesos actuales}
+\begin{itemize}
+\item \bfseries{Registro de consulta m\'edica} \mdseries{: El paciente acude a la recepci\'on para solicitar una cita m\'edica para una fecha y horario especificados. La recepcionista revisa en su cuaderno de citas si no hay ninguna cita registrada para esa fecha y horario. En caso de que no haya ning\'un registro, lo anotar\'a en el cuaderno de citas y le indica al paciente que realice su pago en caja, y regrese a recepci\'on con un ticket de pago para poder registrar la cita como pagada.}
+\item \bfseries{Pago de consulta m\'edica} \mdseries{: El paciente acude a caja pagando el monto correspodiente a una cita m\'edica y finalmente recibe un ticket de pago}
+\item \bfseries{Pago de medicamentos} \mdseries{: El paciente acude a la farmacia con una receta m\'edica. El dependiente de la farmacia la revisa, verifica que en el almac\'en haya los suficientes medicamentos para abastecer la receta. En caso de que sí haya suficientes medicamentos, el dependiente procede a cobrarle al paciente el monto correspondiente a la receta m\'edica y finalmente el paciente recibe los medicamentos solicitados.}
+\item \bfseries{} \mdseries{: }
+\item \bfseries{} \mdseries{: }
+\end{itemize}
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsection{Participantes}
+
+\begin{itemize}
+\item \bfseries{M\'edico} \mdseries{.- Es el profesional autorizado legalmente para ejercer la medicina, y es el encargado de dar las consultas m\'edicas en la cl\'inica.}
+\item \bfseries{Recepcionista} \mdseries{.- Es una persona asignada al \'area de "`Recepci\'on"'. Su trabajo es dar acceso a los pacientes al consultorio que indique la cita m\'edica que el paciente realiz\'o, o a los pacientes de espera . Tambi\'en se encarga de atender a los pacientes que deseen realizar citas m\'edicas via telef\'onica. }
+\item \bfseries{Dependiente} \mdseries{.- Es la persona que atiende la farmacia. Se encarga de abastecer las recetas m\'edicas, y realizar el cobro correspondiente a las mismas.}
+\item \bfseries{Cajero} \mdseries{.- Es la persona que atiende el m\'odulo de caja. Se encarga de recibir pagos de consultas m\'edicas y de entregar tickets de pago para verificar que el cliente pag\'o una consulta m\'edica.}
+\end{itemize}
+
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsection{Procesos}
+
+Aqui va un diagrama BPMN
+
+%--------------------------------------------------
+\section{Problemas identificados}
+
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsection{Problema general}
+
+No hay una forma efectiva, accesible y segura para llevar a cabo los procesos realizados dentro de la cl\'inica y para manipular la informaci\'on que se utiliza dentro de ella (expedientes m\'edicos, citas m\'edicas, pagos). 
+
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsection{Descomposición del problema}
+
+\begin{enumerate}
+\item Es tardado buscar un registro de cita en el cuaderno de registros.
+\item A veces el encargado del cuaderno de registros olvida anotar otros registros.
+\item En ocasiones el paciente no tiene la disponibilidad para acudir a la cl\'inica a agendar una cita.
+\item No hay una forma definida para atender a los pacientes de espera.
+\item No hay forma de registrar las transacciones hechas en la caja ni de controlar las salidas/entradas de dinero de la caja.
+\item El proceso de compra de medicamentos es tardado, pues el dependiente debe revisar f\'isicamente si hay medicamentos suficientes para abastecer una receta.
+\item Buscar un expediente m\'edico es tardado.
+\item El c\'alculo del precio para una receta, lo realiza el dependiente, lo cual es tardado.
+\item No hay una forma para mantener el control sobre el stock de medicamentos en el almac\'en
+\item Para buscar un medicamento mediante una sustancia activa, el dependiente deber\'a leer los ingredientes activos de varios medicamentos hasta encontrar el que busca, lo cual es algo muy tardado, a menos de que el dependiente tenga mucha experiencia,.
+\item No hay una forma definida para crear expedientes m\'edicos.
+\item 
+\end{enumerate}
+
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsection{Análisis de causas}
+
+
+Presentar el diagrama de ishikawa, explicar cada una de las causas principales y como contribuye a los problemas.
+
+%--------------------------------------------------
+\section{Propuesta de solución}
+
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsection{Alternativas de solución}
+
+\begin{itemize}
+\item Llevar la operaci\'on de pago de medicamentos de la farmacia a la caja, as\'i el dependiente se encargar\'a \'unicamente de emitir el recibo de pago, y no tendr\'ia qu\'e lidiar con dinero.
+\item Registrar en un repositorio de datos electr\'onico todas las transacciones que se hagan
+\item Realizar un software que con base en una lista de medicamentos, verifique autom\'aticamente si hay medicamentos suficientes en el stock para abastecer la lista recibida.
+\item Realizar un software con el cual sea posible crear, modificar y consultar expedientes m\'edicos
+\item Guardar los expedientes m\'edicos en un repositorio de datos electr\'onico.
+\item Realizar un software que busque todos los medicamentos que tengan una sustancia activa dada.
+\item 
+\item 
+\item 
+\item 
+\item 
+\end{itemize}
