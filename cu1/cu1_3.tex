@@ -14,14 +14,13 @@
 	}
 		\UCitem{Versión}{1.2}
 		\UCitem{Actor}{Dependiente}
-		\UCitem{Propósito}{Que el actor pueda acceder a las funciones a las que tiene acceso un dependiente de farmacia.}
+		\UCitem{Propósito}{Que el dependiente pueda acceder a las funciones a las que tiene acceso.}
 		\UCitem{Resumen}{
-		El sistema muestra una pantalla de registro, donde el actor ingresa su informaci\'on de acceso, y si el sistema lo verifica correctamente como dependiente, le dar\'a acceso como "`Dependiente"'.}
+		El sistema muestra una pantalla de registro, donde el dependiente ingresa su informaci\'on de acceso, y si el sistema lo verifica correctamente, le dar\'a acceso como "`Dependiente"'.}
 		\UCitem{Entradas}{Nombre de usuario y contraseña.}
 		\UCitem{Salidas}{ --- }
-		\UCitem{Precondiciones}{Tener una cuenta de tipo "`Dependiente"' registrada en el sistema.}
+		\UCitem{Precondiciones}{Tener una cuenta de tipo "Dependiente" registrada en el sistema.}
 		\UCitem{Postcondiciones}{El actor tendrá acceso a las opciones que un dependiente de la farmacia tiene.}
-		\UCitem{Errores}{Si no hay niinguna cuenta con los datos ingresados, muestra el Mensaje {\bf ERRDatosIncorrectos-}``No existe ninguna cuenta con los datos ingresados. Favor de revisar la informaci\'on introducida''.}
 		\UCitem{Autor}{Gerardo Aramis Cabello Acosta.}
 		\UCitem{Revisor}{  }
 		\UCitem{Status}{ En espera de revisi\'on }
@@ -29,11 +28,16 @@
 
 	\begin{UCtrayectoria}{Principal}
 		\UCpaso[\UCactor] Introduce su Nombre de usuario y Contraseña en el sistema vía la  \IUref{UILogin}{Pantalla de Control de Acceso}\label{CU1_1Login}.
-		\UCpaso El sistema verifica que exista cuenta de tipo "`Dependiente"' con el nombre de usuario ingresado.
-		\UCpaso El sistema verifica que la contraseña ingresada coincida con la de la cuenta encontrada.
+		\UCpaso El sistema verifica que exista cuenta de tipo "Dependiente" con el nombre de usuario ingresado.
+		\UCpaso El sistema verifica que la contraseña ingresada coincida con la de la cuenta encontrada \Trayref{A}.
 		\UCpaso Se despliega en pantalla la \IUref{IUCompra}{Pantalla de Compra}.	
 	\end{UCtrayectoria}
 		
+		\begin{UCtrayectoriaA}{A}{El sistema no encuentra coincidencias de usuario y password}
+			\UCpaso Muestra el Mensaje {\bf ERRDatosIncorrectos-}``No existe ninguna cuenta con los datos ingresados. Favor de revisar la informaci\'on introducida''.
+			\UCpaso[\UCactor] Oprime el botón \IUbutton{OK}.
+			\UCpaso[] Termina el caso de uso.
+		\end{UCtrayectoriaA}
 		
 		
 %-------------------------------------- TERMINA descripción del caso de uso.

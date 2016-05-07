@@ -1,0 +1,39 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU1.2}{Iniciar sesión como cajero}{
+		El cajero es el encargado de finalizar transacciones hechas por la farmacia (para pago de medicamentos) y por el paciente (expedici\'on de cita m\'edica).
+	}
+		\UCitem{Versión}{1.2}
+		\UCitem{Actor}{Cajero}
+		\UCitem{Propósito}{Que el cajero pueda acceder a las funciones a las que tiene acceso un cajero de la cl\'inica.}
+		\UCitem{Resumen}{
+		El sistema muestra una pantalla de registro, donde el actor ingresa su informaci\'on de acceso, y si el sistema lo verifica correctamente como un cajero, le dar\'a acceso como "`Cajero"'.}
+		\UCitem{Entradas}{Nombre de usuario y contraseña.}
+		\UCitem{Salidas}{ --- }
+		\UCitem{Precondiciones}{Tener una cuenta de tipo "`Cajero"'  registrada en el sistema.}
+		\UCitem{Postcondiciones}{El actor tendrá acceso a las opciones que un cajero de la cl\'inica tiene.}
+		\UCitem{Errores}{Si no hay niinguna cuenta con los datos ingresados, muestra el Mensaje {\bf ERRDatosIncorrectos-}``No existe ninguna cuenta con los datos ingresados. Favor de revisar la informaci\'on introducida''.}
+		\UCitem{Autor}{Gerardo Aramis Cabello Acosta.}
+		\UCitem{Revisor}{  }
+		\UCitem{Status}{ En espera de revisi\'on }
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Introduce su Nombre de usuario y Contraseña en el sistema vía la  \IUref{UILogin}{Pantalla de Control de Acceso}\label{CU1_1Login}.
+		\UCpaso El sistema verifica que exista cuenta de tipo "`Cajero"' con el nombre de usuario ingresado.
+		\UCpaso El sistema verifica que la contraseña ingresada coincida con la de la cuenta encontrada
+		\UCpaso Se despliega en pantalla la \IUref{IUCaja}{Pantalla de cajero}.	
+	\end{UCtrayectoria}
+		
+		
+		
+%-------------------------------------- TERMINA descripción del caso de uso.

@@ -34,6 +34,10 @@
 \BOOKMARK [2][-]{subsection.5.1.1}{Descripci\363n completa}{section.5.1}% 34
 \BOOKMARK [2][-]{subsection.5.1.2}{Atributos importantes}{section.5.1}% 35
 \BOOKMARK [2][-]{subsection.5.1.3}{Trayectorias del Caso de Uso}{section.5.1}% 36
-\BOOKMARK [0][-]{chapter.6}{Modelo de la Interacci\363n}{}% 37
-\BOOKMARK [1][-]{section.6.1}{Modelo de navegaci\363n}{chapter.6}% 38
-\BOOKMARK [2][-]{subsection.6.1.1}{IULogin Pantalla de Control de Acceso}{section.6.1}% 39
+\BOOKMARK [1][-]{section.5.2}{CU1.2 Iniciar sesi\363n como cajero}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.2.1}{Descripci\363n completa}{section.5.2}% 38
+\BOOKMARK [2][-]{subsection.5.2.2}{Atributos importantes}{section.5.2}% 39
+\BOOKMARK [2][-]{subsection.5.2.3}{Trayectorias del Caso de Uso}{section.5.2}% 40
+\BOOKMARK [0][-]{chapter.6}{Modelo de la Interacci\363n}{}% 41
+\BOOKMARK [1][-]{section.6.1}{Modelo de navegaci\363n}{chapter.6}% 42
+\BOOKMARK [2][-]{subsection.6.1.1}{IULogin Pantalla de Control de Acceso}{section.6.1}% 43
