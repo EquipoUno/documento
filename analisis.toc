@@ -23,7 +23,7 @@
 \contentsline {section}{\numberline {3.2}Modelo de despliegue}{7}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Requerimientos no funcionales}{7}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Modelo de despliegue del sistema}{7}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Especificaci\IeC {\'o}n de Plataforma}{8}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Especificaci\IeC {\'o}n de Plataforma}{7}{subsection.3.2.3}
 \contentsline {chapter}{\numberline {4}Modelo de Negocios}{9}{chapter.4}
 \contentsline {section}{\numberline {4.1}Glosario de t\IeC {\'e}rminos}{9}{section.4.1}
 \contentsline {section}{\numberline {4.2}Proceso ajustado}{9}{section.4.2}
