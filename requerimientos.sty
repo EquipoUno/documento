@@ -15,7 +15,7 @@
 
 
 
-% Docuemtnaci髇 de problemas
+% Docuemtnaci贸n de problemas
 % Usar:
 % \begin{problemas}[color]{prefijo}
 %
@@ -25,11 +25,11 @@
 {%
 	\arrayrulecolor{#1}%
 	%\begin{table}[h]%
-	%\caption{Especificaci髇 de problemas}%
+	%\caption{Especificaci贸n de problemas}%
 	\par\begin{longtable}{| p{.05\textwidth} | p{.2\textwidth} | p{.6\textwidth} | p{.05\textwidth} |}%
 		\arrayrulecolor{white}%
 		\rowcolor{#1}%
-		\problema{\color{white}\bf Id}{\color{white}\bf Nombre}{\color{white}\bf Descripci髇}{\color{white}\bf Pri.}\endhead%
+		\problema{\color{white}\bf Id}{\color{white}\bf Nombre}{\color{white}\bf Descripci贸n}{\color{white}\bf Pri.}\endhead%
 		\arrayrulecolor{#1}%
 }{%
 	\end{longtable} %
@@ -38,7 +38,7 @@
 }
 
 % Definir un problema (se usa con el environment problemas
-% Usar: \problema{id}{Nombre}{Descripci髇}{Prioridad}
+% Usar: \problema{id}{Nombre}{Descripci贸n}{Prioridad}
 %
 % Ejemplo: MB - Muy Baja, B - Baja, M - Media, A - Alta, MA - Muy Alta.
 %
@@ -53,11 +53,11 @@
 {%
 	\arrayrulecolor{#1}%
 	%\begin{table}[h]%
-	%\caption{Especificaci髇 de problemas}%
+	%\caption{Especificaci贸n de problemas}%
 	\par\begin{longtable}{| p{.2\textwidth} | p{.2\textwidth} | p{.6\textwidth} |}%
 		\arrayrulecolor{white}%
 		\rowcolor{#1}%
-		\mensaje{\color{white}\bf Id}{\color{white}\bf Nombre}{\color{white}\bf Descripci髇}\endhead%
+		\mensaje{\color{white}\bf Id}{\color{white}\bf Nombre}{\color{white}\bf Descripci贸n}\endhead%
 		\arrayrulecolor{#1}%
 }{%
 	\end{longtable} %
@@ -78,7 +78,7 @@
 		\multicolumn{3}{|c|}{\bf\color{#1}Requerimientos funcionales}\\%
 		\arrayrulecolor{white}%
 		\rowcolor{#1}%
-		\FRitem{\color{white}\bf Id}{\color{white}\bf Nombre}{\color{white}\bf Descripci髇}{\color{white}\bf Prob.}\endhead%
+		\FRitem{\color{white}\bf Id}{\color{white}\bf Nombre}{\color{white}\bf Descripci贸n}{\color{white}\bf Prob.}\endhead%
 		\arrayrulecolor{#1}%
 }{%
 	\end{longtable} %
@@ -106,7 +106,7 @@
 }
 
 % \begin{Usuario}[icono]{Nombre}
-% 	\Uitem[Descripci髇:]
+% 	\Uitem[Descripci贸n:]
 %	\Uitem[Funciones:]
 % 	\Uitem[:]
 % \end{Usuario}
@@ -115,7 +115,7 @@
 
 \newenvironment{Usuario}[2][usr]
 {%
-	\noindent{\color{userColor}\rule{\textwidth}{.5mm}}\\\noindent%\includegraphics{images/#1} {\bf #2}%
+	\noindent{\color{userColor}\rule{\textwidth}{.5mm}}\\\noindent\includegraphics{images/#1} {\bf #2}%
 	\begin{description}%\item[\includegraphics{images/#1}] {\bf #2}%
 }{%
 	\end{description}%

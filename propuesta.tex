@@ -1,31 +1,40 @@
-%Introducción al capítulo
+Aqu\'i se describir\'an los objetivos que tiene el equipo de desarrollo, as\'i como la arquitectura que tendr\'a el sistema, y la especificaci\'on t\'ecnica que tiene la plataforma sobre la que ser\'a instalado el sistema, tanto de software como de hardware.
 
 %--------------------------------------------------
 \section{Objetivos}
 
 % - - - - - - - - - - - - - - - - - - - - - - - - -
 \subsection{Objetivo general}
-
-Crear un sistema en el que puedan solucionar las problematicas principales en una cl\'inica m\'edica, tanto en la cl\'inica como en el sitio web.
+Crear un sistema en el que puedan solucionar todas las problem\'aticas descritas anteriormente de la cl\'inica m\'edica, de forma eficaz y eficiente.
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - -
-\subsection{Objetivos específicos}
+\subsection{Objetivos especÃ­ficos}
+
 
 \begin{itemize}
-	\item Llevar a cabo el proceso de citas por internet, donde el paciente podra seleccionar el tipo de consulta (Especialidad o General) y fecha en la que se solicitar\'a dicha cita.
-	\item Manejar una base de datos para contener los expedientes m\'edicos (Informaci\'on General) de los pacientes que tengan consulta.
-	\item Tener control e informar sobre el manejo interno en farmacia (Inventario y Surtido).
-	\item Informar\'a al cliente si la cita puede realizarse con base a la disponibilidad de consultorios. En caso de que esten agotada en una determinada fecha, el paciente podra reprogramar la cita.
+\item Llevar a cabo el proceso de citas por internet, donde el paciente podr\'a seleccionar la hora y fecha en la que solicitar\'a una cita m\'edica.
+\item Usar un repositorio de datos electr\'onico para contener los expedientes m\'edicos de los pacientes de la cl\'inica.
+\item Tener control e informar sobre el stock del almac\'en en la farmacia.
+\item Poder informar al cliente si la cita puede realizarse en la fecha y hora dados, con base a la disponibilidad de consultorios. En
+caso de que est\'en agotada en un horario y fecha determinados, el paciente podr\'a volver a solicitar una cita.
+\item Definir una forma para gestionar los expedientes m\'edicos.
+\item Tener una forma m\'as segura para almacenar la inform\'aci\'on (expedientes m\'edicos, transacciones, dinero de la caja, citas m\'edicas y stock de medicamentos en almac\'en.
+\item Generar recetas de forma m\'as r\'apida y f\'acil para el m\'edico.
+
 \end{itemize}
-
-
+\hspace{-.50cm}
+\hspace{-.50cm}
 %--------------------------------------------------
 \section{Modelo de despliegue}
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - -
 \subsection{Requerimientos no funcionales}
+
+\begin{figure}[htbp!]
+		\centering		
+	\end{figure}
 
 \begin{table}[h]
 \hspace{-.50cm}
@@ -42,73 +51,50 @@ Crear un sistema en el que puedan solucionar las problematicas principales en un
 	\begin{tabular}[c]{@{}l@{}}El sistema le mostrar\'a al usuario los horarios disponibles \\ en intervalos de media hora. \end{tabular} \\ \hline
 																															
 \end{tabular}
+\caption{Requerimientos no funcionales}
 \end{table}
-
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - -
 \subsection{Modelo de despliegue del sistema}
 
-Diagrama de despliegue presentando los sistemas (comunicaciones, sistemas externos y software de base) con los que interactúa el sistema y su explicación. vea los siguientes cuatro ejemplos.
 
 	\begin{figure}[htbp!]
 		\centering
-			\includegraphics[width=0.8\textwidth]{images/df}
+			\includegraphics[width=1.15\textwidth]{images/mod_fis3.png}
 		\caption{Diagrama de arquitectura.}
 	\end{figure}
 
-	%\begin{figure}[htbp!]
-	%	\centering
-	%		\includegraphics[width=0.8\textwidth]{images/arquitectura2}
-	%	\caption{Diagrama de arquitectura.}
-	%\end{figure}
-
-	%\begin{figure}[htbp!]
-	%	\centering
-	%		\includegraphics[width=0.8\textwidth]{images/arquitectura3}
-	%	\caption{Diagrama de arquitectura.}
-	%\end{figure}
-
-	%\begin{figure}[htbp!]
-	%	\centering
-	%		\includegraphics[width=0.8\textwidth]{images/arquitectura4}
-	%	\caption{Diagrama de arquitectura.}
-	%\end{figure}
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - -
-\subsection{Especificación de Plataforma}
+\subsection{EspecificaciÃ³n de Plataforma}
 
-%Especificar, hardware, software y servicios requeridos para el sistema.
+\bfseries Servidor (Hardware): \mdseries
+\begin{itemize}
+\item Procesador AMD A10-4600M APU
+\item 6 GB RAM DDR3
+\item Motherboard InsydeH2O CCB.03.72.306.00
+\end{itemize}
 
-\begin{description}
-    \item[Ordenador cliente]
-\end{description}
-    
-\begin{description}
-    \item[Servidor]
-\end{description}
+\bfseries Servidor (Software): \mdseries
+\begin{itemize}
+\item Windows 8 x64 (6.2, compilaci\'on 9200)
+\item Apache 2.4.20
+\item MySQL 5.7.12
+\end{itemize}
 
-\begin{description}
-    \item[Servidor]
-\end{description}
+\bfseries Cliente-clinica (Hardware): \mdseries
+\begin{itemize}
+\item Procesador AMD A10-4600M APU
+\item 6 GB RAM DDR3
+\item Motherboard InsydeH2O CCB.03.72.306.00
+\end{itemize}
 
-\begin{description}
-    \item[Base de Datos]
-\end{description}
+\bfseries Cliente-clinica (Software): \mdseries
+\begin{itemize}
+\item Windows 8 x64 (6.2, compilaci\'on 9200)
+\item MySQL 5.7.12
+\item Java Version 8 Update 91
+\end{itemize}
 
-\begin{description}
-    \item[PC Farmacia]
-\end{description}
-
-\begin{description}
-    \item[PC Caja]
-\end{description}
-
-\begin{description}
-    \item[PC Consultorio]
-\end{description}
-
-\begin{description}
-    \item[Impresoras]
-\end{description}
