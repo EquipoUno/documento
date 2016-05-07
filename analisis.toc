@@ -39,12 +39,23 @@
 \contentsline {subsection}{\numberline {5.2.1}Descripci\IeC {\'o}n completa}{14}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Atributos importantes}{14}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Trayectorias del Caso de Uso}{14}{subsection.5.2.3}
-\contentsline {chapter}{\numberline {6}Modelo de la Interacci\IeC {\'o}n}{15}{chapter.6}
-\contentsline {section}{\numberline {6.1}Modelo de navegaci\IeC {\'o}n}{15}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}IULogin Pantalla de Control de Acceso}{16}{subsection.6.1.1}
-\contentsline {subsubsection}{Objetivo}{16}{section*.2}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{16}{section*.3}
-\contentsline {subsubsection}{Salidas}{16}{section*.4}
-\contentsline {subsubsection}{Entradas}{16}{section*.5}
-\contentsline {subsubsection}{Comandos}{16}{section*.6}
-\contentsline {subsubsection}{Mensajes}{16}{section*.7}
+\contentsline {section}{\numberline {5.3}CU1.3 Iniciar sesi\IeC {\'o}n como proveedor}{15}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Descripci\IeC {\'o}n completa}{15}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Atributos importantes}{15}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Trayectorias del Caso de Uso}{15}{subsection.5.3.3}
+\contentsline {chapter}{\numberline {6}Modelo de la Interacci\IeC {\'o}n}{16}{chapter.6}
+\contentsline {section}{\numberline {6.1}Modelo de navegaci\IeC {\'o}n}{16}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}IULogin Pantalla de Control de Acceso}{17}{subsection.6.1.1}
+\contentsline {subsubsection}{Objetivo}{17}{section*.2}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{17}{section*.3}
+\contentsline {subsubsection}{Salidas}{17}{section*.4}
+\contentsline {subsubsection}{Entradas}{17}{section*.5}
+\contentsline {subsubsection}{Comandos}{17}{section*.6}
+\contentsline {subsubsection}{Mensajes}{17}{section*.7}
+\contentsline {subsection}{\numberline {6.1.2}IUCaja Pantalla de cajero}{18}{subsection.6.1.2}
+\contentsline {subsubsection}{Objetivo}{18}{section*.8}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{18}{section*.9}
+\contentsline {subsubsection}{Salidas}{18}{section*.10}
+\contentsline {subsubsection}{Entradas}{18}{section*.11}
+\contentsline {subsubsection}{Comandos}{18}{section*.12}
+\contentsline {subsubsection}{Mensajes}{18}{section*.13}

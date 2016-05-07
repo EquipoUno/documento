@@ -9,35 +9,33 @@
 %-------------------------------------- COMIENZA descripción del caso de uso.
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
-	\begin{UseCase}{CU1.1}{Iniciar sesión como dependiente}{
-		El dependiente realiza varias funciones, tales como buscar informaci\'on de medicamentos, consultar el stock actual, emitir recibos de pago para medicamentos y buscar medicamentos por principio activo. Antes de poder acceder a \'estas acciones, tiene qu\'e acceder al sistema como "`Dependiente"'.
+	\begin{UseCase}{CU1.3}{Iniciar sesión como proveedor}{
+		Los proveedores est\'an a cargo del stock de los medicamentos. Se encargan de aumentarlo en caso de que se hayan agotado.
+Para poder realizar esto en el sistema, el proveedor deber\'a iniciar sesi\'on con su cuenta de tipo "`Proveedor"'.
+
 	}
 		\UCitem{Versión}{1.2}
-		\UCitem{Actor}{Dependiente}
-		\UCitem{Propósito}{Que el dependiente pueda acceder a las funciones a las que tiene acceso.}
+		\UCitem{Actor}{Proveedor}
+		\UCitem{Propósito}{Que el proveedor pueda acceder a las funciones a las que tiene acceso un proveedor de la cl\'inica.}
 		\UCitem{Resumen}{
-		El sistema muestra una pantalla de registro, donde el dependiente ingresa su informaci\'on de acceso, y si el sistema lo verifica correctamente, le dar\'a acceso como "`Dependiente"'.}
+		El sistema muestra una pantalla de registro, donde el actor ingresa su informaci\'on de acceso, y si el sistema lo verifica correctamente como un proveedor, le dar\'a acceso como "`Proveedor"'.}
 		\UCitem{Entradas}{Nombre de usuario y contraseña.}
 		\UCitem{Salidas}{ --- }
-		\UCitem{Precondiciones}{Tener una cuenta de tipo "Dependiente" registrada en el sistema.}
-		\UCitem{Postcondiciones}{El actor tendrá acceso a las opciones que un dependiente de la farmacia tiene.}
+		\UCitem{Precondiciones}{Tener una cuenta de tipo "`Proveedor"'  registrada en el sistema.}
+		\UCitem{Postcondiciones}{El actor tendr\'a acceso a la funci\'on que un proveedor de la cl\'inica posee.}
+		\UCitem{Errores}{Si no hay niinguna cuenta con los datos ingresados, muestra el Mensaje {\bf ERRDatosIncorrectos-}``No existe ninguna cuenta con los datos ingresados. Favor de revisar la informaci\'on introducida''.}
 		\UCitem{Autor}{Gerardo Aramis Cabello Acosta.}
 		\UCitem{Revisor}{  }
 		\UCitem{Status}{ En espera de revisi\'on }
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
-		\UCpaso[\UCactor] Introduce su Nombre de usuario y Contraseña en el sistema vía la  \IUref{UILogin}{Pantalla de Control de Acceso}\label{CU1_1Login}.
-		\UCpaso El sistema verifica que exista cuenta de tipo "Dependiente" con el nombre de usuario ingresado.
-		\UCpaso El sistema verifica que la contraseña ingresada coincida con la de la cuenta encontrada \Trayref{A}.
-		\UCpaso Se despliega en pantalla la \IUref{IUCompra}{Pantalla de Compra}.	
+		\UCpaso[\UCactor] Introduce su Nombre de usuario y Contraseña en el sistema vía la  \IUref{IULogin}{Pantalla de Control de Acceso}\label{CU1_1Login}.
+		\UCpaso El sistema verifica que exista cuenta de tipo "`Proveedor"' con el nombre de usuario ingresado.
+		\UCpaso El sistema verifica que la contraseña ingresada coincida con la de la cuenta encontrada
+		\UCpaso Se despliega en pantalla la \IUref{IUProv}{Pantalla de proveedor}.	
 	\end{UCtrayectoria}
 		
-		\begin{UCtrayectoriaA}{A}{El sistema no encuentra coincidencias de usuario y password}
-			\UCpaso Muestra el Mensaje {\bf ERRDatosIncorrectos-}``No existe ninguna cuenta con los datos ingresados. Favor de revisar la informaci\'on introducida''.
-			\UCpaso[\UCactor] Oprime el botón \IUbutton{OK}.
-			\UCpaso[] Termina el caso de uso.
-		\end{UCtrayectoriaA}
 		
 		
 %-------------------------------------- TERMINA descripción del caso de uso.

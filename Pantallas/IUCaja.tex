@@ -1,0 +1,28 @@
+\subsection{IUCaja Pantalla de cajero}
+
+\subsubsection{Objetivo}
+	Permitir al cajero, terminar transacciones pendientes, y dar cambio al paciente.
+
+\subsubsection{Diseño}
+	Esta pantalla aparece despu\'es de iniciar sesi\'on como "`Cajero"'. Aqu\'i el cajero podr\'a introducir el identificador de una transacci\'on que a\'un no se haya pagado, para establecerla como "`Pagada"' dentro del sistema. Tambi\'en podr\'a introducir el monto recibido para saber cu\'anto debe devolver como cambio, o en dado caso, informar que no hay suficiente dinero en la caja para dar cambio.
+
+\IUfig[.5]{gui/IUCaja}{IUCaja}{Pantalla de cajero.}
+
+\subsubsection{Salidas}
+
+	Cantidad de dinero a devolver.
+
+\subsubsection{Entradas}
+ID de transacci\'on y cantidad de dinero recibido.
+
+\subsubsection{Comandos}
+\begin{itemize}
+		\item \IUbutton{Pagar}: El sistema verifica que haya una transacci\'on pendiente con el ID ingresado, y que haya suficiente dinero en la caja para poder dar cambio, con base en la cantidad ingresada como monto. tras \'esto la transacci\'on se actualiza como "`Pagada"' y se muestra un mensaje de \'exito indicando la cantidad que debe devolver al paciente.
+		\item \IUbutton{Cerrar sesi\'on}: Regresa a la pantalla \IUref{IULogin}{Pantalla de Control de Acceso}\label{CU1_1Login}
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf OKPago} - Pago exitoso. Devolver \$ $XXX$ al cliente.
+		\item {\bf ERRCambioInsuf} - No suficiente dinero en la caja para dar cambio. Favor de pagar con cambio.
+	\end{Citemize}
