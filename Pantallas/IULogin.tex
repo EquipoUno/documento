@@ -1,0 +1,26 @@
+\subsection{IULogin Pantalla de Control de Acceso}
+
+\subsubsection{Objetivo}
+	Controlar el acceso al sistema mediante una contraseña a fin de que cada usuario acceda solo a las operaciones permitidas para su perfil.
+
+\subsubsection{Diseño}
+	Esta pantalla aparece al iniciar el sistema. Para ingresar al mismo se debe escribir el Nombre de usuario y la contraseña de una cuenta que ya haya sido registrada.
+
+\IUfig[.5]{gui/Login}{IULogin}{Pantalla de Control de Acceso.}
+
+\subsubsection{Salidas}
+
+	Ninguna.
+
+\subsubsection{Entradas}
+Nombre de usuario y Contraseña
+
+\subsubsection{Comandos}
+\begin{itemize}
+		\item \IUbutton{Iniciar sesi\'on}: El sistema verifica si hay una cuenta registrada con los datos ingresados.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf ERRDatosIncorrectos} - No existe ninguna cuenta con los datos ingresados. Favor de revisar la informaci\'on introducida.
+	\end{Citemize}
