@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.2)  10 MAY 2016 18:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.2)  10 MAY 2016 18:36
 entering extended mode
 **analisis.tex
 (C:\Users\Diana\Documents\GitHub\documento\analisis.tex
@@ -813,7 +813,7 @@ Package spanish Warning: Replacing `OT1/cmbr/m/sc' by
 
 ])
 \tf@toc=\write4
- <images/headerInp.png, id=300, 1858.945pt x 358.33875pt>
+ <images/headerInp.png, id=320, 1858.945pt x 358.33875pt>
 File: images/headerInp.png Graphic file (type png)
 
 <use images/headerInp.png>
@@ -887,15 +887,15 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] <images/ishikawa_consultas.png, id=340, 1218.5525pt x 587.19376pt>
+[4] <images/ishikawa_consultas.png, id=360, 1218.5525pt x 587.19376pt>
 File: images/ishikawa_consultas.png Graphic file (type png)
 
 <use images/ishikawa_consultas.png>
-Package pdftex.def Info: images/ishikawa_consultas.png used on input line 78.
+Package pdftex.def Info: images/ishikawa_consultas.png used on input line 73.
 (pdftex.def)             Requested size: 470.0pt x 226.47797pt.
 File: images/headerInp.png Graphic file (type png)
  <use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 85.
+Package pdftex.def Info: images/headerInp.png used on input line 80.
 (pdftex.def)             Requested size: 181.56552pt x 35.0pt.
 
 
@@ -909,7 +909,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.85 \item N
+l.80 \item N
             o se tiene equipo especializado a la tarea: No hay un equipo esp...
  <C:/Users/Diana/Documents/GitHub/documento/images/ishikawa_consultas.png>])
 File: images/headerInp.png Graphic file (type png)
@@ -933,7 +933,7 @@ Overfull \hbox (33.7274pt too wide) in paragraph at lines 38--52
 []  []
  []
 
-<images/mod_fis3.png, id=367, 618.81187pt x 408.77719pt>
+<images/mod_fis3.png, id=387, 618.81187pt x 408.77719pt>
 File: images/mod_fis3.png Graphic file (type png)
 
 <use images/mod_fis3.png>
@@ -1018,28 +1018,28 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [12]
 Cap\'{\i }tulo 5.
-<images/cu/caja.png, id=405, 1057.9525pt x 299.1175pt>
+<images/cu/caja.png, id=425, 1057.9525pt x 299.1175pt>
 File: images/cu/caja.png Graphic file (type png)
 
 <use images/cu/caja.png>
 Package pdftex.def Info: images/cu/caja.png used on input line 55.
 (pdftex.def)             Requested size: 376.00143pt x 106.3084pt.
 
-<images/cu/farmacia.png, id=406, 841.1425pt x 299.1175pt>
+<images/cu/farmacia.png, id=426, 841.1425pt x 299.1175pt>
 File: images/cu/farmacia.png Graphic file (type png)
 
 <use images/cu/farmacia.png>
 Package pdftex.def Info: images/cu/farmacia.png used on input line 60.
 (pdftex.def)             Requested size: 376.00143pt x 133.71161pt.
 
-<images/cu/almacen.png, id=407, 806.01125pt x 265.99374pt>
+<images/cu/almacen.png, id=427, 806.01125pt x 265.99374pt>
 File: images/cu/almacen.png Graphic file (type png)
 
 <use images/cu/almacen.png>
 Package pdftex.def Info: images/cu/almacen.png used on input line 65.
 (pdftex.def)             Requested size: 376.00143pt x 124.08356pt.
 
-<images/cu/diagramaGral4.png, id=408, 2071.74pt x 641.39626pt>
+<images/cu/diagramaGral4.png, id=428, 2071.74pt x 641.39626pt>
 File: images/cu/diagramaGral4.png Graphic file (type png)
 
 <use images/cu/diagramaGral4.png>
@@ -1062,7 +1062,7 @@ l.14 	}
 l.14 	}
         <C:/Users/Diana/Documents/GitHub/documento/images/cu/caja.png> <C:/User
 s/Diana/Documents/GitHub/documento/images/cu/farmacia.png>]
-<images/uc/default.png, id=415, 926.46124pt x 57.21375pt>
+<images/uc/default.png, id=435, 926.46124pt x 57.21375pt>
 File: images/uc/default.png Graphic file (type png)
 
 <use images/uc/default.png>
@@ -1109,19 +1109,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--30
 
  []
 
-<images/uc/actor.png, id=425, 96.36pt x 74.2775pt>
+<images/uc/actor.png, id=445, 96.36pt x 74.2775pt>
 File: images/uc/actor.png Graphic file (type png)
  <use images/uc/actor.png>
 Package pdftex.def Info: images/uc/actor.png used on input line 31.
 (pdftex.def)             Requested size: 14.26958pt x 11.0pt.
 
-<images/uc/iu.png, id=426, 61.22874pt x 55.20625pt>
+<images/uc/iu.png, id=446, 61.22874pt x 55.20625pt>
 File: images/uc/iu.png Graphic file (type png)
  <use images/uc/iu.png>
 Package pdftex.def Info: images/uc/iu.png used on input line 31.
 (pdftex.def)             Requested size: 11.09076pt x 10.0pt.
 
-<images/uc/usecase.png, id=428, 91.34125pt x 61.22874pt>
+<images/uc/usecase.png, id=448, 91.34125pt x 61.22874pt>
 File: images/uc/usecase.png Graphic file (type png)
 
 <use images/uc/usecase.png>
@@ -1633,7 +1633,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [23]
 Cap\'{\i }tulo 6.
 (C:\Users\Diana\Documents\GitHub\documento\Pantallas/navegacion.tex
-<images/mapa.jpg, id=547, 640.3925pt x 480.79625pt>
+<images/mapa.jpg, id=563, 640.3925pt x 480.79625pt>
 File: images/mapa.jpg Graphic file (type jpg)
  <use images/mapa.jpg>
 Package pdftex.def Info: images/mapa.jpg used on input line 10.
@@ -1649,7 +1649,7 @@ has been already used, duplicate ignored
 l.1 ...tion{IULogin Pantalla de Control de Acceso}
                                                    <C:/Users/Diana/Documents/Gi
 tHub/documento/images/mapa.jpg>]
-<images/gui/Login.png, id=553, 188.20313pt x 150.5625pt>
+<images/gui/Login.png, id=569, 188.20313pt x 150.5625pt>
 File: images/gui/Login.png Graphic file (type png)
 
 <use images/gui/Login.png>
@@ -1676,7 +1676,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
                                                   \fi \fi 
 l.6 \subsubsection
                   {Diseño} <C:/Users/Diana/Documents/GitHub/documento/images/g
-ui/Login.png>] <images/gui/IUCaja.png, id=566, 263.48438pt x 150.5625pt>
+ui/Login.png>] <images/gui/IUCaja.png, id=582, 263.48438pt x 150.5625pt>
 File: images/gui/IUCaja.png Graphic file (type png)
 
 <use images/gui/IUCaja.png>
@@ -1711,15 +1711,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
  (C:\Users\Diana\Documents\GitHub\documento\analisis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+Package rerunfilecheck Info: File `analisis.out' has not changed.
+(rerunfilecheck)             Checksum: F7CC3B1DE3BA56825E1D1BADDD3544AD;4445.
 
-
-Package rerunfilecheck Warning: File `analisis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `analisis.out':
-(rerunfilecheck)             Before: C812F551C0D01CA9AED982B151BCA4A5;4126
-(rerunfilecheck)             After:  F7CC3B1DE3BA56825E1D1BADDD3544AD;4445.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1729,10 +1723,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 9736 strings out of 493921
- 138405 string characters out of 3147283
- 235172 words of memory out of 3000000
- 12590 multiletter control sequences out of 15000+200000
+ 9732 strings out of 493921
+ 138370 string characters out of 3147283
+ 235211 words of memory out of 3000000
+ 12586 multiletter control sequences out of 15000+200000
  16223 words of font info for 61 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  48i,17n,45p,678b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1774,9 +1768,9 @@ pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on analisis.pdf (29 pages, 760709 bytes).
+Output written on analisis.pdf (29 pages, 761444 bytes).
 PDF statistics:
- 1173 PDF objects out of 1200 (max. 8388607)
+ 1185 PDF objects out of 1200 (max. 8388607)
  203 named destinations out of 1000 (max. 500000)
- 519 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 551 words of extra memory for PDF output out of 10000 (max. 10000000)
 
