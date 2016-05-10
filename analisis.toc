@@ -43,27 +43,31 @@
 \contentsline {subsection}{\numberline {5.3.1}Descripci\IeC {\'o}n completa}{17}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Atributos importantes}{17}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Trayectorias del Caso de Uso}{17}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}CU3 Consultar Stock}{18}{section.5.4}
+\contentsline {section}{\numberline {5.4}CU2 Efectuar Compra de Medicamento}{18}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Descripci\IeC {\'o}n completa}{18}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Atributos importantes}{18}{subsection.5.4.2}
 \contentsline {subsection}{\numberline {5.4.3}Trayectorias del Caso de Uso}{18}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}CU7 Agregar M\IeC {\'e}dicamento}{20}{section.5.5}
+\contentsline {section}{\numberline {5.5}CU3 Consultar Stock}{20}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}Descripci\IeC {\'o}n completa}{20}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Atributos importantes}{20}{subsection.5.5.2}
 \contentsline {subsection}{\numberline {5.5.3}Trayectorias del Caso de Uso}{20}{subsection.5.5.3}
-\contentsline {chapter}{\numberline {6}Modelo de la Interacci\IeC {\'o}n}{22}{chapter.6}
-\contentsline {section}{\numberline {6.1}Modelo de navegaci\IeC {\'o}n}{22}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}IULogin Pantalla de Control de Acceso}{23}{subsection.6.1.1}
-\contentsline {subsubsection}{Objetivo}{23}{section*.2}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{23}{section*.3}
-\contentsline {subsubsection}{Salidas}{23}{section*.4}
-\contentsline {subsubsection}{Entradas}{23}{section*.5}
-\contentsline {subsubsection}{Comandos}{23}{section*.6}
-\contentsline {subsubsection}{Mensajes}{23}{section*.7}
-\contentsline {subsection}{\numberline {6.1.2}IUCaja Pantalla de cajero}{24}{subsection.6.1.2}
-\contentsline {subsubsection}{Objetivo}{24}{section*.8}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{24}{section*.9}
-\contentsline {subsubsection}{Salidas}{24}{section*.10}
-\contentsline {subsubsection}{Entradas}{24}{section*.11}
-\contentsline {subsubsection}{Comandos}{24}{section*.12}
-\contentsline {subsubsection}{Mensajes}{24}{section*.13}
+\contentsline {section}{\numberline {5.6}CU7 Agregar M\IeC {\'e}dicamento}{22}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Descripci\IeC {\'o}n completa}{22}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Atributos importantes}{22}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Trayectorias del Caso de Uso}{22}{subsection.5.6.3}
+\contentsline {chapter}{\numberline {6}Modelo de la Interacci\IeC {\'o}n}{24}{chapter.6}
+\contentsline {section}{\numberline {6.1}Modelo de navegaci\IeC {\'o}n}{24}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}IULogin Pantalla de Control de Acceso}{25}{subsection.6.1.1}
+\contentsline {subsubsection}{Objetivo}{25}{section*.2}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{25}{section*.3}
+\contentsline {subsubsection}{Salidas}{25}{section*.4}
+\contentsline {subsubsection}{Entradas}{25}{section*.5}
+\contentsline {subsubsection}{Comandos}{25}{section*.6}
+\contentsline {subsubsection}{Mensajes}{25}{section*.7}
+\contentsline {subsection}{\numberline {6.1.2}IUCaja Pantalla de cajero}{26}{subsection.6.1.2}
+\contentsline {subsubsection}{Objetivo}{26}{section*.8}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{26}{section*.9}
+\contentsline {subsubsection}{Salidas}{26}{section*.10}
+\contentsline {subsubsection}{Entradas}{26}{section*.11}
+\contentsline {subsubsection}{Comandos}{26}{section*.12}
+\contentsline {subsubsection}{Mensajes}{26}{section*.13}
