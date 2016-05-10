@@ -42,19 +42,15 @@
 \BOOKMARK [2][-]{subsection.5.3.1}{Descripci\363n completa}{section.5.3}% 42
 \BOOKMARK [2][-]{subsection.5.3.2}{Atributos importantes}{section.5.3}% 43
 \BOOKMARK [2][-]{subsection.5.3.3}{Trayectorias del Caso de Uso}{section.5.3}% 44
-\BOOKMARK [1][-]{section.5.4}{CU2 Efectuar Compra de Medicamento}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.4}{CU3 Consultar Stock}{chapter.5}% 45
 \BOOKMARK [2][-]{subsection.5.4.1}{Descripci\363n completa}{section.5.4}% 46
 \BOOKMARK [2][-]{subsection.5.4.2}{Atributos importantes}{section.5.4}% 47
 \BOOKMARK [2][-]{subsection.5.4.3}{Trayectorias del Caso de Uso}{section.5.4}% 48
-\BOOKMARK [1][-]{section.5.5}{CU3 Consultar Stock}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.5}{CU7 Agregar M\351dicamento}{chapter.5}% 49
 \BOOKMARK [2][-]{subsection.5.5.1}{Descripci\363n completa}{section.5.5}% 50
 \BOOKMARK [2][-]{subsection.5.5.2}{Atributos importantes}{section.5.5}% 51
 \BOOKMARK [2][-]{subsection.5.5.3}{Trayectorias del Caso de Uso}{section.5.5}% 52
-\BOOKMARK [1][-]{section.5.6}{CU7 Agregar M\351dicamento}{chapter.5}% 53
-\BOOKMARK [2][-]{subsection.5.6.1}{Descripci\363n completa}{section.5.6}% 54
-\BOOKMARK [2][-]{subsection.5.6.2}{Atributos importantes}{section.5.6}% 55
-\BOOKMARK [2][-]{subsection.5.6.3}{Trayectorias del Caso de Uso}{section.5.6}% 56
-\BOOKMARK [0][-]{chapter.6}{Modelo de la Interacci\363n}{}% 57
-\BOOKMARK [1][-]{section.6.1}{Modelo de navegaci\363n}{chapter.6}% 58
-\BOOKMARK [2][-]{subsection.6.1.1}{IULogin Pantalla de Control de Acceso}{section.6.1}% 59
-\BOOKMARK [2][-]{subsection.6.1.2}{IUCaja Pantalla de cajero}{section.6.1}% 60
+\BOOKMARK [0][-]{chapter.6}{Modelo de la Interacci\363n}{}% 53
+\BOOKMARK [1][-]{section.6.1}{Modelo de navegaci\363n}{chapter.6}% 54
+\BOOKMARK [2][-]{subsection.6.1.1}{IULogin Pantalla de Control de Acceso}{section.6.1}% 55
+\BOOKMARK [2][-]{subsection.6.1.2}{IUCaja Pantalla de cajero}{section.6.1}% 56

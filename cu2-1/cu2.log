@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.7)  10 MAY 2016 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.7)  10 MAY 2016 18:25
 entering extended mode
 **./cu2.tex
 (cu2.tex
@@ -2190,12 +2190,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 43--48
+Overfull \hbox (20.0pt too wide) in paragraph at lines 43--49
 []
  []
 
 
-Overfull \hbox (27.87761pt too wide) in paragraph at lines 43--48
+Overfull \hbox (27.87761pt too wide) in paragraph at lines 43--49
 \OT1/cmr/m/it/10 CU2.1
  []
 
