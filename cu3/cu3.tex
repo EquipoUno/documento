@@ -1,0 +1,47 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU3}{Consultar Stock}{
+		Un dependiente podrá consultar el stock de los medicamentos que actualmente existen en la farmacia y poder saber si una receta se podrá surtir en su totalidad.
+	}
+		\UCitem{Versión}{1.1}
+		\UCitem{Actor}{Dependiente}
+		\UCitem{Propósito}{Que el dependiente pueda conocer la cantidad de medicamentos que existen en la farmacia.}
+		\UCitem{Resumen}{
+		El dependiente seleccionara por sustacia activa o nombre del medicamento, y el sistema mostrará la cantidad de los medicamentos que se encuentren en el almacén de la farmacia. }
+		\UCitem{Entradas}{Nombre o sustancia del medicamento.}
+		\UCitem{Salidas}{Cantidad y nombre de los medicamentos que se encuentranen farmacia.}
+		\UCitem{Precondiciones}{El dependiente deberá tener cuenta activa y encontrarse en la seccion de Consulta de Stock.}
+		\UCitem{Postcondiciones}{Cantidad del medicamento buscado, mensajes de error.}
+		\UCitem{Errores}{El medicamento no esta registrado en el sistema, cantidad nula de medicamentos.}
+		\UCitem{Autor}{Diana Guadalupe Maldonado Ledo}
+		\UCitem{Revisor}{}
+		\UCitem{Status}{Espera de revisión}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] El actor introduce la opcion "Consultar" del Menú superior \IUref{UIProv}{Pantalla de Compra}%\label{CU7IntroduceMedicamentos}.
+		\UCpaso El sistema muestra la pantalla \IUref{UIProv}{Pantalla de Compra} .
+		\UCpaso[\UCactor] El actor ingresa el Nombre o Sustancia Activa del medicamento a consultar. 
+		\UCpaso El sistema muestra los medicamentos por la busqueda realizada, consultando el stock. \Trayref{A}
+		\UCpaso [\UCactor] El actor selecciona la opción "Aceptar" 
+		\UCpaso[] Termina el caso de uso.
+	\end{UCtrayectoria}
+		
+		\begin{UCtrayectoriaA}{A}{Medicamento no existente}
+			\UCpaso Muestra el Mensaje {\bf MSG1-}``No hay cantidad disponible en el stock del medicamento buscado.''.
+			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}, regresa al paso anterior [{\em CU3.4}].  
+			\UCpaso[] Termina la trayectoria.
+		\end{UCtrayectoriaA}
+		
+		
+		
+%-------------------------------------- TERMINA descripción del caso de uso.
