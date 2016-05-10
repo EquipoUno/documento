@@ -28,7 +28,7 @@
 \contentsline {section}{\numberline {4.2}Proceso ajustado}{10}{section.4.2}
 \contentsline {section}{\numberline {4.3}Modelo de entidades del negocio}{10}{section.4.3}
 \contentsline {section}{\numberline {4.4}Descripci\IeC {\'o}n de atributos}{10}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Atributos de ``Alumno''}{10}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Atributos de ``Medicamento''}{10}{subsection.4.4.1}
 \contentsline {section}{\numberline {4.5}Reglas de Negocio}{11}{section.4.5}
 \contentsline {chapter}{\numberline {5}Modelo de comportamiento}{13}{chapter.5}
 \contentsline {section}{\numberline {5.1}CU1.1 Iniciar sesi\IeC {\'o}n como dependiente}{14}{section.5.1}

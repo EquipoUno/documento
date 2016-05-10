@@ -1,4 +1,4 @@
-En \'este cap\'itulo se describen las entidades involucradas en el negocio.
+
 
 %--------------------------------------------------
 \section{Modelo de entidades del negocio}
@@ -9,14 +9,16 @@ Diagrama de clases con las entidades del negocio.
 %--------------------------------------------------
 \section{Descripción de atributos}
 
-Describa para cada Entidad sus atributos y su significado. Por ejemplo:
-
 % - - - - - - - - - - - - - - - - - - - - - - - - -
-\subsection{Atributos de ``Alumno''}
+\subsection{Atributos de ``Medicamento''}
 
 \begin{description}
-	\item[boleta: ] Cadena de 10 dígitos que identifica de manera única a un alumno. AL estructura es YYYYEEDDDD  donde YYYY es el año de registro, EE es la clave de la escuela donde se registró y DDDD es un consecutivo para cada escuela.
-	\item[Nombre: ] Nombre del alumno.
-	\item[Status: ] Corresponde al estado del alumno. Debe ser uno de los valores permitidos para ``Status del Alumno'' (ver glosario).
+	\item[ID: ] Permite identificar a cada uno de los medicamentos. Es \'unico por medicamento.
+	\item[Nombre: ] Nombre del medicamento.
+	\item[Laboratorio: ] Nombre del laboratorio que produce tal medicamento.
+	\item[Descripci\'on: ] Res\'umen que describe la forma en la que el medicamento est\'a, cu\'antas unidades contiene un recipiente del mismo, y el peso o vol\'umen de cada unidad.
+	\item[Precio: ] Precio que cuesta el recipiente con $X$ unidades de medicamento, descrito en el atributo "`Descripci\'on"'.
+	\item[Sustancia Activa: ] Indica la o las sustancias activas que componen el medicamento. 
+	\item[Controlado: ] Es una bandera que indica si el medicamento es controlado o no.
 \end{description}
 
