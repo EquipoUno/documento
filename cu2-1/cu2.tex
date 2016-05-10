@@ -1,0 +1,57 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU2}{Efectuar Compra de Medicamento}{
+		Un dependiente se encarga de registrar la compra de medicamentos descritos en la receta, podrá imprimir un recibo que se pagará en Caja, y de esta manera, entregar al paciente los medicamentos que solicito.
+	}
+		\UCitem{Versión}{1.1}
+		\UCitem{Actor}{Dependiente}
+		\UCitem{Propósito}{Que el dependiente pueda suministrar los medicamentos que el paciente solicite y que se pueda entregar todos lo medicamentos solicitados.}
+		\UCitem{Resumen}{
+		El dependiente seleccionara por sustacia activa o nombre del medicamento, la cantidad de los medicamentos que se encuentren escritos en la receta, si se encuentra todo lo que se describe en la receta, el dependiente podrá dar por terminada la venta de medicamento. }
+		\UCitem{Entradas}{Nombre o sustancia del medicamento y cantidad de medicamento}
+		\UCitem{Salidas}{Total, Mensaje de Aprobación, Mensaje de Error, Cancelación.}
+		\UCitem{Precondiciones}{El paciente deberá tener receta, el medicamento que se desea suministrar debe estar registrado en el sistema, y la cantidad de medicamentos a seleccionar no debe sobrepasar el stock.}
+		\UCitem{Postcondiciones}{El medicamento se entregará al paciente una vez que este haya pagado la orden de pago en caja.}
+		\UCitem{Errores}{El medicamento no esta registrado en el sistema, no se encuentra la cantidad solicitada.}
+		\UCitem{Autor}{Diana Guadalupe Maldonado Ledo}
+		\UCitem{Revisor}{}
+		\UCitem{Status}{Espera de revisión}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Introduce el Nombre o Sustancia Activa del medicamento\IUref{UIProv}{Pantalla de Compra}\Trayref{A}%\label{CU7IntroduceMedicamentos}.
+		\UCpaso El sistema muestra las opciones de medicamentos por la busqueda realizada.
+		\UCpaso[\UCactor]Ingresa la cantidad que se solicita en la receta. 
+		\UCpaso El sistema verifica que la cantidad solicitada sea la suficiente en el stock.
+		\UCpaso[\UCactor] Selecciona la opción ``Agregar''. 
+		\UCpaso El sistema muestra el total de la compra.
+		\UCpaso [\UCactor] El actor selecciona la opción "comprar" \Trayref{B}
+		\UCpaso El sistema muestra mensaje "Compra Realizada".
+		\UCpaso El sistema actualiza el stock.
+		\UCpaso[] Termina el caso de uso.
+	\end{UCtrayectoria}
+		
+		\begin{UCtrayectoriaA}{A}{El sistema no encuenta el medicamento}
+			\UCpaso Muestra el Mensaje {\bf MSG1-}``El Nombre o Sustancia  no se encuentra registrado en el sistema''.
+			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}, regresa al paso anterior [{\em CU2.1}].  
+			\UCpaso[] Termina la trayectoria.
+		\end{UCtrayectoriaA}
+	%%%%%%%%%%%%%%%	
+		
+	\begin{UCtrayectoriaB}{B}{Compra Cancelada.}
+			\UCpaso[\UCactor]El actor cancela compra por falta de pago o por medicamento no disponible.
+			\UCpaso Muestra el Mensaje {\bf MSG1-}``Compra Cancelada''.
+			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}, regresa al paso anterior [{\em CU2.5}].  
+			\UCpaso[] Termina la trayectoria.
+		\end{UCtrayectoriaB}
+		
+%-------------------------------------- TERMINA descripción del caso de uso.
