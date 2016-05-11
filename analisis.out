@@ -27,33 +27,35 @@
 \BOOKMARK [1][-]{section.4.3}{Modelo de entidades del negocio}{chapter.4}% 27
 \BOOKMARK [1][-]{section.4.4}{Descripci\363n de atributos}{chapter.4}% 28
 \BOOKMARK [2][-]{subsection.4.4.1}{Atributos de ``Medicamento''}{section.4.4}% 29
-\BOOKMARK [1][-]{section.4.5}{Reglas de Negocio}{chapter.4}% 30
-\BOOKMARK [0][-]{chapter.5}{Modelo de comportamiento}{}% 31
-\BOOKMARK [1][-]{section.5.1}{CU1.1 Iniciar sesi\363n como dependiente}{chapter.5}% 32
-\BOOKMARK [2][-]{subsection.5.1.1}{Descripci\363n completa}{section.5.1}% 33
-\BOOKMARK [2][-]{subsection.5.1.2}{Atributos importantes}{section.5.1}% 34
-\BOOKMARK [2][-]{subsection.5.1.3}{Trayectorias del Caso de Uso}{section.5.1}% 35
-\BOOKMARK [1][-]{section.5.2}{CU1.2 Iniciar sesi\363n como cajero}{chapter.5}% 36
-\BOOKMARK [2][-]{subsection.5.2.1}{Descripci\363n completa}{section.5.2}% 37
-\BOOKMARK [2][-]{subsection.5.2.2}{Atributos importantes}{section.5.2}% 38
-\BOOKMARK [2][-]{subsection.5.2.3}{Trayectorias del Caso de Uso}{section.5.2}% 39
-\BOOKMARK [1][-]{section.5.3}{CU1.3 Iniciar sesi\363n como proveedor}{chapter.5}% 40
-\BOOKMARK [2][-]{subsection.5.3.1}{Descripci\363n completa}{section.5.3}% 41
-\BOOKMARK [2][-]{subsection.5.3.2}{Atributos importantes}{section.5.3}% 42
-\BOOKMARK [2][-]{subsection.5.3.3}{Trayectorias del Caso de Uso}{section.5.3}% 43
-\BOOKMARK [1][-]{section.5.4}{CU2 Efectuar Compra de Medicamento}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.4.1}{Descripci\363n completa}{section.5.4}% 45
-\BOOKMARK [2][-]{subsection.5.4.2}{Atributos importantes}{section.5.4}% 46
-\BOOKMARK [2][-]{subsection.5.4.3}{Trayectorias del Caso de Uso}{section.5.4}% 47
-\BOOKMARK [1][-]{section.5.5}{CU3 Consultar Stock}{chapter.5}% 48
-\BOOKMARK [2][-]{subsection.5.5.1}{Descripci\363n completa}{section.5.5}% 49
-\BOOKMARK [2][-]{subsection.5.5.2}{Atributos importantes}{section.5.5}% 50
-\BOOKMARK [2][-]{subsection.5.5.3}{Trayectorias del Caso de Uso}{section.5.5}% 51
-\BOOKMARK [1][-]{section.5.6}{CU7 Agregar M\351dicamento}{chapter.5}% 52
-\BOOKMARK [2][-]{subsection.5.6.1}{Descripci\363n completa}{section.5.6}% 53
-\BOOKMARK [2][-]{subsection.5.6.2}{Atributos importantes}{section.5.6}% 54
-\BOOKMARK [2][-]{subsection.5.6.3}{Trayectorias del Caso de Uso}{section.5.6}% 55
-\BOOKMARK [0][-]{chapter.6}{Modelo de la Interacci\363n}{}% 56
-\BOOKMARK [1][-]{section.6.1}{Modelo de navegaci\363n}{chapter.6}% 57
-\BOOKMARK [2][-]{subsection.6.1.1}{IULogin Pantalla de Control de Acceso}{section.6.1}% 58
-\BOOKMARK [2][-]{subsection.6.1.2}{IUCaja Pantalla de cajero}{section.6.1}% 59
+\BOOKMARK [2][-]{subsection.4.4.2}{Atributos de ``Expediente''}{section.4.4}% 30
+\BOOKMARK [2][-]{subsection.4.4.3}{Atributos de ``Almac\351n''}{section.4.4}% 31
+\BOOKMARK [1][-]{section.4.5}{Reglas de Negocio}{chapter.4}% 32
+\BOOKMARK [0][-]{chapter.5}{Modelo de comportamiento}{}% 33
+\BOOKMARK [1][-]{section.5.1}{CU1.1 Iniciar sesi\363n como dependiente}{chapter.5}% 34
+\BOOKMARK [2][-]{subsection.5.1.1}{Descripci\363n completa}{section.5.1}% 35
+\BOOKMARK [2][-]{subsection.5.1.2}{Atributos importantes}{section.5.1}% 36
+\BOOKMARK [2][-]{subsection.5.1.3}{Trayectorias del Caso de Uso}{section.5.1}% 37
+\BOOKMARK [1][-]{section.5.2}{CU1.2 Iniciar sesi\363n como cajero}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.2.1}{Descripci\363n completa}{section.5.2}% 39
+\BOOKMARK [2][-]{subsection.5.2.2}{Atributos importantes}{section.5.2}% 40
+\BOOKMARK [2][-]{subsection.5.2.3}{Trayectorias del Caso de Uso}{section.5.2}% 41
+\BOOKMARK [1][-]{section.5.3}{CU1.3 Iniciar sesi\363n como proveedor}{chapter.5}% 42
+\BOOKMARK [2][-]{subsection.5.3.1}{Descripci\363n completa}{section.5.3}% 43
+\BOOKMARK [2][-]{subsection.5.3.2}{Atributos importantes}{section.5.3}% 44
+\BOOKMARK [2][-]{subsection.5.3.3}{Trayectorias del Caso de Uso}{section.5.3}% 45
+\BOOKMARK [1][-]{section.5.4}{CU2 Efectuar Compra de Medicamento}{chapter.5}% 46
+\BOOKMARK [2][-]{subsection.5.4.1}{Descripci\363n completa}{section.5.4}% 47
+\BOOKMARK [2][-]{subsection.5.4.2}{Atributos importantes}{section.5.4}% 48
+\BOOKMARK [2][-]{subsection.5.4.3}{Trayectorias del Caso de Uso}{section.5.4}% 49
+\BOOKMARK [1][-]{section.5.5}{CU3 Consultar Stock}{chapter.5}% 50
+\BOOKMARK [2][-]{subsection.5.5.1}{Descripci\363n completa}{section.5.5}% 51
+\BOOKMARK [2][-]{subsection.5.5.2}{Atributos importantes}{section.5.5}% 52
+\BOOKMARK [2][-]{subsection.5.5.3}{Trayectorias del Caso de Uso}{section.5.5}% 53
+\BOOKMARK [1][-]{section.5.6}{CU7 Agregar M\351dicamento}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.6.1}{Descripci\363n completa}{section.5.6}% 55
+\BOOKMARK [2][-]{subsection.5.6.2}{Atributos importantes}{section.5.6}% 56
+\BOOKMARK [2][-]{subsection.5.6.3}{Trayectorias del Caso de Uso}{section.5.6}% 57
+\BOOKMARK [0][-]{chapter.6}{Modelo de la Interacci\363n}{}% 58
+\BOOKMARK [1][-]{section.6.1}{Modelo de navegaci\363n}{chapter.6}% 59
+\BOOKMARK [2][-]{subsection.6.1.1}{IULogin Pantalla de Control de Acceso}{section.6.1}% 60
+\BOOKMARK [2][-]{subsection.6.1.2}{IUCaja Pantalla de cajero}{section.6.1}% 61

@@ -21,4 +21,32 @@ Diagrama de clases con las entidades del negocio.
 	\item[Sustancia Activa: ] Indica la o las sustancias activas que componen el medicamento. 
 	\item[Controlado: ] Es una bandera que indica si el medicamento es controlado o no.
 \end{description}
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsection{Atributos de ``Expediente''}
+
+\begin{description}
+	\item[ID: ] Identificador del expediente. Es \'unico por cada uno.
+	\item[Nombre: ] Nombre del paciente al que pertenece el expediente.
+	\item[Edad: ] Edad del paciente.
+	\item[Peso: ] Peso del paciente.
+	\item[IMC: ] \'Indice de masa corporal del paciente.
+	\item[Diabetes: ] Bandera que indica si el paciente sufre de diabetes.
+	\item[Presi\'on alta: ] Bandera que indica si el paciente sufre de presi\'on alta.
+	\item[C\'ancer: ] Bandera que indica si el paciente sufre de alg\'un tipo de c\'ancer.
+	\item[Enfermedad cardiaca: ] Bandera que indica si el paciente sufre de alguna enfermedad cardiaca.
+	\item[Alergias: ] Describe las alergias que el paciente tiene, en caso de tenerlas.
+	\item[Cirug\'ias anteriores: ] Indica las cirugias que el paciente ha recibido, en caso de tener. 
+	\item[Notas: ] Indican cualquier observaci\'on que el m\'edico haya tenido sobre el paciente.
+	\item[Fecha de actualizaci\'on: ] Fecha en la que se realiz\'o la \'ultima actualizaci\'on al expediente.
+\end{description}
+
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsection{Atributos de ``Almac\'en''}
+
+\begin{description}
+	\item[ID de medicamento: ] Identificador del medicamento sobre el cual hace referencia el stock.
+	\item[Stock: ] Cantidad de unidades que se tienen el medicamento con ID $[ID de medicamento]$.
+\end{description}
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+
 
