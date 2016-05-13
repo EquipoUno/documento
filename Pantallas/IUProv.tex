@@ -1,0 +1,28 @@
+\subsection{IUProv Pantalla de proveedor}
+
+\subsubsection{Objetivo}
+	Permitirle al proveedor aumentar el stock de un medicamento.
+
+\subsubsection{Diseño}
+	Esta pantalla aparece despu\'es de iniciar sesi\'on como proveedor de la cl\'inica. Tiene un campo para introducir un medicamento y un contador para seleccionar la cantidad de unidades que va a agregar al stock.
+
+\IUfig[.8]{gui/IUProv}{IUProv}{Pantalla de proveeor.}
+
+\subsubsection{Salidas}
+
+	Nuevo stock del medicamento cuyo stock fue incrementado.
+
+\subsubsection{Entradas}
+ID de medicamento y cantidad a agregar al stock.
+
+\subsubsection{Comandos}
+\begin{itemize}
+		\item \IUbutton{Agregar}: El sistema toma el stock actual del medicamento del ID especificado, y le suma la cantidad que el proveedor indic\'o en el contador.
+		\item \IUbutton{Cerrar sesi\'on}: Regresa a la pantalla \IUref{IULogin}{Pantalla de Control de Acceso}\label{CU1_1Login}
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf ERRMedInex} - No existe medicamento con el ID ingresado. Favor de revisar sus datos.
+		\item {\bf OKStock} - Ahora hay $XX$ unidades de $IDMED$.
+	\end{Citemize}
