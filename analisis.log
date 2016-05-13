@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.7)  12 MAY 2016 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.7)  12 MAY 2016 19:49
 entering extended mode
 **./analisis.tex
 (analisis.tex
@@ -715,7 +715,13 @@ LaTeX Warning: Label `CU1_1Login' multiply defined.
 LaTeX Warning: Label `CU1_1Login' multiply defined.
 
 
+LaTeX Warning: Label `IUCompra' multiply defined.
+
+
 LaTeX Warning: Label `IUConfirmar' multiply defined.
+
+
+LaTeX Warning: Label `IUConsulta' multiply defined.
 
 
 LaTeX Warning: Label `IUCompra' multiply defined.
@@ -2682,9 +2688,23 @@ File: images/uc/actor.png Graphic file (type png)
 <use images/uc/actor.png>
 Package pdftex.def Info: images/uc/actor.png used on input line 41.
 (pdftex.def)             Requested size: 14.26958pt x 11.0pt.
+
+! Undefined control sequence.
+l.42 			\UCPaso
+               [\UCactor] regresa al paso 1 de la trayectoria principal.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: images/uc/actor.png Graphic file (type png)
+<use images/uc/actor.png>
+Package pdftex.def Info: images/uc/actor.png used on input line 42.
+(pdftex.def)             Requested size: 14.26958pt x 11.0pt.
 File: images/headerInp.png Graphic file (type png)
  <use images/headerInp.png>
-Package pdftex.def Info: images/headerInp.png used on input line 43.
+Package pdftex.def Info: images/headerInp.png used on input line 44.
 (pdftex.def)             Requested size: 181.56552pt x 35.0pt.
 
 
@@ -2694,29 +2714,29 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 44.
 [20]) (cu7/cu.tex
 File: images/headerInp.png Graphic file (type png)
  <use images/headerInp.png>
@@ -3329,7 +3349,7 @@ LaTeX Info: Redefining \% on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 Package rerunfilecheck Info: File `analisis.out' has not changed.
-(rerunfilecheck)             Checksum: B0527F11FD9ECEF4CFF8E7559C5A7028;4704.
+(rerunfilecheck)             Checksum: 40AD5352A395503DD998C5C0DFE0505E;4689.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3340,56 +3360,55 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
- 10008 strings out of 493634
- 140761 string characters out of 3141291
+ 10004 strings out of 493634
+ 140698 string characters out of 3141291
  245747 words of memory out of 3000000
- 12917 multiletter control sequences out of 15000+200000
+ 12913 multiletter control sequences out of 15000+200000
  16223 words of font info for 61 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  48i,17n,45p,680b,657s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{IUBusqueda} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{IUConsulta} has been referenced but does not exist,
- replaced by a fixed one
-
 pdfTeX warning (dest): name{UIProv} has been referenced but does not exist, rep
 laced by a fixed one
+
+pdfTeX warning (dest): name{IUConsulta} has been referenced but does not exist,
+ replaced by a fixed one
 
 pdfTeX warning (dest): name{IUConfirmar} has been referenced but does not exist
 , replaced by a fixed one
 
  <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbrig
-ht\dpi375\cmbr8.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\public\cmbright\dpi600\cmbr9.pk> <C:\Users\GerardoAramis\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi540\cmbrbx10.pk> <C:\Users\GerardoA
-ramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrbs10.
-pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmb
-right\dpi600\cmbrsl10.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\public\cmbright\dpi600\cmbrmi10.pk> <C:\Users\GerardoAramis\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi720\cmbrbx10.pk> <C:\Users
-\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\
-cmbr8.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\publ
-ic\cmbright\dpi864\cmbrbx10.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrsy10.pk> <C:\Users\GerardoAramis\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi450\cmbr8.pk> <C:\Us
-ers\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi3
-75\cmbrsl8.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\public\cmbright\dpi525\cmbr8.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbr10.pk> <C:\Users\GerardoAramis\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrbx10.pk> <C:
-\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\d
-pi864\cmbr10.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\public\cmbright\dpi720\cmbr10.pk> <C:\Users\GerardoAramis\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbr17.pk> <C:\Users\GerardoArami
-s\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi864\cmbr17.pk><C:
-/Program Files (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progr
-am Files (x86)/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
-s (x86)/MikTex/fonts/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on analisis.pdf (32 pages, 816085 bytes).
+ht\dpi600\cmbr9.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\public\cmbright\dpi540\cmbrbx10.pk> <C:\Users\GerardoAramis\AppData\Local
+\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrbs10.pk> <C:\Users\Gerar
+doAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrsl
+10.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\
+cmbright\dpi600\cmbrmi10.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\public\cmbright\dpi720\cmbrbx10.pk> <C:\Users\GerardoAramis\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbr8.pk> <C:\Users
+\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi864\
+cmbrbx10.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\p
+ublic\cmbright\dpi600\cmbrsy10.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\public\cmbright\dpi450\cmbr8.pk> <C:\Users\GerardoAramis\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi375\cmbrsl8.pk> <C:\
+Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dp
+i525\cmbr8.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\public\cmbright\dpi600\cmbr10.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\public\cmbright\dpi600\cmbrbx10.pk> <C:\Users\GerardoArami
+s\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\dpi864\cmbr10.pk> <C
+:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cmbright\
+dpi720\cmbr10.pk> <C:\Users\GerardoAramis\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\public\cmbright\dpi600\cmbr17.pk> <C:\Users\GerardoAramis\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\public\cmbright\dpi864\cmbr17.pk><C:/Program Files (x86
+)/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MikT
+ex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MikTex/font
+s/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/marvosym/marvosym.pfb>
+Output written on analisis.pdf (32 pages, 805426 bytes).
 PDF statistics:
- 1279 PDF objects out of 1440 (max. 8388607)
+ 1269 PDF objects out of 1440 (max. 8388607)
  232 named destinations out of 1000 (max. 500000)
  585 words of extra memory for PDF output out of 10000 (max. 10000000)
 

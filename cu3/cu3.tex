@@ -12,33 +12,34 @@
 	\begin{UseCase}{CU3}{Consultar Stock}{
 		Un dependiente podrá consultar el stock de los medicamentos que actualmente existen en la farmacia y poder saber si una receta se podrá surtir en su totalidad.
 	}
-		\UCitem{Versión}{1.1}
+		\UCitem{Versión}{1.2}
 		\UCitem{Actor}{Dependiente}
 		\UCitem{Propósito}{Que el dependiente pueda conocer la cantidad de medicamentos que existen en la farmacia.}
 		\UCitem{Resumen}{
-		El dependiente seleccionara por sustacia activa o nombre del medicamento, y el sistema mostrará la cantidad de los medicamentos que se encuentren en el almacén de la farmacia. }
-		\UCitem{Entradas}{Nombre o sustancia del medicamento.}
-		\UCitem{Salidas}{Cantidad y nombre de los medicamentos que se encuentranen farmacia.}
-		\UCitem{Precondiciones}{El dependiente deberá tener cuenta activa y encontrarse en la seccion de Consulta de Stock.}
-		\UCitem{Postcondiciones}{Cantidad del medicamento buscado, mensajes de error.}
-		\UCitem{Errores}{El medicamento no esta registrado en el sistema, cantidad nula de medicamentos.}
+		El dependiente buscar\'a un medicamente por su ID, y el sistema le mostrar\'a la cantidad de unidades que hay de ese medicamento, las cuales pueden ser cajas, botes, etc. \'Esto \'ultimo est\'a descrito en el atributo "`Descripci\'on"' del medicamento. }
+		\UCitem{Entradas}{ID del medicamento.}
+		\UCitem{Salidas}{Cantidad de unidades que hay en el stock, del medicamento buscado.}
+		\UCitem{Precondiciones}{Tener registrado en el sistema el medicamento que se desea buscar.}
+		\UCitem{Postcondiciones}{}
+		\UCitem{Errores}{El medicamento no esta registrado en el sistema}
 		\UCitem{Autor}{Diana Guadalupe Maldonado Ledo}
-		\UCitem{Revisor}{}
-		\UCitem{Status}{Espera de revisión}
+		\UCitem{Revisor}{Gerardo Aramis Cabello Acosta}
+		\UCitem{Status}{Revisado}
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
-		\UCpaso[\UCactor] El actor introduce la opcion "Consultar" del Menú superior \IUref{UIProv}{Pantalla de Compra}%\label{CU7IntroduceMedicamentos}.
-		\UCpaso El sistema muestra la pantalla \IUref{UIProv}{Pantalla de Compra} .
-		\UCpaso[\UCactor] El actor ingresa el Nombre o Sustancia Activa del medicamento a consultar. 
-		\UCpaso El sistema muestra los medicamentos por la busqueda realizada, consultando el stock. \Trayref{A}
-		\UCpaso [\UCactor] El actor selecciona la opción "Aceptar" 
+		\UCpaso[\UCactor] le indica al sistema que desea acceder a la acci\'on de consulta, seleccionando la opcion "`Consultar del stock"' del men\'u superior \IUref{IUCompra}{Pantalla de Compra}.
+		\UCpaso El sistema muestra la \IUref{IUConsulta}{Pantalla de Consulta}\label{IUConsulta} .
+		\UCpaso[\UCactor] El actor ingresa el ID del medicamento a consultar. 
+		\UCpaso El sistema muestra la cantidad de unidades que hay en stock, del medicamento buscado. \Trayref{A}
+		\UCpaso [\UCactor] selecciona la opción "`Aceptar"'. 
 		\UCpaso[] Termina el caso de uso.
 	\end{UCtrayectoria}
 		
-		\begin{UCtrayectoriaA}{A}{Medicamento no existente}
-			\UCpaso Muestra el Mensaje {\bf MSG1-}``No hay cantidad disponible en el stock del medicamento buscado.''.
-			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}, regresa al paso anterior [{\em CU3.4}].  
+		\begin{UCtrayectoriaA}{A}{El medicamento buscado no est\'a registrado en el sistema}
+			\UCpaso Muestra el mensaje {\bf ERRMedInexis}.
+			\UCpaso[\UCactor] oprime el botón \IUbutton{Aceptar}
+			\UCPaso[\UCactor] regresa al paso 1 de la trayectoria principal.  
 			\UCpaso[] Termina la trayectoria.
 		\end{UCtrayectoriaA}
 		
