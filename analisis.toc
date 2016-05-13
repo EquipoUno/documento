@@ -79,3 +79,10 @@
 \contentsline {subsubsection}{Entradas}{27}{section*.17}
 \contentsline {subsubsection}{Comandos}{27}{section*.18}
 \contentsline {subsubsection}{Mensajes}{27}{section*.19}
+\contentsline {subsection}{\numberline {6.1.4}IUCompra Pantalla de compra}{27}{subsection.6.1.4}
+\contentsline {subsubsection}{Objetivo}{27}{section*.20}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{28}{section*.21}
+\contentsline {subsubsection}{Salidas}{28}{section*.22}
+\contentsline {subsubsection}{Entradas}{28}{section*.23}
+\contentsline {subsubsection}{Comandos}{28}{section*.24}
+\contentsline {subsubsection}{Mensajes}{29}{section*.25}

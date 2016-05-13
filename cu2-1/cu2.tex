@@ -9,49 +9,60 @@
 %-------------------------------------- COMIENZA descripción del caso de uso.
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
-	\begin{UseCase}{CU2}{Efectuar Compra de Medicamento}{
+	\begin{UseCase}{CU2}{Efectuar compra}{
 		Un dependiente se encarga de registrar la compra de medicamentos descritos en la receta, podrá imprimir un recibo que se pagará en Caja, y de esta manera, entregar al paciente los medicamentos que solicito.
 	}
-		\UCitem{Versión}{1.1}
+		\UCitem{Versión}{2.0}
 		\UCitem{Actor}{Dependiente}
-		\UCitem{Propósito}{Que el dependiente pueda suministrar los medicamentos que el paciente solicite y que se pueda entregar todos lo medicamentos solicitados.}
+		\UCitem{Prop\'osito}{Que el actor pueda registrar una transacci\'on para ser terminada en caja, y otorgar un recibo de compra de medicamentos al paciente.}
 		\UCitem{Resumen}{
-		El dependiente seleccionara por sustacia activa o nombre del medicamento, la cantidad de los medicamentos que se encuentren escritos en la receta, si se encuentra todo lo que se describe en la receta, el dependiente podrá dar por terminada la venta de medicamento. }
-		\UCitem{Entradas}{Nombre o sustancia del medicamento y cantidad de medicamento}
-		\UCitem{Salidas}{Total, Mensaje de Aprobación, Mensaje de Error, Cancelación.}
-		\UCitem{Precondiciones}{El paciente deberá tener receta, el medicamento que se desea suministrar debe estar registrado en el sistema, y la cantidad de medicamentos a seleccionar no debe sobrepasar el stock.}
-		\UCitem{Postcondiciones}{El medicamento se entregará al paciente una vez que este haya pagado la orden de pago en caja.}
-		\UCitem{Errores}{El medicamento no esta registrado en el sistema, no se encuentra la cantidad solicitada.}
+		El actor pondr\'a en el sistema los medicamentos que est\'an indicados en la receta m\'edica, para posteriormente imprimir un recibo de pago con el resumen y un folio asignado por el sistema}
+		\UCitem{Entradas}{ID de medicamento y cantidad de medicamento}
+		\UCitem{Salidas}{Precio total de la compra y subtotales por medicamento.}
+		\UCitem{Precondiciones}{El paciente debe tener una receta, ya sea de la cl\'inica misma, o de otra cl\'inica, el medicamento que se desea suministrar debe estar registrado en el sistema, y la cantidad de medicamentos a seleccionar no debe sobrepasar el stock.}
+		\UCitem{Postcondiciones}{El paciente recibir\'a un recibo de compra de medicamentos.}
+		\UCitem{Errores}{El medicamento no est\'a registrado en el sistema o se solicita una cantidad de medicamento mayor a la que se tiene en stock.}
 		\UCitem{Autor}{Diana Guadalupe Maldonado Ledo}
-		\UCitem{Revisor}{}
-		\UCitem{Status}{Espera de revisión}
+		\UCitem{Revisor}{Gerardo Aramis Cabello Acosta}
+		\UCitem{Status}{Revisado}
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
-		\UCpaso[\UCactor] Introduce el Nombre o Sustancia Activa del medicamento\IUref{UIProv}{Pantalla de Compra}\Trayref{A}%\label{CU7IntroduceMedicamentos}.
-		\UCpaso El sistema muestra las opciones de medicamentos por la busqueda realizada.
-		\UCpaso[\UCactor]Ingresa la cantidad que se solicita en la receta. 
-		\UCpaso El sistema verifica que la cantidad solicitada sea la suficiente en el stock.
-		\UCpaso[\UCactor] Selecciona la opción ``Agregar''. 
-		\UCpaso El sistema muestra el total de la compra.
-		\UCpaso [\UCactor] El actor selecciona la opción "comprar" \Trayref{B}
-		\UCpaso El sistema muestra mensaje "Compra Realizada".
-		\UCpaso El sistema actualiza el stock.
+		\UCpaso[\UCactor] introduce el ID del medicamento y la cantidad de unidades a comprar en \IUref{IUCompra}{Pantalla de Compra}\Trayref{A}\Trayref{C}\Trayref{D}
+		\UCpaso [\UCactor] le indica al sistema que desea comprar los medicamentos con las cantidades ingresadas seleccionando el bot\'on "`Comprar"'. \Trayref{E}
+		\UCpaso El sistema muestra la \IUref{IUConfirmar}{Pantalla de Confirmaci\'on de compra}\label{IUConfirmar}.\Trayref{B}
+		\UCpaso [\UCactor] le indica al sistema que desea confirmar la compra seleccionando la opci\'on "`Aceptar"'
+		\UCpaso El sistema imprime un recibo que contiene la informaci\'on del paso 3 de la trayectoria principal y un n\'umero de transacci\'on generado al azar.
 		\UCpaso[] Termina el caso de uso.
 	\end{UCtrayectoria}
 		
-		\begin{UCtrayectoriaA}{A}{El sistema no encuenta el medicamento}
-			\UCpaso Muestra el Mensaje {\bf MSG1-}``El Nombre o Sustancia  no se encuentra registrado en el sistema''.
-			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}, regresa al paso anterior [{\em CU2.1}].  
-			\UCpaso[] Termina la trayectoria.
+		\begin{UCtrayectoriaA}{A}{El sistema no encuentra el medicamento}
+			\UCpaso Muestra el mensaje {\bf ERRMedInex-}``.
+			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}, regresa al paso $1$ de la trayectoria principal.  
 		\end{UCtrayectoriaA}
-	%%%%%%%%%%%%%%%	
 		
-	\begin{UCtrayectoriaB}{B}{Compra Cancelada.}
+	\begin{UCtrayectoriaA}{B}{Compra Cancelada.}
 			\UCpaso[\UCactor]El actor cancela compra por falta de pago o por medicamento no disponible.
-			\UCpaso Muestra el Mensaje {\bf MSG1-}``Compra Cancelada''.
-			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}, regresa al paso anterior [{\em CU2.5}].  
-			\UCpaso[] Termina la trayectoria.
-		\end{UCtrayectoriaB}
+			\UCpaso El sistema muestra la \IUref{IUCompra}{Pantalla de Compra}\label{IUCompra}
+			\UCpaso El [\UCactor] regresa al paso 1 de la trayectoria principal
+		\end{UCtrayectoriaA}		
+	\begin{UCtrayectoriaA}{C}{El [\UCactor] desea agregar m\'as edicamentos}
+			
+			\UCpaso[\UCactor] le indica al sistema que desea agregar otro medicamento, seleccionando el bot\'on "`Agregar"'
+			\UCpaso El sistema agregar\'a un rengl\'on para poder ingresar un nuevo medicamento y una nueva cantidad del mismo.
+				\UCpaso[\UCactor] regresa al paso 1 de la trayectoria principal.
+		\end{UCtrayectoriaA}		
+	\begin{UCtrayectoriaA}{D}{El [\UCactor] desea eliminar un medicamento ingresado}
+			
+			\UCpaso[\UCactor] le indica al sistema que desea eliminar un medicamento agregado, seleccionando el bot\'on "`Eliminar"'
+			\UCpaso El sistema remueve el rengl\'on correspondiente al bot\'on al que el [\UCactor] seleccion\'o.
+				\UCpaso[\UCactor] regresa al paso 1 de la trayectoria principal.
+		\end{UCtrayectoriaA}
+	\begin{UCtrayectoriaA}{E}{No hay suficiente stock de medicamentos para abastecer los medicamentos solicitados}
+			
+			\UCpaso El sistema muestra el mensaje {\bf ERRMedInsuf-}.
+			\UCpaso El sistema remueve todos los renglones de medicamentos excepto el primero y pone los campos vac\'ios.
+				\UCpaso[\UCactor] regresa al paso 1 de la trayectoria principal.
+		\end{UCtrayectoriaA}
 		
 %-------------------------------------- TERMINA descripción del caso de uso.

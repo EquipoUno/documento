@@ -1,0 +1,37 @@
+\subsection{IUCompra Pantalla de compra}
+
+\subsubsection{Objetivo}
+	Permitir al dependiente realizar compras de medicamento.
+
+\subsubsection{Diseño}
+	Esta pantalla aparece despu\'es de iniciar sesi\'on como "`Dependiente"'. Aqu\'i el dependiente podr\'a seleccionar uno  varios medicamentos, y seleccionar la cantidad de unidades de los mismos. \'Estas unidades dependen de cada medicamento, puede ser en cajas, en botes, etc. Despu\'es de seleccionar los medicamentos deseados, se mostrar\'a un pequeño resumen con subtotales y totales, para poder informarle al paciente el costo, antes de confirmar la compra.
+
+\IUfig[1]{gui/IUCompra}{IUCompra}{Pantalla de compra.}
+
+\subsubsection{Salidas}
+
+	Subtotales y totales de la compra.
+
+\subsubsection{Entradas}
+ID de medicamento y cantidad de dinero recibido.
+
+\subsubsection{Comandos}
+\begin{itemize}
+		\item \IUbutton{Comprar}: El sistema verifica que haya suficiente medicamento en stock para satisfacer la compra hecha, y despu\'es muestra la \IUref{IUConfirmar}{Pantalla de Confirmaci\'on de compra}\label{IUConfirmar}.
+		\item \IUbutton{Agregar}: Agrega un rengl\'on m\'as para poder agregar otro medicamento.
+		\item \IUbutton{Eliminar}: Elimina el regl\'on asociado al bot\'on.
+		\item \IUbutton{Limpiar todo}: Todos los campos de informaci\'on los vac\'ia.
+		\item \IUbutton{Opciones \textgreater Consultar stock}: Muestra la \IUref{IUConsulta}{Pantalla de Consulta de stock}\label{IUConsulta}.
+		\item \IUbutton{Opciones \textgreater Buscar}: Muestra la \IUref{IUBusqueda}{Pantalla de B\'usqueda de medicamentos}\label{IUBusqueda}.
+		\item \IUbutton{Opciones \textgreater Compra}: Reinicia la \IUref{IUCompra}{Pantalla de Compra}\label{IUCompra}.
+		\item \IUbutton{Usuario \textgreater Cerrar sesi\'on}: Muestra la \IUref{IULogin}{Pantalla de Control de Acceso}\label{IUCompra}.
+		\item \IUbutton{Usuario \textgreater  Salir}: Cierra la aplicaci\'on.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf WARNVac\'io} - "`Ning\'un campo debe estar vac\'io. Favor de revisar la informaci\'on ingresada"'.
+		\item {\bf WARNCantidad} - "`La cantidad debe ser un n\'umero. Favor de revisar la informaci\'on ingresada"'.
+		\item {\bf ERRMedInex} - "`No existe medicamento con el ID ingresado. Favor de revisar sus datos."'.
+		\item {\bf ERRMedInsuf} - "`No es posible abastecer la receta. Favor de reisar el stock de cada medicamento."'.
+	\end{Citemize}
