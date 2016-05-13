@@ -9,37 +9,36 @@
 %-------------------------------------- COMIENZA descripción del caso de uso.
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
-	\begin{UseCase}{CU7}{Agregar Médicamento}{
-		Un proveedor se encarga de suministrar de medicamentos a la farmacia. Así mismo el proveedor podrá registrar los cambios realizados en el stock del sistema.
+	\begin{UseCase}{CU7}{Agregar Medicamento}{
+		Un proveedor se encarga de suministrar de medicamentos a la farmacia. Así, el proveedor es quien incrementa el stock de uno o varios medicamentos determinados
 	}
-		\UCitem{Versión}{1.2}
+		\UCitem{Versión}{1.3}
 		\UCitem{Actor}{Proveedor}
-		\UCitem{Propósito}{Que el proveedor pueda suministrar la farmacia y registrar los cambiar realizados.}
+		\UCitem{Propósito}{Que el actor pueda registrar los cambios que hace en el stock de la farmacia.}
 		\UCitem{Resumen}{
-		El sistema muestra los medicamentos que se han agotado al proveedor para que este pueda suministrarlos.El proveedor guardará los cambios hechos y el sistema cambia los datos en el stock. }
-		\UCitem{Entradas}{ID y cantidad de medicamento agregado}
-		\UCitem{Salidas}{Stock Actualizado}
+		Mediante el ID de un medicamento, el actor puede registrar la cantidad de unidades que est\'a suministrando a la farmacia de tal medicamento. }
+		\UCitem{Entradas}{ID y cantidad de medicamento a agregar}
+		\UCitem{Salidas}{Cantidad del medicamento que hay en el stock tras ejecutar el cambio}
 		\UCitem{Precondiciones}{El médicamento que se desea suministrar debe estar registrado en el sistema.}
 		\UCitem{Postcondiciones}{El stock del medicamento aumentará, de acuerdo a la cantidad ingresada por el actor.}
 		\UCitem{Errores}{El medicamento no esta registrado en el sistema.}
 		\UCitem{Autor}{Ricardo Cuéllar Sánchez}
-		\UCitem{Revisor}{}
-		\UCitem{Status}{Espera de revisión}
+		\UCitem{Revisor}{Gerardo Aramis Cabello Acosta}
+		\UCitem{Status}{Revisado}
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
-		\UCpaso[\UCactor] Introduce el ID del medicamento cuyo stock se desea aumentar, en la\IUref{UIProv}{Pantalla de Proveedor}\label{CU7IntroduceMedicamentos}.
-		\UCpaso[\UCactor]Ingresa la cantidad que se desea agragar a ese medicamento. 
+		\UCpaso[\UCactor] Introduce el ID del medicamento cuyo stock se desea aumentar, en la\IUref{IUProv}{Pantalla de Proveedor}\label{CU7IntroduceMedicamentos}.
+		\UCpaso[\UCactor] Ingresa la cantidad que se desea agragar a ese medicamento. 
 		\UCpaso[\UCactor] Selecciona la opción ``Agregar''. \Trayref{A}
-		\UCpaso Suma el stock actual más la cantidad ingresada, y lo guarda como nuevo stock del medicamento ingresado.
-		\UCpaso Muestra el mensaje Stock Actualizado
-		\UCpaso[] Termina el caso de uso.
+		\UCpaso El sistema suma el stock actual m\'as la cantidad ingresada, y lo guarda como nuevo stock del medicamento ingresado.
+		\UCpaso El sistema muestra el mensaje {\bf OKStock}.
 	\end{UCtrayectoria}
 		
-		\begin{UCtrayectoriaA}{A}{El sistema no encuenta el medicamento del ID ingresado.}
-			\UCpaso Muestra el Mensaje {\bf MSG1-}``El ID [{\em ID clave}] no se encuentra registrado en el sistema''.
-			\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}, regresa al paso anterior [{\em CU7.1}].  
-			\UCpaso[] Termina la trayectoria.
+		\begin{UCtrayectoriaA}{A}{El sistema no encuentra el medicamento del ID ingresado.}
+			\UCpaso El sistema muestra el mensaje {\bf ERRMedInex-}
+			\UCpaso[\UCactor] oprime el botón \IUbutton{Aceptar}.  
+			\UCpaso[\UCactor] regresa al paso 1 de la trayectoria principal.  
 		\end{UCtrayectoriaA}
 		
 		

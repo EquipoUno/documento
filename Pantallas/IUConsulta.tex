@@ -1,0 +1,30 @@
+\subsection{IUConsulta Pantalla de consulta}
+
+\subsubsection{Objetivo}
+	Permitir al dependiente consultar el stock de un medicamento espec\'ifico
+
+\subsubsection{Diseño}
+	Esta pantalla aparece despu\'es de seleccionar la opci\'on "`Consultar stock"' de la \IUref{IUCompra}{Pantalla de Compra}\label{IUCompra}. Aqu\'i el dependiente puede buscar un medicamento espec\'ifico por su ID el cual puede ser conocido en la pantalla de b\'usqueda.
+
+\IUfig[.7]{gui/IUConsulta}{IUConsulta}{Pantalla de Consulta.}
+
+\subsubsection{Salidas}
+
+	Cantidad del medicamento que hay en stock.
+
+\subsubsection{Entradas}
+ID de medicamento.
+
+\subsubsection{Comandos}
+\begin{itemize}
+		\item \IUbutton{Consultar}: El sistema buscar\'a el registro del almac\'en y mostrar\'a en pantalla la cantidad de unidades que hay del medicamento encontrado.
+				\item \IUbutton{Men\'u \textgreater Comprar}: Muestra la \IUref{IUComprar}{Pantalla de Compra}\label{IUCompra}.
+		\item \IUbutton{Men\'u \textgreater Consultar}: Reinicia la \IUref{IUConsulta}{Pantalla de Consulta}\label{IUConsulta}.
+		\item \IUbutton{Men\'u \textgreater Salir}: Cierra la aplicaci\'on.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf WARNVac\'io} - "`Ning\'un campo debe estar vac\'io. Favor de revisar la informaci\'on ingresada"'.
+		\item {\bf ERRMedInex} - "`No existe medicamento con el ID ingresado. Favor de revisar sus datos."'.
+	\end{Citemize}
