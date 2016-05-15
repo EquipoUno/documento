@@ -15,8 +15,10 @@ Al finaliza una consulta, el paciente recibir\'a una receta, la cual, en caso de
 \item \bfseries{Registro de consulta m\'edica} \mdseries{: El paciente acude a la recepci\'on para solicitar una cita m\'edica para una fecha y horario especificados. La recepcionista revisa en su cuaderno de citas si no hay ninguna cita registrada para esa fecha y horario. En caso de que no haya ning\'un registro, lo anotar\'a en el cuaderno de citas y le indica al paciente que realice su pago en caja, y regrese a recepci\'on con un ticket de pago para poder registrar la cita como pagada.}
 \item \bfseries{Pago de consulta m\'edica} \mdseries{: El paciente acude a caja pagando el monto correspodiente a una cita m\'edica y finalmente recibe un ticket de pago}
 \item \bfseries{Pago de medicamentos} \mdseries{: El paciente acude a la farmacia con una receta m\'edica. El dependiente de la farmacia la revisa, verifica que en el almac\'en haya los suficientes medicamentos para abastecer la receta. En caso de que sí haya suficientes medicamentos, el dependiente procede a cobrarle al paciente el monto correspondiente a la receta m\'edica y finalmente el paciente recibe los medicamentos solicitados.}
-\item \bfseries{} \mdseries{: }
-\item \bfseries{} \mdseries{: }
+\item \bfseries{Suministro de medicamentos} \mdseries{: El proveedor suministra medicamentos al almac\'en de la farmacia, y registra cada uno de los cambios que hizo en el stock en un cuaderno. Realiza \'este procedimiento cada quince d\'ias.}
+\item \bfseries{Generaci\'on de expediente} \mdseries{: Cuando el expediente m\'edico de un paciente no existe, \'este debe ser generado. El m\'edico llena un formulario f\'isico con base en la informaci\'on que el paciente le proporciona. Al finalizar, \'este expediente es almacenado en un estante de archivos, intentando que el orden alfab\'etico (por apellido paterno) de los archivos no se altere.}
+\item \bfseries{Cosulta} \mdseries{: Si el paciente pag\'o su consulta a tiempo, entrar\'a al consultorio que le haya sido asignado, y lo atender\'a el doctor que se halle en ese consultorio. La consulta no tiene una duraci\'on definida.}
+\item \bfseries{Expedici\'on de receta m\'edica} \mdseries{: Al finalizar una consulta, si es necesario el doctor le otorgar\'a una receta m\'edica al paciente. \'Esto lo hace llenando un formulario (previamente impreso) donde indica los medicamentos recetados, su cantidad, el nombre del doctor y su firma o sello}
 \end{itemize}
 % - - - - - - - - - - - - - - - - - - - - - - - - -
 \subsection{Participantes}
@@ -26,6 +28,7 @@ Al finaliza una consulta, el paciente recibir\'a una receta, la cual, en caso de
 \item \bfseries{Recepcionista} \mdseries{.- Es una persona asignada al \'area de "`Recepci\'on"'. Su trabajo es dar acceso a los pacientes al consultorio que indique la cita m\'edica que el paciente realiz\'o, o a los pacientes de espera . Tambi\'en se encarga de atender a los pacientes que deseen realizar citas m\'edicas via telef\'onica. }
 \item \bfseries{Dependiente} \mdseries{.- Es la persona que atiende la farmacia. Se encarga de abastecer las recetas m\'edicas, y realizar el cobro correspondiente a las mismas.}
 \item \bfseries{Cajero} \mdseries{.- Es la persona que atiende el m\'odulo de caja. Se encarga de recibir pagos de consultas m\'edicas y de entregar tickets de pago para verificar que el cliente pag\'o una consulta m\'edica.}
+\item \bfseries{Paciente} \mdseries{.- Es la persona interesada en recibir una consulta. Acude a la recepci\'on de la cl\'inica para agendar una cita, y regresa el d\'ia de la cita para pagarla y tomar su consulta. Si lo necesita, acude a la farmacia con una receta m\'edica para comprar medicamentos}
 \end{itemize}
 
 % - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -33,16 +36,13 @@ Al finaliza una consulta, el paciente recibir\'a una receta, la cual, en caso de
 \\ 
 En la siguiente imagen (Figura 1.1) se muestra el funcionamiento de la Cl\'inica antes de que se implemente el sistema, en el c\'ual se puede apreciar de manera gr\'afica, que la cl\'inica tiene diversos problemas para poder organizar tanto la farmacia y la gesti\'on de citas, de igual manera no se puede determinar la salida o entrada tanto de dinero como de personas que adquieron una cita, determinando finalmente que el sistema que actualmente se utiliza es lento y deficiente, lo que a futuro puede provocar perdidas.
 \begin{figure}[htbp!]
-		\includegraphics[width=1\textwidth]{images/bpm1}
+\centering
+		\includegraphics[width=.8\textwidth]{images/bpm1}
 		\caption{Figura 2.1 Diagrama BPMN (Antes de Implementar el Sistema)}
 	\end{figure}
 	\newpage
 	En la siguiente imagen (Figura 2.2) se muestra lo que hara el sistema una vez implementado, evitara\'a que la gesti\'on de citas sea lenta y que el paciente tenga la facilidad de tener una cita en la fecha que m\'as se acomode a sus tiempos. Por otro lado se tendra un contol m\'as minuscioso de la venta de medicamento y de la salida de dinero de Caja. De esta manera se busca que la cl\'inica y el sistema implementado, mejoren la calidad del servicio y obtenga resultados positivos a futuro. 
-	\begin{figure}[htbp!]
-		\includegraphics[width=1\textwidth]{images/diagramabpm}
-		\caption{Figura 2.2 Diagrama BPMN (Despues de Implemntar el Sistema)}
-	\end{figure}
-\newpage
+	
 %--------------------------------------------------
 \section{Problemas identificados}
 

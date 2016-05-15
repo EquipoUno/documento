@@ -41,11 +41,44 @@ Diagrama de clases con las entidades del negocio.
 \end{description}
 
 % - - - - - - - - - - - - - - - - - - - - - - - - -
-\subsection{Atributos de ``Almac\'en''}
+\subsection{Atributos de ``Registro en almac\'en''}
 
 \begin{description}
 	\item[ID de medicamento: ] Identificador del medicamento sobre el cual hace referencia el stock.
 	\item[Stock: ] Cantidad de unidades que se tienen el medicamento con ID $[ID de medicamento]$.
+\end{description}
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsection{Atributos de ``Receta m\'edica''}
+
+\begin{description}
+	\item[Fecha: ] Indica la fecha en la que la receta fue expedida.
+	\item[ID de medicamento: ] Identificador del medicamento con el cual est\'a registrado en el sistema.
+	\item[Nombre de medicamento: ] Nombre del medicamento al cual el ID de medicamento al cual hace referencia.
+	\item[Dosis: ] Cantidad que el paciente debe ingerir del medicamento en un periodo definido.
+	\item[M\'edico: ] Nombre del m\'edico que gener\'o la receta.
+\end{description}
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsection{Atributos de ``Recibo de pago (Consulta)''}
+
+\begin{description}
+	\item[ID: ] Identifica el n\'umero de transacci\'on, con el cual la cita podr\'a ser pagada en caja.
+	\item[Fecha: ] Fecha en la cual la consulta m\'edica ser\'ia realizada.
+	\item[Hora: ] Hora en la cual la consulta m\'edica ser\'ia realizada.
+	\item[Consultorio: ] N\'umero que indica el consultorio en el cual la consulta m\'edica ser\'ia realizada.
+	\item[Monto: ] Indica la cantidad que debe ser pagada en caja, correspondiente a la cita. Para el proceso actual, el monto es siempre de \$ 50 MXN.
+	\item[M\'edico: ] Nombre del m\'edico que gener\'o la receta.
+\end{description}
+% - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsection{Atributos de ``Recibo de pago (Medicamentos)''}
+
+\begin{description}
+	\item[ID: ] Identifica el n\'umero de transacci\'on, con el cual la cita podr\'a ser pagada en caja.
+	\item[*ID de medicamento: ] Identificador del medicamento con el cual est\'a registrado en el sistema.
+	\item[*Nombre de medicamento: ] Nombre del medicamento al cual el ID de medicamento al cual hace referencia.
+	\item[*Subtotal por medicamento: ] Indica la cantidad a pagar por cada medicamento. Si hay varios medicamentos de un mismo tipo el subtotal es igual a la suma de los subtotales individules.
+	\item[Total: ] Indica el costo total de los medicamentos. El costo total es igual a la suma de los subtotales.
+	
+	NOTA: '*' indica que el atributo puede repetirse varias veces en un mismo recibo de pago.
 \end{description}
 % - - - - - - - - - - - - - - - - - - - - - - - - -
 
