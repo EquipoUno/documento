@@ -14,23 +14,23 @@
 	}
 		\UCitem{Versión}{1.2}
 		\UCitem{Actor}{Cajero}
-		\UCitem{Propósito}{Que el cajero pueda acceder a las funciones a las que tiene acceso un cajero de la cl\'inica.}
+		\UCitem{Propósito}{Que el cajero pueda acceder a las funciones a las que tiene acceso un cajero de la cl\'inica (Es decir, realizar pagos de citas o ventas de medicamento)}
 		\UCitem{Resumen}{
-		El sistema muestra una pantalla de registro, donde el actor ingresa su informaci\'on de acceso, y si el sistema lo verifica correctamente como un cajero, le dar\'a acceso como "`Cajero"'.}
+		El sistema muestra una pantalla de registro, donde el actor ingresa su informaci\'on de acceso (Login y Password), y si el sistema lo verifica correctamente como un cajero, le dar\'a acceso como "`Cajero"'.}
 		\UCitem{Entradas}{Nombre de usuario y contraseña.}
 		\UCitem{Salidas}{ --- }
 		\UCitem{Precondiciones}{Tener una cuenta de tipo "`Cajero"'  registrada en el sistema.}
 		\UCitem{Postcondiciones}{El actor tendr\'a acceso a las opciones que un cajero de la cl\'inica tiene.}
-		\UCitem{Errores}{Si no hay niinguna cuenta con los datos ingresados, muestra el Mensaje {\bf ERRDatosIncorrectos-}``No existe ninguna cuenta con los datos ingresados. Favor de revisar la informaci\'on introducida''.}
+		\UCitem{Errores}{Si no hay ninguna cuenta con los datos ingresados, muestra el Mensaje {\bf ERRDatosIncorrectos-}``No existe ninguna cuenta con los datos ingresados. Favor de revisar la informaci\'on introducida''.}
 		\UCitem{Autor}{Gerardo Aramis Cabello Acosta.}
-		\UCitem{Revisor}{  }
-		\UCitem{Status}{ En espera de revisi\'on }
+		\UCitem{Revisor}{Diana Guadalupe Maldonado Ledo}
+		\UCitem{Status}{Terminado}
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
 		\UCpaso[\UCactor] Introduce su Nombre de usuario y Contraseña en el sistema vía la  \IUref{IULogin}{Pantalla de Control de Acceso}\label{CU1_1Login}.
 		\UCpaso El sistema verifica que exista cuenta de tipo "`Cajero"' con el nombre de usuario ingresado.
-		\UCpaso El sistema verifica que la contraseña ingresada coincida con la de la cuenta encontrada
+		\UCpaso El sistema verifica que la contraseña ingresada coincida con cuenta ingresada.
 		\UCpaso Se despliega en pantalla la \IUref{IUCaja}{Pantalla de cajero}.	
 	\end{UCtrayectoria}
 		
