@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.2)  15 MAY 2016 01:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.2)  15 MAY 2016 02:30
 entering extended mode
 **analisis.tex
 (C:\Users\Diana\Documents\GitHub\documento\analisis.tex
@@ -1267,9 +1267,9 @@ Overfull \hbox (47.00287pt too wide) in paragraph at lines 14--14
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 24--24
-[]|\OT1/cmbr/m/sc/10 Si no hay niin-gu-na cuen-ta con los da-tos in-gre-sa-dos,
- mues-tra el Men-sa-je
+Underfull \hbox (badness 1924) in paragraph at lines 24--24
+[]|\OT1/cmbr/m/sc/10 Si no hay nin-gu-na cuen-ta con los da-tos in-gre-sa-dos, 
+mues-tra el Men-sa-je
  []
 
 
@@ -1326,9 +1326,9 @@ Overfull \hbox (47.00287pt too wide) in paragraph at lines 16--16
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 26--26
-[]|\OT1/cmbr/m/sc/10 Si no hay niin-gu-na cuen-ta con los da-tos in-gre-sa-dos,
- mues-tra el Men-sa-je
+Underfull \hbox (badness 1924) in paragraph at lines 26--26
+[]|\OT1/cmbr/m/sc/10 Si no hay nin-gu-na cuen-ta con los da-tos in-gre-sa-dos, 
+mues-tra el Men-sa-je
  []
 
 
@@ -1972,7 +1972,7 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on analisis.pdf (34 pages, 1211763 bytes).
+Output written on analisis.pdf (34 pages, 1212014 bytes).
 PDF statistics:
  1290 PDF objects out of 1440 (max. 8388607)
  243 named destinations out of 1000 (max. 500000)

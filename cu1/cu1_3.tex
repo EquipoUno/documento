@@ -10,23 +10,23 @@
 
 %\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
 	\begin{UseCase}{CU1.3}{Iniciar sesión como proveedor}{
-		Los proveedores est\'an a cargo del stock de los medicamentos. Se encargan de aumentarlo en caso de que se hayan agotado.
+		Los proveedores est\'an a cargo del stock de los medicamentos. Se encargan de abastecerlo en caso de que se hayan agotado.
 Para poder realizar esto en el sistema, el proveedor deber\'a iniciar sesi\'on con su cuenta de tipo "`Proveedor"'.
 
 	}
 		\UCitem{Versión}{1.2}
 		\UCitem{Actor}{Proveedor}
-		\UCitem{Propósito}{Que el proveedor pueda acceder a las funciones a las que tiene acceso un proveedor de la cl\'inica.}
+		\UCitem{Propósito}{Que el proveedor pueda acceder a las funciones a las que tiene acceso un proveedor de la cl\'inica (Abastecer almacen en caso de que algun medicamento no este disponible, verificar que lote y fecha esten en tiempo, que los medicamentos prescritos sean solicitados con receta)}
 		\UCitem{Resumen}{
 		El sistema muestra una pantalla de registro, donde el actor ingresa su informaci\'on de acceso, y si el sistema lo verifica correctamente como un proveedor, le dar\'a acceso como "`Proveedor"'.}
 		\UCitem{Entradas}{Nombre de usuario y contraseña.}
 		\UCitem{Salidas}{ --- }
 		\UCitem{Precondiciones}{Tener una cuenta de tipo "`Proveedor"'  registrada en el sistema.}
 		\UCitem{Postcondiciones}{El actor tendr\'a acceso a la funci\'on que un proveedor de la cl\'inica posee.}
-		\UCitem{Errores}{Si no hay niinguna cuenta con los datos ingresados, muestra el Mensaje {\bf ERRDatosIncorrectos-}``No existe ninguna cuenta con los datos ingresados. Favor de revisar la informaci\'on introducida''.}
+		\UCitem{Errores}{Si no hay ninguna cuenta con los datos ingresados, muestra el Mensaje {\bf ERRDatosIncorrectos-}``No existe ninguna cuenta con los datos ingresados. Favor de revisar la informaci\'on introducida''.}
 		\UCitem{Autor}{Gerardo Aramis Cabello Acosta.}
-		\UCitem{Revisor}{  }
-		\UCitem{Status}{ En espera de revisi\'on }
+		\UCitem{Revisor}{Diana Guadalupe Maldonado Ledo}
+		\UCitem{Status}{Terminado}
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Principal}
