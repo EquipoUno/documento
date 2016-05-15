@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.7)  15 MAY 2016 12:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.7)  15 MAY 2016 12:55
 entering extended mode
 **./analisis.tex
 (analisis.tex
@@ -3679,7 +3679,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
 Here is how much of TeX's memory you used:
  10041 strings out of 493634
  141402 string characters out of 3141291
- 245747 words of memory out of 3000000
+ 245769 words of memory out of 3000000
  12929 multiletter control sequences out of 15000+200000
  16223 words of font info for 61 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -3720,7 +3720,7 @@ TeX\2.9\fonts\pk\ljfour\public\cmbright\dpi864\cmbr17.pk><C:/Program Files (x86
 ex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MikTex/font
 s/type1/public/amsfonts/latxfont/lasy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/marvosym/marvosym.pfb>
-Output written on analisis.pdf (37 pages, 1074583 bytes).
+Output written on analisis.pdf (37 pages, 1088658 bytes).
 PDF statistics:
  1332 PDF objects out of 1440 (max. 8388607)
  249 named destinations out of 1000 (max. 500000)
