@@ -1,18 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.2)  15 MAY 2016 01:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.7)  15 MAY 2016 11:04
 entering extended mode
-**problematica.tex
-(C:\Users\Diana\Documents\GitHub\documento\problematica.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
+**./problematica.tex
+(problematica.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -2273,7 +2264,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[1{C:/Users/GerardoAramis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Overfull \hbox (24.63179pt too wide) in paragraph at lines 16--17
 \OT1/cmr/bx/n/10 Pago
  []
@@ -4433,7 +4424,7 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.36 		\includegraphics
-                       [width=1\textwidth]{images/bpm1}
+                       [width=.8\textwidth]{images/bpm1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4447,12 +4438,13 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.36 		\includegraphics[width=1\textwidth]
-                                          {images/bpm1}
+l.36 		\includegraphics[width=.8\textwidth]
+                                           {images/bpm1}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -4460,8 +4452,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.36 		\includegraphics[width=1\textwidth]
-                                          {images/bpm1}
+l.36 		\includegraphics[width=.8\textwidth]
+                                           {images/bpm1}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -5014,7 +5006,7 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.42 		\includegraphics
-                       [width=1\textwidth]{images/diagramabpm}
+                       [width=.8\textwidth]{images/diagramabpm}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -5028,12 +5020,13 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.42 		\includegraphics[width=1\textwidth]
-                                          {images/diagramabpm}
+l.42 		\includegraphics[width=.8\textwidth]
+                                           {images/diagramabpm}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -5041,8 +5034,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.42 		\includegraphics[width=1\textwidth]
-                                          {images/diagramabpm}
+l.42 		\includegraphics[width=.8\textwidth]
+                                           {images/diagramabpm}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -7407,7 +7400,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 82--86
 
 
 Overfull \hbox (141.11494pt too wide) in paragraph at lines 82--86
-$[]\OML/cmm/m/it/10 onsultas[]$ 
+[]\OML/cmm/m/it/10 onsultas[]$ 
  []
 
 Missing character: There is no E in font nullfont!
@@ -9369,17 +9362,17 @@ Overfull \hbox (4.44444pt too wide) in paragraph at lines 129--130
 
 )
 ! Emergency stop.
-<*> problematica.tex
-                    
+<*> ./problematica.tex
+                      
 *** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
- 33 strings out of 493921
- 464 string characters out of 3147283
- 60031 words of memory out of 3000000
- 3422 multiletter control sequences out of 15000+200000
+ 32 strings out of 493634
+ 338 string characters out of 3141291
+ 63604 words of memory out of 3000000
+ 3513 multiletter control sequences out of 15000+200000
  3948 words of font info for 15 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 18i,4n,16p,676b,164s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 1025 hyphenation exceptions out of 8191
+ 18i,4n,16p,678b,164s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
