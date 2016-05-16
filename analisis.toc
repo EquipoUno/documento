@@ -24,83 +24,83 @@
 \contentsline {subsection}{\numberline {3.1.5}Especificaci\IeC {\'o}n de Plataforma}{11}{subsection.3.1.5}
 \contentsline {chapter}{\numberline {4}Modelo de Negocios}{12}{chapter.4}
 \contentsline {section}{\numberline {4.1}Glosario de t\IeC {\'e}rminos}{12}{section.4.1}
-\contentsline {section}{\numberline {4.2}Proceso ajustado}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}Modelo de entidades del negocio}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}Descripci\IeC {\'o}n de atributos}{14}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Atributos de ``Medicamento''}{14}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Atributos de ``Expediente''}{15}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Atributos de ``Registro en almac\'en''}{15}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Atributos de ``Receta m\'edica''}{15}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Atributos de ``Recibo de pago (Consulta)''}{15}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Atributos de ``Recibo de pago (Medicamentos)''}{16}{subsection.4.4.6}
-\contentsline {section}{\numberline {4.5}Reglas de Negocio}{16}{section.4.5}
-\contentsline {chapter}{\numberline {5}Modelo de comportamiento}{18}{chapter.5}
-\contentsline {section}{\numberline {5.1}CU1.1 Iniciar sesi\IeC {\'o}n como dependiente}{21}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Descripci\IeC {\'o}n completa}{21}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Atributos importantes}{21}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Trayectorias del Caso de Uso}{21}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}CU1.2 Iniciar sesi\IeC {\'o}n como cajero}{22}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Descripci\IeC {\'o}n completa}{22}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Atributos importantes}{22}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Trayectorias del Caso de Uso}{22}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}CU1.3 Iniciar sesi\IeC {\'o}n como proveedor}{23}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Descripci\IeC {\'o}n completa}{23}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Atributos importantes}{23}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Trayectorias del Caso de Uso}{23}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}CU2 Efectuar compra}{24}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Descripci\IeC {\'o}n completa}{24}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Atributos importantes}{24}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Trayectorias del Caso de Uso}{24}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}CU3 Consultar Stock}{26}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Descripci\IeC {\'o}n completa}{26}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Atributos importantes}{26}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Trayectorias del Caso de Uso}{26}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}CU4 Buscar Medicamento}{28}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Descripci\IeC {\'o}n completa}{28}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Atributos importantes}{28}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Trayectorias del Caso de Uso}{28}{subsection.5.6.3}
-\contentsline {section}{\numberline {5.7}CU5 Pago de transacci\'on}{30}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Descripci\IeC {\'o}n completa}{30}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Atributos importantes}{30}{subsection.5.7.2}
-\contentsline {subsection}{\numberline {5.7.3}Trayectorias del Caso de Uso}{30}{subsection.5.7.3}
-\contentsline {section}{\numberline {5.8}CU7 Agregar Medicamento}{32}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Descripci\IeC {\'o}n completa}{32}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Atributos importantes}{32}{subsection.5.8.2}
-\contentsline {subsection}{\numberline {5.8.3}Trayectorias del Caso de Uso}{32}{subsection.5.8.3}
-\contentsline {chapter}{\numberline {6}Modelo de la Interacci\IeC {\'o}n}{33}{chapter.6}
-\contentsline {section}{\numberline {6.1}Modelo de navegaci\IeC {\'o}n}{33}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}IULogin Pantalla de Control de Acceso}{34}{subsection.6.1.1}
-\contentsline {subsubsection}{Objetivo}{34}{section*.2}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{34}{section*.3}
-\contentsline {subsubsection}{Salidas}{34}{section*.4}
-\contentsline {subsubsection}{Entradas}{34}{section*.5}
-\contentsline {subsubsection}{Comandos}{34}{section*.6}
-\contentsline {subsubsection}{Mensajes}{34}{section*.7}
-\contentsline {subsection}{\numberline {6.1.2}IUCaja Pantalla de cajero}{35}{subsection.6.1.2}
-\contentsline {subsubsection}{Objetivo}{35}{section*.8}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{35}{section*.9}
-\contentsline {subsubsection}{Salidas}{35}{section*.10}
-\contentsline {subsubsection}{Entradas}{35}{section*.11}
-\contentsline {subsubsection}{Comandos}{35}{section*.12}
-\contentsline {subsubsection}{Mensajes}{35}{section*.13}
-\contentsline {subsection}{\numberline {6.1.3}IUProv Pantalla de proveedor}{36}{subsection.6.1.3}
-\contentsline {subsubsection}{Objetivo}{36}{section*.14}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{36}{section*.15}
-\contentsline {subsubsection}{Salidas}{36}{section*.16}
-\contentsline {subsubsection}{Entradas}{36}{section*.17}
-\contentsline {subsubsection}{Comandos}{36}{section*.18}
-\contentsline {subsubsection}{Mensajes}{36}{section*.19}
-\contentsline {subsection}{\numberline {6.1.4}IUCompra Pantalla de compra}{36}{subsection.6.1.4}
-\contentsline {subsubsection}{Objetivo}{36}{section*.20}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{37}{section*.21}
-\contentsline {subsubsection}{Salidas}{37}{section*.22}
-\contentsline {subsubsection}{Entradas}{37}{section*.23}
-\contentsline {subsubsection}{Comandos}{37}{section*.24}
-\contentsline {subsubsection}{Mensajes}{38}{section*.25}
-\contentsline {subsection}{\numberline {6.1.5}IUConsulta Pantalla de consulta}{38}{subsection.6.1.5}
-\contentsline {subsubsection}{Objetivo}{38}{section*.26}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{38}{section*.27}
-\contentsline {subsubsection}{Salidas}{38}{section*.28}
-\contentsline {subsubsection}{Entradas}{38}{section*.29}
-\contentsline {subsubsection}{Comandos}{39}{section*.30}
-\contentsline {subsubsection}{Mensajes}{39}{section*.31}
+\contentsline {section}{\numberline {4.2}Proceso ajustado}{13}{section.4.2}
+\contentsline {section}{\numberline {4.3}Modelo de entidades del negocio}{15}{section.4.3}
+\contentsline {section}{\numberline {4.4}Descripci\IeC {\'o}n de atributos}{15}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Atributos de ``Medicamento''}{15}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Atributos de ``Expediente''}{16}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Atributos de ``Registro en almac\'en''}{16}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Atributos de ``Receta m\'edica''}{16}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Atributos de ``Recibo de pago (Consulta)''}{16}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Atributos de ``Recibo de pago (Medicamentos)''}{17}{subsection.4.4.6}
+\contentsline {section}{\numberline {4.5}Reglas de Negocio}{17}{section.4.5}
+\contentsline {chapter}{\numberline {5}Modelo de comportamiento}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}CU1.1 Iniciar sesi\IeC {\'o}n como dependiente}{22}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Descripci\IeC {\'o}n completa}{22}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Atributos importantes}{22}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Trayectorias del Caso de Uso}{22}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}CU1.2 Iniciar sesi\IeC {\'o}n como cajero}{23}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Descripci\IeC {\'o}n completa}{23}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Atributos importantes}{23}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Trayectorias del Caso de Uso}{23}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}CU1.3 Iniciar sesi\IeC {\'o}n como proveedor}{24}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Descripci\IeC {\'o}n completa}{24}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Atributos importantes}{24}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Trayectorias del Caso de Uso}{24}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}CU2 Efectuar compra}{25}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Descripci\IeC {\'o}n completa}{25}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Atributos importantes}{25}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Trayectorias del Caso de Uso}{25}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}CU3 Consultar Stock}{27}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Descripci\IeC {\'o}n completa}{27}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Atributos importantes}{27}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Trayectorias del Caso de Uso}{27}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}CU4 Buscar Medicamento}{29}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Descripci\IeC {\'o}n completa}{29}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Atributos importantes}{29}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Trayectorias del Caso de Uso}{29}{subsection.5.6.3}
+\contentsline {section}{\numberline {5.7}CU5 Pago de transacci\'on}{31}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Descripci\IeC {\'o}n completa}{31}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Atributos importantes}{31}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.3}Trayectorias del Caso de Uso}{31}{subsection.5.7.3}
+\contentsline {section}{\numberline {5.8}CU7 Agregar Medicamento}{33}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Descripci\IeC {\'o}n completa}{33}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Atributos importantes}{33}{subsection.5.8.2}
+\contentsline {subsection}{\numberline {5.8.3}Trayectorias del Caso de Uso}{33}{subsection.5.8.3}
+\contentsline {chapter}{\numberline {6}Modelo de la Interacci\IeC {\'o}n}{34}{chapter.6}
+\contentsline {section}{\numberline {6.1}Modelo de navegaci\IeC {\'o}n}{34}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}IULogin Pantalla de Control de Acceso}{35}{subsection.6.1.1}
+\contentsline {subsubsection}{Objetivo}{35}{section*.2}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{35}{section*.3}
+\contentsline {subsubsection}{Salidas}{35}{section*.4}
+\contentsline {subsubsection}{Entradas}{35}{section*.5}
+\contentsline {subsubsection}{Comandos}{35}{section*.6}
+\contentsline {subsubsection}{Mensajes}{35}{section*.7}
+\contentsline {subsection}{\numberline {6.1.2}IUCaja Pantalla de cajero}{36}{subsection.6.1.2}
+\contentsline {subsubsection}{Objetivo}{36}{section*.8}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{36}{section*.9}
+\contentsline {subsubsection}{Salidas}{36}{section*.10}
+\contentsline {subsubsection}{Entradas}{36}{section*.11}
+\contentsline {subsubsection}{Comandos}{36}{section*.12}
+\contentsline {subsubsection}{Mensajes}{36}{section*.13}
+\contentsline {subsection}{\numberline {6.1.3}IUProv Pantalla de proveedor}{37}{subsection.6.1.3}
+\contentsline {subsubsection}{Objetivo}{37}{section*.14}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{37}{section*.15}
+\contentsline {subsubsection}{Salidas}{37}{section*.16}
+\contentsline {subsubsection}{Entradas}{37}{section*.17}
+\contentsline {subsubsection}{Comandos}{37}{section*.18}
+\contentsline {subsubsection}{Mensajes}{37}{section*.19}
+\contentsline {subsection}{\numberline {6.1.4}IUCompra Pantalla de compra}{37}{subsection.6.1.4}
+\contentsline {subsubsection}{Objetivo}{37}{section*.20}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{38}{section*.21}
+\contentsline {subsubsection}{Salidas}{38}{section*.22}
+\contentsline {subsubsection}{Entradas}{38}{section*.23}
+\contentsline {subsubsection}{Comandos}{38}{section*.24}
+\contentsline {subsubsection}{Mensajes}{39}{section*.25}
+\contentsline {subsection}{\numberline {6.1.5}IUConsulta Pantalla de consulta}{39}{subsection.6.1.5}
+\contentsline {subsubsection}{Objetivo}{39}{section*.26}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{39}{section*.27}
+\contentsline {subsubsection}{Salidas}{39}{section*.28}
+\contentsline {subsubsection}{Entradas}{39}{section*.29}
+\contentsline {subsubsection}{Comandos}{40}{section*.30}
+\contentsline {subsubsection}{Mensajes}{40}{section*.31}

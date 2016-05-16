@@ -1,0 +1,1512 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.4.2)  15 MAY 2016 19:57
+entering extended mode
+**brGlosario.tex
+(C:\Users\Diana\Documents\GitHub\documento\brGlosario.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 I
+     ntroduction al cap√≠tulo
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no ≠ in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[]
+ []
+
+! Undefined control sequence.
+l.4 \section
+            {Glosario de t√©rminos}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \section{G
+              losario de t√©rminos}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no G in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no √ in font nullfont!
+Missing character: There is no © in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--5
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 L
+     iste todos los termino del negocio.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 6--7
+[]
+ []
+
+
+! LaTeX Error: Environment description undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \begin{description}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 	\item \bfseries
+                    {Paciente de espera}\mdseries{.- Es aquel paciente que n...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (42.5206pt too wide) in paragraph at lines 9--10
+\OT1/cmr/bx/n/10 Paciente
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 9--10
+\OT1/cmr/bx/n/10 de
+ []
+
+
+Overfull \hbox (38.22343pt too wide) in paragraph at lines 9--10
+\OT1/cmr/bx/n/10 espera\OT1/cmr/m/n/10 .-
+ []
+
+
+Overfull \hbox (10.75002pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 Es
+ []
+
+
+Overfull \hbox (23.0556pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 aquel
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 pa-
+ []
+
+
+Overfull \hbox (25.2778pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 ciente
+ []
+
+
+Overfull \hbox (15.2778pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 que
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 no
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 tiene
+ []
+
+
+Overfull \hbox (16.11115pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 cita
+ []
+
+
+Overfull \hbox (30.55562pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 medica
+ []
+
+
+Overfull \hbox (5.2778pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 y
+ []
+
+
+Overfull \hbox (11.72221pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 es-
+ []
+
+
+Overfull \hbox (19.19449pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 pera
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (15.2778pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 que
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 una
+ []
+
+
+Overfull \hbox (16.11115pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 cita
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 no
+ []
+
+
+Overfull \hbox (13.3889pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 sea
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 pa-
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 gada
+ []
+
+
+Overfull \hbox (19.47227pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 para
+ []
+
+
+Overfull \hbox (25.02785pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 poder
+ []
+
+
+Overfull \hbox (12.30556pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 ser
+ []
+
+
+Overfull \hbox (22.22226pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 aten-
+ []
+
+
+Overfull \hbox (18.88895pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 dido
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 en
+ []
+
+
+Overfull \hbox (17.2778pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 esta 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 	\item \bfseries
+                     {Stock}\mdseries{.- Conjunto de mercanc\'ias o producto...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (33.90263pt too wide) in paragraph at lines 10--11
+\OT1/cmr/bx/n/10 Stock\OT1/cmr/m/n/10 .-
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 Con-
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 junto
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (20.0278pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 mer-
+ []
+
+
+Overfull \hbox (31.16672pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 cancas
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 o
+ []
+
+
+Overfull \hbox (17.80559pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 pro-
+ []
+
+
+Overfull \hbox (18.88892pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 duc-
+ []
+
+
+Overfull \hbox (12.83336pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 tos
+ []
+
+
+Overfull \hbox (15.2778pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 que
+ []
+
+
+Overfull \hbox (8.38889pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 se
+ []
+
+
+Overfull \hbox (26.66672pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 tienen
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 al-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 ma-
+ []
+
+
+Overfull \hbox (12.22221pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 ce-
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 na-
+ []
+
+
+Overfull \hbox (14.50003pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 dos
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 en
+ []
+
+
+Overfull \hbox (11.72221pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 es-
+ []
+
+
+Overfull \hbox (19.19449pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 pera
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (9.50002pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 su
+ []
+
+
+Overfull \hbox (23.61116pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 venta
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 o
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 er-
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 cial-
+ []
+
+
+Overfull \hbox (30.00006pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/10 izacion 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 	\item \bfseries
+                     {Expediente m\'edico}\mdseries{.- Espacio donde se alma...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (56.27055pt too wide) in paragraph at lines 11--12
+\OT1/cmr/bx/n/10 Expediente
+ []
+
+
+Overfull \hbox (41.40955pt too wide) in paragraph at lines 11--12
+\OT1/cmr/bx/n/10 medico\OT1/cmr/m/n/10 .-
+ []
+
+
+Overfull \hbox (14.08334pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 Es-
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 pa-
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 cio
+ []
+
+
+Overfull \hbox (26.11118pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 donde
+ []
+
+
+Overfull \hbox (8.38889pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 se
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 al-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 ma-
+ []
+
+
+Overfull \hbox (19.44447pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 cena
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (15.30559pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 for-
+ []
+
+
+Overfull \hbox (31.11119pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 macion
+ []
+
+
+Overfull \hbox (30.55562pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 medica
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 un
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 pa-
+ []
+
+
+Overfull \hbox (28.05559pt too wide) in paragraph at lines 11--12
+\OT1/cmr/m/n/10 ciente. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 	\item \bfseries
+                     {Medicamento controlado}\mdseries{.- Es aquel que s\'ol...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (67.61769pt too wide) in paragraph at lines 12--13
+\OT1/cmr/bx/n/10 Medicamento
+ []
+
+
+Overfull \hbox (58.92332pt too wide) in paragraph at lines 12--13
+\OT1/cmr/bx/n/10 controlado\OT1/cmr/m/n/10 .-
+ []
+
+
+Overfull \hbox (10.75002pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 Es
+ []
+
+
+Overfull \hbox (23.0556pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 aquel
+ []
+
+
+Overfull \hbox (15.2778pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 que
+ []
+
+
+Overfull \hbox (16.72226pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 solo
+ []
+
+
+Overfull \hbox (25.5556pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 puede
+ []
+
+
+Overfull \hbox (37.3056pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 venderse
+ []
+
+
+Overfull \hbox (11.66667pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 te-
+ []
+
+
+Overfull \hbox (28.88896pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 niendo
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (7.77777pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 c-
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 eta
+ []
+
+
+Overfull \hbox (33.3334pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 medica. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 	\item \bfseries
+                     {Laboratorio}\mdseries{.- Es aquel lugar cl\'inico d\'o...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (65.30522pt too wide) in paragraph at lines 13--14
+\OT1/cmr/bx/n/10 Laboratorio\OT1/cmr/m/n/10 .-
+ []
+
+
+Overfull \hbox (10.75002pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 Es
+ []
+
+
+Overfull \hbox (23.0556pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 aquel
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 lu-
+ []
+
+
+Overfull \hbox (13.9167pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 gar
+ []
+
+
+Overfull \hbox (27.77783pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 clnico
+ []
+
+
+Overfull \hbox (26.11118pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 donde
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 un
+ []
+
+
+Overfull \hbox (33.88895pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 medica-
+ []
+
+
+Overfull \hbox (26.9445pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 mento
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 de-
+ []
+
+
+Overfull \hbox (15.58334pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 ter-
+ []
+
+
+Overfull \hbox (14.44447pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 mi-
+ []
+
+
+Overfull \hbox (21.11118pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 nado
+ []
+
+
+Overfull \hbox (13.05559pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 fue
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 de-
+ []
+
+
+Overfull \hbox (16.19446pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 sar-
+ []
+
+
+Overfull \hbox (15.0278pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 rol-
+ []
+
+
+Overfull \hbox (21.11118pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 lado. 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 	\item \bfseries
+                     {Unidad}\mdseries{.- Es la forma en la que se distribuy...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 	\item \bfseries
+                     {Unidad}\mdseries{.- Es la forma en la que se distribuy...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 14.
+
+Overfull \hbox (42.9095pt too wide) in paragraph at lines 14--15
+\OT1/cmr/bx/n/10 Unidad\OT1/cmr/m/n/10 .-
+ []
+
+
+Overfull \hbox (10.75002pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 Es
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 la
+ []
+
+
+Overfull \hbox (25.30563pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 forma
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 en
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 la
+ []
+
+
+Overfull \hbox (15.2778pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 que
+ []
+
+
+Overfull \hbox (8.38889pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 se
+ []
+
+
+Overfull \hbox (15.61113pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 dis-
+ []
+
+
+Overfull \hbox (31.13896pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 tribuye
+ []
+
+
+Overfull \hbox (11.11115pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 un
+ []
+
+
+Overfull \hbox (33.88895pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 medica-
+ []
+
+
+Overfull \hbox (26.9445pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 mento
+ []
+
+
+Overfull \hbox (17.54587pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 ($\OML/cmm/m/it/10 i:e:$
+ []
+
+
+Overfull \hbox (18.05559pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 caja
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 con
+ []
+
+
+Overfull \hbox (9.06943pt too wide) in paragraph at lines 14--15
+$\OML/cmm/m/it/10 X$
+ []
+
+
+Overfull \hbox (25.00005pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 table-
+ []
+
+
+Overfull \hbox (19.50005pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/10 tas). 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 	\item \bfseries
+                     {Comprobante de Pago}\mdseries{.- Recibo en el que se d...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (68.30519pt too wide) in paragraph at lines 16--17
+\OT1/cmr/bx/n/10 Comprobante
+ []
+
+
+Overfull \hbox (11.65967pt too wide) in paragraph at lines 16--17
+\OT1/cmr/bx/n/10 de
+ []
+
+
+Overfull \hbox (30.7429pt too wide) in paragraph at lines 16--17
+\OT1/cmr/bx/n/10 Pago\OT1/cmr/m/n/10 .-
+ []
+
+
+Overfull \hbox (29.86116pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 Recibo
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 en
+ []
+
+
+Overfull \hbox (7.22223pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 el
+ []
+
+
+Overfull \hbox (15.2778pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 que
+ []
+
+
+Overfull \hbox (8.38889pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 se
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 de-
+ []
+
+
+Overfull \hbox (25.33336pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 mues-
+ []
+
+
+Overfull \hbox (12.80559pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 tra
+ []
+
+
+Overfull \hbox (15.2778pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 que
+ []
+
+
+Overfull \hbox (7.22223pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 el
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 pa-
+ []
+
+
+Overfull \hbox (25.2778pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 ciente
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 re-
+ []
+
+
+Overfull \hbox (20.00005pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 alizo
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 una
+ []
+
+
+Overfull \hbox (29.52782pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 trasac-
+ []
+
+
+Overfull \hbox (17.77782pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 cion
+ []
+
+
+Overfull \hbox (14.75005pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 por
+ []
+
+
+Overfull \hbox (20.55562pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 pago
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 en
+ []
+
+
+Overfull \hbox (15.30559pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 far-
+ []
+
+
+Overfull \hbox (16.6667pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 ma-
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 cia
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 o
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 en
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 con-
+ []
+
+
+Overfull \hbox (21.16672pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 sulta 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 	\item \bfseries
+                     {Sustancia Activa}\mdseries{.- Producto elaborado por l...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (47.6608pt too wide) in paragraph at lines 17--18
+\OT1/cmr/bx/n/10 Sustancia
+ []
+
+
+Overfull \hbox (38.60397pt too wide) in paragraph at lines 17--18
+\OT1/cmr/bx/n/10 Activa\OT1/cmr/m/n/10 .-
+ []
+
+
+Overfull \hbox (19.05559pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 Pro-
+ []
+
+
+Overfull \hbox (24.4445pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 ducto
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 elab-
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 o-
+ []
+
+
+Overfull \hbox (19.47227pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 rado
+ []
+
+
+Overfull \hbox (14.75005pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 por
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 la
+ []
+
+
+Overfull \hbox (30.5556pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 tecnica
+ []
+
+
+Overfull \hbox (15.30559pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 far-
+ []
+
+
+Overfull \hbox (43.88898pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 maceutica
+ []
+
+
+Overfull \hbox (12.7778pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 del
+ []
+
+
+Overfull \hbox (21.13893pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 prin-
+ []
+
+
+Overfull \hbox (10.55556pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 ci-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 pio
+ []
+
+
+Overfull \hbox (12.77779pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 ac-
+ []
+
+
+Overfull \hbox (60.66681pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 tivo(sustancia
+ []
+
+
+Overfull \hbox (28.88893pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 medic-
+ []
+
+
+Overfull \hbox (6.11111pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 i-
+ []
+
+
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 nal)
+ []
+
+
+Overfull \hbox (5.2778pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 y
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (13.44446pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 sus
+ []
+
+
+Overfull \hbox (17.2778pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 aso-
+ []
+
+
+Overfull \hbox (15.55557pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 cia-
+ []
+
+
+Overfull \hbox (26.1667pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 ciones
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 o
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 bi-
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 na-
+ []
+
+
+Overfull \hbox (26.1667pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 ciones
+ []
+
+
+Overfull \hbox (17.27779pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 des-
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 ti-
+ []
+
+
+Overfull \hbox (25.05562pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 nadas
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 a
+ []
+
+
+Overfull \hbox (12.30556pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 ser
+ []
+
+
+Overfull \hbox (15.55559pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 uti-
+ []
+
+
+Overfull \hbox (29.50006pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 lizadas
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 en
+ []
+
+
+Overfull \hbox (17.5278pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 per-
+ []
+
+
+Overfull \hbox (23.44449pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 sonas
+ []
+
+
+Overfull \hbox (15.2778pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 que
+ []
+
+
+Overfull \hbox (23.88895pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 tenga
+ []
+
+
+Overfull \hbox (51.7501pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 propiedades
+ []
+
+
+Overfull \hbox (19.47227pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 para
+ []
+
+
+Overfull \hbox (17.25002pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 pre-
+ []
+
+
+Overfull \hbox (24.47227pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 venir,
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 di-
+ []
+
+
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 ag-
+ []
+
+
+Overfull \hbox (17.83336pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 nos-
+ []
+
+
+Overfull \hbox (22.8056pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 ticar,
+ []
+
+
+Overfull \hbox (28.38896pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 tratar,
+ []
+
+
+Overfull \hbox (27.52786pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 aliviar
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 o
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 cu-
+ []
+
+
+Overfull \hbox (12.83336pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 rar
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 en-
+ []
+
+
+Overfull \hbox (14.75002pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 fer-
+ []
+
+
+Overfull \hbox (40.05563pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10 medades. 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 	\item \bfseries
+                     {ID Medicamento}\mdseries{.- Identificador \'unico para...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (13.18048pt too wide) in paragraph at lines 18--19
+\OT1/cmr/bx/n/10 ID
+ []
+
+
+Overfull \hbox (73.7288pt too wide) in paragraph at lines 18--19
+\OT1/cmr/bx/n/10 Medicamento\OT1/cmr/m/n/10 .-
+ []
+
+
+Overfull \hbox (22.50003pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 Iden-
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 ti-
+ []
+
+
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 fi-
+ []
+
+
+Overfull \hbox (23.91672pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 cador
+ []
+
+
+Overfull \hbox (23.33339pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 unico
+ []
+
+
+Overfull \hbox (19.47227pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 para
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 to-
+ []
+
+
+Overfull \hbox (14.50003pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 dos
+ []
+
+
+Overfull \hbox (5.2778pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 y
+ []
+
+
+Overfull \hbox (20.00005pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 cada
+ []
+
+
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 uno
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (11.72224pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 los
+ []
+
+
+Overfull \hbox (33.88895pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 medica-
+ []
+
+
+Overfull \hbox (21.6667pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 men-
+ []
+
+
+Overfull \hbox (15.61115pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/n/10 tos. 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{description}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \end{description}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> brGlosario.tex
+                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 20 strings out of 493921
+ 363 string characters out of 3147283
+ 53031 words of memory out of 3000000
+ 3410 multiletter control sequences out of 15000+200000
+ 3948 words of font info for 15 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 18i,4n,12p,340b,136s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
