@@ -66,10 +66,21 @@
 \BOOKMARK [2][-]{subsection.5.8.1}{Descripci\363n completa}{section.5.8}% 66
 \BOOKMARK [2][-]{subsection.5.8.2}{Atributos importantes}{section.5.8}% 67
 \BOOKMARK [2][-]{subsection.5.8.3}{Trayectorias del Caso de Uso}{section.5.8}% 68
-\BOOKMARK [0][-]{chapter.6}{Modelo de la Interacci\363n}{}% 69
-\BOOKMARK [1][-]{section.6.1}{Modelo de navegaci\363n}{chapter.6}% 70
-\BOOKMARK [2][-]{subsection.6.1.1}{IULogin Pantalla de Control de Acceso}{section.6.1}% 71
-\BOOKMARK [2][-]{subsection.6.1.2}{IUCaja Pantalla de cajero}{section.6.1}% 72
-\BOOKMARK [2][-]{subsection.6.1.3}{IUProv Pantalla de proveedor}{section.6.1}% 73
-\BOOKMARK [2][-]{subsection.6.1.4}{IUCompra Pantalla de compra}{section.6.1}% 74
-\BOOKMARK [2][-]{subsection.6.1.5}{IUConsulta Pantalla de consulta}{section.6.1}% 75
+\BOOKMARK [1][-]{section.5.9}{CU8 Agendar cita}{chapter.5}% 69
+\BOOKMARK [2][-]{subsection.5.9.1}{Descripci\363n completa}{section.5.9}% 70
+\BOOKMARK [2][-]{subsection.5.9.2}{Atributos importantes}{section.5.9}% 71
+\BOOKMARK [2][-]{subsection.5.9.3}{Trayectorias del Caso de Uso}{section.5.9}% 72
+\BOOKMARK [0][-]{chapter.6}{Modelo de la Interacci\363n}{}% 73
+\BOOKMARK [1][-]{section.6.1}{Modelo de navegaci\363n}{chapter.6}% 74
+\BOOKMARK [2][-]{subsection.6.1.1}{IULogin Pantalla de Control de Acceso}{section.6.1}% 75
+\BOOKMARK [2][-]{subsection.6.1.2}{IUCaja Pantalla de cajero}{section.6.1}% 76
+\BOOKMARK [2][-]{subsection.6.1.3}{IUProv Pantalla de proveedor}{section.6.1}% 77
+\BOOKMARK [2][-]{subsection.6.1.4}{IUCompra Pantalla de compra}{section.6.1}% 78
+\BOOKMARK [2][-]{subsection.6.1.5}{IUConsulta Pantalla de consulta}{section.6.1}% 79
+\BOOKMARK [2][-]{subsection.6.1.6}{IURegistroCita Pantalla de registro de cita}{section.6.1}% 80
+\BOOKMARK [2][-]{subsection.6.1.7}{Objetivo}{section.6.1}% 81
+\BOOKMARK [2][-]{subsection.6.1.8}{Dise\361o}{section.6.1}% 82
+\BOOKMARK [2][-]{subsection.6.1.9}{Salidas}{section.6.1}% 83
+\BOOKMARK [2][-]{subsection.6.1.10}{Entradas}{section.6.1}% 84
+\BOOKMARK [2][-]{subsection.6.1.11}{Comandos}{section.6.1}% 85
+\BOOKMARK [2][-]{subsection.6.1.12}{Mensajes}{section.6.1}% 86

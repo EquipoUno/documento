@@ -67,40 +67,51 @@
 \contentsline {subsection}{\numberline {5.8.1}Descripci\IeC {\'o}n completa}{33}{subsection.5.8.1}
 \contentsline {subsection}{\numberline {5.8.2}Atributos importantes}{33}{subsection.5.8.2}
 \contentsline {subsection}{\numberline {5.8.3}Trayectorias del Caso de Uso}{33}{subsection.5.8.3}
-\contentsline {chapter}{\numberline {6}Modelo de la Interacci\IeC {\'o}n}{34}{chapter.6}
-\contentsline {section}{\numberline {6.1}Modelo de navegaci\IeC {\'o}n}{34}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}IULogin Pantalla de Control de Acceso}{35}{subsection.6.1.1}
-\contentsline {subsubsection}{Objetivo}{35}{section*.2}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{35}{section*.3}
-\contentsline {subsubsection}{Salidas}{35}{section*.4}
-\contentsline {subsubsection}{Entradas}{35}{section*.5}
-\contentsline {subsubsection}{Comandos}{35}{section*.6}
-\contentsline {subsubsection}{Mensajes}{35}{section*.7}
-\contentsline {subsection}{\numberline {6.1.2}IUCaja Pantalla de cajero}{36}{subsection.6.1.2}
-\contentsline {subsubsection}{Objetivo}{36}{section*.8}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{36}{section*.9}
-\contentsline {subsubsection}{Salidas}{36}{section*.10}
-\contentsline {subsubsection}{Entradas}{36}{section*.11}
-\contentsline {subsubsection}{Comandos}{36}{section*.12}
-\contentsline {subsubsection}{Mensajes}{36}{section*.13}
-\contentsline {subsection}{\numberline {6.1.3}IUProv Pantalla de proveedor}{37}{subsection.6.1.3}
-\contentsline {subsubsection}{Objetivo}{37}{section*.14}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{37}{section*.15}
-\contentsline {subsubsection}{Salidas}{37}{section*.16}
-\contentsline {subsubsection}{Entradas}{37}{section*.17}
-\contentsline {subsubsection}{Comandos}{37}{section*.18}
-\contentsline {subsubsection}{Mensajes}{37}{section*.19}
-\contentsline {subsection}{\numberline {6.1.4}IUCompra Pantalla de compra}{37}{subsection.6.1.4}
-\contentsline {subsubsection}{Objetivo}{37}{section*.20}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{38}{section*.21}
-\contentsline {subsubsection}{Salidas}{38}{section*.22}
-\contentsline {subsubsection}{Entradas}{38}{section*.23}
-\contentsline {subsubsection}{Comandos}{38}{section*.24}
-\contentsline {subsubsection}{Mensajes}{39}{section*.25}
-\contentsline {subsection}{\numberline {6.1.5}IUConsulta Pantalla de consulta}{39}{subsection.6.1.5}
-\contentsline {subsubsection}{Objetivo}{39}{section*.26}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{39}{section*.27}
-\contentsline {subsubsection}{Salidas}{39}{section*.28}
-\contentsline {subsubsection}{Entradas}{39}{section*.29}
-\contentsline {subsubsection}{Comandos}{40}{section*.30}
-\contentsline {subsubsection}{Mensajes}{40}{section*.31}
+\contentsline {section}{\numberline {5.9}CU8 Agendar cita}{34}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}Descripci\IeC {\'o}n completa}{34}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}Atributos importantes}{34}{subsection.5.9.2}
+\contentsline {subsection}{\numberline {5.9.3}Trayectorias del Caso de Uso}{34}{subsection.5.9.3}
+\contentsline {chapter}{\numberline {6}Modelo de la Interacci\IeC {\'o}n}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Modelo de navegaci\IeC {\'o}n}{35}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}IULogin Pantalla de Control de Acceso}{36}{subsection.6.1.1}
+\contentsline {subsubsection}{Objetivo}{36}{section*.2}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{36}{section*.3}
+\contentsline {subsubsection}{Salidas}{36}{section*.4}
+\contentsline {subsubsection}{Entradas}{36}{section*.5}
+\contentsline {subsubsection}{Comandos}{36}{section*.6}
+\contentsline {subsubsection}{Mensajes}{36}{section*.7}
+\contentsline {subsection}{\numberline {6.1.2}IUCaja Pantalla de cajero}{37}{subsection.6.1.2}
+\contentsline {subsubsection}{Objetivo}{37}{section*.8}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{37}{section*.9}
+\contentsline {subsubsection}{Salidas}{37}{section*.10}
+\contentsline {subsubsection}{Entradas}{37}{section*.11}
+\contentsline {subsubsection}{Comandos}{37}{section*.12}
+\contentsline {subsubsection}{Mensajes}{37}{section*.13}
+\contentsline {subsection}{\numberline {6.1.3}IUProv Pantalla de proveedor}{38}{subsection.6.1.3}
+\contentsline {subsubsection}{Objetivo}{38}{section*.14}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{38}{section*.15}
+\contentsline {subsubsection}{Salidas}{38}{section*.16}
+\contentsline {subsubsection}{Entradas}{38}{section*.17}
+\contentsline {subsubsection}{Comandos}{38}{section*.18}
+\contentsline {subsubsection}{Mensajes}{38}{section*.19}
+\contentsline {subsection}{\numberline {6.1.4}IUCompra Pantalla de compra}{38}{subsection.6.1.4}
+\contentsline {subsubsection}{Objetivo}{38}{section*.20}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{39}{section*.21}
+\contentsline {subsubsection}{Salidas}{39}{section*.22}
+\contentsline {subsubsection}{Entradas}{39}{section*.23}
+\contentsline {subsubsection}{Comandos}{39}{section*.24}
+\contentsline {subsubsection}{Mensajes}{40}{section*.25}
+\contentsline {subsection}{\numberline {6.1.5}IUConsulta Pantalla de consulta}{40}{subsection.6.1.5}
+\contentsline {subsubsection}{Objetivo}{40}{section*.26}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{40}{section*.27}
+\contentsline {subsubsection}{Salidas}{40}{section*.28}
+\contentsline {subsubsection}{Entradas}{40}{section*.29}
+\contentsline {subsubsection}{Comandos}{41}{section*.30}
+\contentsline {subsubsection}{Mensajes}{41}{section*.31}
+\contentsline {subsection}{\numberline {6.1.6}IURegistroCita Pantalla de registro de cita}{41}{subsection.6.1.6}
+\contentsline {subsection}{\numberline {6.1.7}Objetivo}{41}{subsection.6.1.7}
+\contentsline {subsection}{\numberline {6.1.8}Dise\IeC {\~n}o}{41}{subsection.6.1.8}
+\contentsline {subsection}{\numberline {6.1.9}Salidas}{42}{subsection.6.1.9}
+\contentsline {subsection}{\numberline {6.1.10}Entradas}{42}{subsection.6.1.10}
+\contentsline {subsection}{\numberline {6.1.11}Comandos}{42}{subsection.6.1.11}
+\contentsline {subsection}{\numberline {6.1.12}Mensajes}{42}{subsection.6.1.12}
