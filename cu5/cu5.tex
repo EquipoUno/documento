@@ -1,0 +1,52 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU5}{Pago de transacci\'on}{
+		El cajero podr\'a finalizar transacciones pendientes (consulta o pago por medicamentos) por medio del folio de la misma.
+En el caso de los medicamentos, el cajero sellar\'a el recibo otorgado por el cliente y se lo devoler\'a.
+	}
+		\UCitem{Versión}{1.1}
+		\UCitem{Actor}{Cajero}
+		\UCitem{Propósito}{Que el cajero administre las entradas y salidas de dinero con respecto a los pagos realizados en el d\'ia de citas o farmacia}
+		\UCitem{Resumen}{
+		El cajero tendr\'a la responsabilidad de verificar entradas y salidas de dinero, regstrando pagos para citas o para ventas de medicamentos, recibir\'a las ordenes de pago (tanto de citas como de farmacia), recibir\'a efectivo y devolver\'a a paciente el comprobante de pago}
+		\UCitem{Entradas}{ID transaccion, monto recibo.}
+		\UCitem{Salidas}{Cantidad de dinero a devoler. ERRCambioInsuf. OKDatosMedicamento, ERRCampoVacio.}
+		\UCitem{Precondiciones}{Tener una transacci\'on pendiente en el sistema. }
+		\UCitem{Postcondiciones}{La transacci\'on pasar\'a a un status "Pagado".}
+		\UCitem{Errores}{No hay internet. El servidor está caído.}
+		\UCitem{Autor}{Daniel Alejandro Barros Alvarado}
+		\UCitem{Revisor}{Diana Guadalupe Maldonado Ledo}
+		\UCitem{Status}{En revisi\'on}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] introdue el folio de la receta en la \IUref{IUCaja}{Pantalla de Caja}.
+		\UCpaso[\UCactor] recibe del cliente, un monto de dinero.
+		\UCpaso[\UCactor]introduce la cantidad recibida en el campo "Monto" de la \IUref{IUCaja}
+		\UCpaso El sistema calcular\'a el cambio (en caso de ser necesario)\Trayref{A} 
+		\label{IUConsulta} .
+		\UCpaso[\UCactor] El actor entrega cambio y comprobante de pago.
+		\UCpaso [\UCactor] selecciona la opción "`Aceptar"'.  
+		\UCpaso El sistema actualiza el stock en caja y farmacia. 
+		\UCpaso[] Termina el caso de uso.
+	\end{UCtrayectoria}
+		
+		\begin{UCtrayectoriaA}{A}{El cambio que se requiere entregar no es suficiente en Caja}
+			\UCpaso Muestra el mensaje {\bf ERRCambioInsufucuente}.
+			\UCpaso[\UCactor] oprime el botón \IUbutton{Aceptar}
+			\UCpaso[\UCactor] oprime el botón \IUbutton{Cancelar Pago}
+			\UCPaso[\UCactor] regresa al paso 1 de la trayectoria principal.  
+			\UCpaso[] Termina la trayectoria.
+		\end{UCtrayectoriaA}
+		
+		
+%-------------------------------------- TERMINA descripción del caso de uso.

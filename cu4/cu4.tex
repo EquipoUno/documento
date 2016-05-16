@@ -1,0 +1,54 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU4}{Buscar Medicamento}{
+		El dependiente podr\'a buscar informaci\'on de un medicamento por medio de un ID o de una sustancia activa dados.
+	}
+		\UCitem{Versión}{1.1}
+		\UCitem{Actor}{Dependiente}
+		\UCitem{Propósito}{Que el dependiente pueda conocer la la existencia de un medicamento en almacen, dando opci\'on a buscar por medio de un ID o de sustancia activa.}
+		\UCitem{Resumen}{
+		El dependiente buscar\'a un medicamente por su ID o sustancia activa, y el sistema verificara\'a que el medicamento este registrado y haya existencias en el almac\'en de farmacia y las presentaciones que se tienen registradas. }
+		\UCitem{Entradas}{ID del medicamento o sustancia activa.}
+		\UCitem{Salidas}{Información de medicamento/s. OKDatosMedicamento, ERRCampoVacio.}
+		\UCitem{Precondiciones}{Tener medicamentos registrados en el sistema que coincidan con la búsqueda, al menos uno en el caso de la búsqueda por sustancia activa. }
+		\UCitem{Postcondiciones}{-----}
+		\UCitem{Errores}{El medicamento no esta registrado en el sistema, no hay internet, el servidor está caído.}
+		\UCitem{Autor}{Daniel Alejandro Barros Alvarado}
+		\UCitem{Revisor}{Diana Guadalupe Maldonado Ledo}
+		\UCitem{Status}{En revisi\'on}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] le indica al sistema que desea acceder a la acci\'on de consulta, seleccionando la opcion "`Buscar"' del men\'u superior \IUref{IUCompra}{Pantalla de Compra}.
+		\UCpaso El sistema muestra la \IUref{IUConsulta}{Pantalla de Consulta}\label{IUConsulta} .
+		\UCpaso[\UCactor] El actor ingresa el ID del medicamento o sustancia activa a consultar. 
+		\UCpaso El sistema muestra los medicamentos por medio del campo de b\'usqueda seleccionado \Trayref{A} \Trayref{B}
+		\UCpaso [\UCactor] selecciona la opción "`Aceptar"'. 
+		\UCpaso[] Termina el caso de uso.
+	\end{UCtrayectoria}
+		
+		\begin{UCtrayectoriaA}{A}{El medicamento buscado no est\'a registrado en el sistema o es un criterio inv\'alido}
+			\UCpaso Muestra el mensaje {\bf ERRDatosMedicamento}.
+			\UCpaso[\UCactor] oprime el botón \IUbutton{Aceptar}
+			\UCPaso[\UCactor] regresa al paso 1 de la trayectoria principal.  
+			\UCpaso[] Termina la trayectoria.
+		\end{UCtrayectoriaA}
+		
+		
+		\begin{UCtrayectoriaB}{B}{El campo vac\'io}
+			\UCpaso Muestra el mensaje {\bf ERRCamposInva}.
+			\UCpaso[\UCactor] oprime el botón \IUbutton{Aceptar}
+			\UCPaso[\UCactor] regresa al paso 1 de la trayectoria principal.  
+			\UCpaso[] Termina la trayectoria.
+		\end{UCtrayectoriaB}
+		
+%-------------------------------------- TERMINA descripción del caso de uso.
