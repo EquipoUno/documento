@@ -9,19 +9,28 @@ El sistema cuenta con dos combobox en los cuales, se muestra el desglose del cal
 \UCitem{Salidas}{Mensaje de confirmación de cita o de cambio de cita.}
 \UCitem{Precondiciones}{Estar registrado en el sistema, no contar con alguna cita previa.}
 \UCitem{Postcondiciones}{Se mostrara la información en pantalla.}
-\UCitem{Errores}{Ya existe una cita agendada en ese horario y fecha {\bf ERRCita}”No se puede generar la cita, ya hay una cita en ese horario en los consultorios”. {\bf ERRConLLen}”Favor de seleccionar otro horario.”}. 
+\UCitem{Errores}{Ya existe una cita agendada en ese horario y fecha {\bf ERRCita}”No se puede generar la cita, ya hay una cita en ese horario en los consultorios”. {\bf ERRConLLen}”Favor de seleccionar otro horario.”}
 \UCitem{Autor}{Barrios Alvarado Daniel Alejandro}
 \UCitem{Revisor}{Ricardo Cuéllar Sánchez}
-\UCitem{Status}{Espera de revisión}
+\UCitem{Status}{Terminado}
 \end{UseCase}
 
 \begin{UCtrayectoria}{Principal}
-\UCpaso[\UCactor] El actor selecciona la opción “Fecha” para seleccionar el día que desea la cita y la hora; después deberá presionar la opción “Revisar Cupo”.
-\UCpaso[\UCactor] El sistema muestra la pantalla de Confirmacion de Cita. 
+\UCpaso[\UCactor] Ingresa la fecha y hora que desea su cita.\IUref{IUCita}{Pantalla para generar cita}
+\UCpaso[\UCactor] Oprime el \IUbutton{Revisar cupo}.
+\UCpaso El sistema muestra el mensaje "Hay cupo en el consultorio: [Número de consultorio]".
+\UCpaso[\UCactor] Oprime el botón \IUbutton{Confirmar}.\Trayref{A}\Trayref{B}\Trayref{C}
+\UCpaso El sistema muestra el mensaje "Descar la el recibo que se te proporcionará. Sin el no podrás pagar tu consulta".
+\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}.
+\UCpaso El sistema genera el PDF con los datos de la cita. 
 \end{UCtrayectoria}
 
-\begin{UCtrayectoriaA}{A}{Horario y fecha ya ocupada.}
-\UCpaso Muestra el Mensaje {\bf MSG1-}``Favor de seleccionar otro horario o fecha, los consultorios no están disponibles ” [{\em ConsultorioLLeno }].
-\UCpaso[\UCactor] Oprime el botón \IUbutton{Escoger otro horario}, regresa al paso anterior [{\em CU8.1}]. 
-\UCpaso[] Termina la trayectoria.
+\begin{UCtrayectoriaA}{A}{El usuario presiona el botón \IUbutton{Escoger otro horario}}
+\UCpaso[\UCactor] Oprime el botón \IUbutton{Escoger otro horario}. 
+\UCpaso El sistema muestra de nuevo los campos de texto y cierra el mensaje, regresa al paso anterior [{\em CU8.1}]. 
+\end{UCtrayectoriaA}
+
+\begin{UCtrayectoriaA}{B}{La fecha  y hora no esta disponible.}
+\UCpaso El sistema muestra mensaje "La cita ya fue generada". 
+\UCpaso[\UCactor] Oprime el botón \IUbutton{Aceptar}, regresa al paso anterior[{\em CU8.1}].
 \end{UCtrayectoriaA}

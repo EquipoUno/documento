@@ -29,11 +29,23 @@
 
 	\begin{UCtrayectoria}{Principal}
 		\UCpaso[\UCactor] Introduce su Nombre de usuario y Contraseña en el sistema vía la  \IUref{IULogin}{Pantalla de Control de Acceso}\label{CU1_1Login}.
-		\UCpaso El sistema verifica que exista cuenta de tipo "`Dependiente"' con el nombre de usuario ingresado.
-		\UCpaso El sistema verifica que la contraseña ingresada coincida con la de la cuenta encontrada.
+		\UCpaso El sistema verifica que exista cuenta de tipo "`Dependiente"' con el nombre de usuario ingresado.\Trayref{A}
+		\UCpaso El sistema verifica que la contraseña ingresada coincida con la de la cuenta encontrada.\Trayref{B}
 		\UCpaso Se despliega en pantalla la \IUref{IUCompra}{Pantalla de Compra}.	
 	\end{UCtrayectoria}
-		
+	
+	\begin{UCtrayectoriaA}{A}{El usuario no existe en la Base de Datos}
+			\UCpaso El sistema muestra mensaje de error {\bf ERRusuarioInexistente-}."El usuario no existe en la Base de Datos".
+			\UCpaso El sistema muestra mensaje con datos de contacto del directivo.
+			\UCpaso[\UCactor]Oprime el botón \IUbutton{Aceptar}.
+			\UCpaso El sistema limpia todos los datos. 
+		\end{UCtrayectoriaA}
+	
+	\begin{UCtrayectoriaA}{B}{Los datos que ingresa el usuario son incorrectos}
+			\UCpaso El sistema muestra mensaje de error {\bf ERRDatosIncorrectos-}."Los datos ingresados son incorrectos".
+			\UCpaso[\UCactor]Oprime el botón \IUbutton{Aceptar}.
+			\UCpaso El sistema limpia todos los datos. 
+		\end{UCtrayectoriaA}
 		
 		
 %-------------------------------------- TERMINA descripción del caso de uso.
