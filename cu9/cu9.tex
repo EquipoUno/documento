@@ -1,0 +1,50 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU9}{Registrar Medicamento}{
+		Un dependiente se encargará de agregar los medicamentos nuevos que llegan a la farmacia, de los cuales no tienen ningún registro.
+	}
+		\UCitem{Versión}{1.1}
+		\UCitem{Actor}{Dependiente}
+		\UCitem{Propósito}{Que el actor pueda registrar el medicamento nuevo que se está agregando a la farmacia}
+		\UCitem{Resumen}{
+		Se ingresa el ID junto con el nombre y sustancia activa, el actor puede registrar el medicamento en la base de datos  }
+		\UCitem{Entradas}{ID, nombre de médicamento y sustancia activa.}
+		\UCitem{Salidas}{Información del nuevo medicamento, confirmación de agregación}
+		\UCitem{Precondiciones}{El médicamento que se desea registrar debe tener un ID designado previamente por el actor}
+		\UCitem{Postcondiciones}{ La base de datos  guarda el nuevo medicamento}
+		\UCitem{Errores}{El medicamento ya está registrado en el sistema }
+		\UCitem{Autor}{Ricardo Cuéllar Sánchez}
+		\UCitem{Revisor}{Gerardo Aramis Cabello Acosta}
+		\UCitem{Status}{Por revisar}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Registro de Medicamentos}
+		\UCpaso[\UCactor] Introduce el ID,nombre y la sustancia activa del medicamento\IUref{IURegMed}{Pantalla de Registro de Medicamentos}\label{CU9RegistroMedicamentos}.
+		\UCpaso[\UCactor] oprime el botón \IUbutton{Agregar}.\Trayref{A}
+		\UCpaso El sistema muestra el mensaje ``medicamento agregado éxitosamente".\Trayref{B}
+		\UCpaso El sistema agrega el medicamnto a la Base de Datos.{\bf OKStock}
+		\UCpaso[\UCactor] oprime el botón\IUbutton{Aceptar}.
+	\end{UCtrayectoria}
+		
+		\begin{UCtrayectoriaA}{A}{El usuario oprime el botón \IUbutton{Limpiar todo}}
+			\UCpaso[\UCactor]Oprime el botón \IUbutton{Limpiar todo}{\bf ERRMedReg-}
+			\UCpaso El sistema limpia todos los campos.  
+		\end{UCtrayectoriaA}
+		
+		
+	\begin{UCtrayectoriaA}{B}{El medicamento no ha sido agregado}
+			\UCpaso El sistema muestra mensaje de error {\bf ERRMedicamentoExistente-}.El medicamento ya existe en la Base de Datos.
+			\UCpaso[\UCactor]Oprime el botón \IUbutton{Aceptar}.
+			\UCpaso El sistema limpia todos los datos. 
+		\end{UCtrayectoriaA}
+		
+%-------------------------------------- TERMINA descripción del caso de uso.

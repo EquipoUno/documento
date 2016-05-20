@@ -1,0 +1,61 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU10}{Registrar Personal}{
+		El director de la clínica se encargará de registrar al personal nuevo dentro de la clínica (dependiente,cajero,médico y proveedor).
+	}
+		\UCitem{Versión}{1.1}
+		\UCitem{Actor}{Directivo}
+		\UCitem{Propósito}{Que el actor pueda registrar al personal nuevo y asignarlo a su respectiva área}
+		\UCitem{Resumen}{
+		Se ingresa el nombre del usuario y su contraseña,que usará cada uno del personal,el actor puede registrar al personal nuevo en la Base de Datos
+		 }
+		\UCitem{Entradas}{Nombre de usuario y contraseña}
+		\UCitem{Salidas}{Pantalla de confrmación con datos escritos en ella}
+		\UCitem{Precondiciones}{El personal por argegar debe tener ya un rol designado}
+		\UCitem{Postcondiciones}{ La base de datos  guarda al nuevo personal}
+		\UCitem{Errores}{El personal ya está registrado, las contraseñas ingresadas no coinciden.}
+		\UCitem{Autor}{Ricardo Cuéllar Sánchez}
+		\UCitem{Revisor}{Gerardo Aramis Cabello Acosta}
+		\UCitem{Status}{Por revisar}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Registro de Personal}
+		\UCpaso[\UCactor] Ingresa nombre de usuario y contraseña que desea resgistrar. \IUref{IURegPersonal}{Pantalla de Registro de Personal}\label{CU10RegistroPersonal}.
+		\UCpaso[\UCactor] Confirma la contraseña.
+		\UCpaso El sistema válida si la contraseña escrita coincide con la primera.\Trayref{A}
+		\UCpaso[\UCactor]Selecciona el rol que tomará el nuevo usuario.
+		\UCpaso[\UCactor] Oprime el botón\IUbutton{Agregar}.\Trayref{B}
+		\UCpaso El sistema manda el mensaje ``¿Seguro que quiere agregar a [Nombre] en [Área]?"\Trayref{C}
+		\UCpaso[\UCactor] Presiona el botón \IUbutton{Aceptar}.
+		\UCpaso El sistema muestra el mensaje ``Usuario: [Nombre] ha sido agregado éxitosamente a [Área]".
+		\UCpaso El sistema guarda al nuevo usuario en la Base de Datos. 
+		\UCpaso[\UCactor]Oprime el botón \IUbutton{Aceptar}.
+	\end{UCtrayectoria}
+		
+		\begin{UCtrayectoriaA}{A}{Las contraseñas no coinciden.}
+			\UCpaso El sistema muestra mensaje de error{\bf ERRContraseñaSinCoin-}
+			\UCpaso[\UCactor]Oprime el botón \IUbutton{Aceptar}.
+		\end{UCtrayectoriaA}
+		
+		
+	\begin{UCtrayectoriaA}{B}{El usuario ya existe en la Base de Datos}
+			\UCpaso El sistema manda el mensaje {\bf ERRUsuarioExistente}
+			\UCpaso[\UCactor]Oprime el botón \IUbutton{Aceptar}.
+			\UCpaso El sistema limpia todos los datos. 
+		\end{UCtrayectoriaA}
+		
+		\begin{UCtrayectoriaA}{C}{}
+			\UCpaso[\UCactor]Oprime el botón \IUbutton{Cancelar}
+			\UCpaso El sistema limpia todos los datos de la pantalla. 
+		\end{UCtrayectoriaA}
+		
+%-------------------------------------- TERMINA descripción del caso de uso.
