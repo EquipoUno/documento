@@ -1,0 +1,48 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU13}{Crear Receta}{
+		El m\'edico crear\'a la receta medica para el paciente que haya terminado la consulta.
+	}
+		\UCitem{Versión}{1.1}
+		\UCitem{Actor}{M\'edico}
+		\UCitem{Propósito}{Que el m\'edico realize la creaci\'on de la receta medica una vez que la consulta medica con el paciente haya terminado y el diagnostico haya sido determinado.}
+		\UCitem{Resumen}{
+		El m\'edico se encargara de seleccionar la opcion de "Crear Receta" en la que podr\'a ingresar el diagnostico del paciente, los datos de este y datos del paciente, as\'i como ingresar los medicamentos que seran prescritos al paciente para su tratamiento.}
+		\UCitem{Entradas}{Diagnostico, Medicamentos (ID o sustancia activa)}
+		\UCitem{Salidas}{Receta expedida (archivo PDF)}
+		\UCitem{Precondiciones}{Haber tenido al paciente en horario de consulta ya prevista, diagnostico realizado.}
+		\UCitem{Postcondiciones}{Para abastecer la receta se deber\'a presentar en farmacia.}
+		\UCitem{Errores}{La receta no fue expedida, error del sistema.}
+		\UCitem{Autor}{Diana Guadalupe Maldonado Ledo}
+		\UCitem{Revisor}{Gerardo Aramis Cabello Acosta}
+		\UCitem{Status}{Espera de revision}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] le indica al sistema que desea acceder a la acci\'on de crear receta medica, seleccionando la opcion "`Crear Receta"' del men\'u \IUref{IUMedico}{Pantalla de M\'edico}.
+		\UCpaso El sistema muestra la \IUref{IUCreaReceta}{Pantalla de Crear Receta}\label{IUConsulta} .
+		\UCpaso[\UCactor] El actor ingresa datos del paciente, del m\'edico y medicamentos prescritos para tratamiento del paciente. 
+		\UCpaso El sistema guarda en la BD la receta y verifica registro de los medicamentos y valida los mismos. \Trayref{A}
+		\UCpaso [\UCactor] selecciona la opción "`Aceptar"'. 
+		\UCpaso[] Termina el caso de uso.
+	\end{UCtrayectoria}
+		
+		\begin{UCtrayectoriaA}{A}{Receta con datos invalidos}
+			\UCpaso Muestra el mensaje {\bf ERRRecetaInvalida} "La receta cuenta con campos de busqueda invalidos".
+			\UCpaso[\UCactor] oprime el botón \IUbutton{Aceptar}
+			\UCpaso[\UCactor] regresa al paso 1 de la trayectoria principal.  
+			\UCpaso[] Termina la trayectoria.
+		\end{UCtrayectoriaA}
+		
+		
+		
+%-------------------------------------- TERMINA descripción del caso de uso.

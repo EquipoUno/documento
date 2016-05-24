@@ -1,0 +1,48 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU13}{Crear Receta}{
+		El m\'edico podr\'a crear un expediente en caso de que el paciente sea nuevo y no exista su historial en los registros de la cl\'inica, de esta manera tener un control sobre su historial.
+	}
+		\UCitem{Versión}{1.1}
+		\UCitem{Actor}{M\'edico}
+		\UCitem{Propósito}{Que el m\'edico se encargue de crear expedientes medicos de los pacientes que ingresaron por primera vez a la clinica.}
+		\UCitem{Resumen}{
+		El m\'edico seleccionar\'a la opci\'on para crear un expediente, solo si existe un paciente nuevo y de esta manera tener control sobre su historial cl\'inico, el paciente unicamente tendr\'a que proporcionar datos personales y familiares b\'asicos}
+		\UCitem{Entradas}{Datos Personales.}
+		\UCitem{Salidas}{Expediente terminado}
+		\UCitem{Precondiciones}{No tener un expediente m\'edico en la cl\'inica, M\'edico deber\'a tener cuenta vigente.}
+		\UCitem{Postcondiciones}{Una vez creado el expedicnete, unicamente el m\'edico encargado podr\'a hacer alguna modificaci\'on a dicho expediente.}
+		\UCitem{Errores}{El paciente ya cuenta con un expediente m\'edico registrado en el sistema.}
+		\UCitem{Autor}{Diana Guadalupe Maldonado Ledo}
+		\UCitem{Revisor}{Gerardo Aramis Cabello Acosta}
+		\UCitem{Status}{Espera de revision}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] le indica al sistema que desea acceder a la acci\'on de crear expediente medico, seleccionando la opcion "`Crear Expediente"' del men\'u \IUref{IUMedico}{Pantalla de M\'edico}.
+		\UCpaso El sistema muestra la \IUref{IUCreaExpediente}{Pantalla de Crear Expediente}\label{IUConsulta} .
+		\UCpaso[\UCactor] El actor ingresa datos personales del paciente. 
+		\UCpaso El sistema guarda en la BD los datos y valida los mismos. \Trayref{A}
+		\UCpaso [\UCactor] selecciona la opción "`Terminar"'. 
+		\UCpaso[] Termina el caso de uso.
+	\end{UCtrayectoria}
+		
+		\begin{UCtrayectoriaA}{A}{Ya existe un expediente medico registrado}
+			\UCpaso Muestra el mensaje {\bf ERRExpExiste} "El Expediente que desea crear, ya existe".
+			\UCpaso[\UCactor] oprime el botón \IUbutton{Aceptar}
+			\UCpaso[\UCactor] regresa al paso 1 de la trayectoria principal.  
+			\UCpaso[] Termina la trayectoria.
+		\end{UCtrayectoriaA}
+		
+		
+		
+%-------------------------------------- TERMINA descripción del caso de uso.

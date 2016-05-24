@@ -79,47 +79,59 @@
 \contentsline {subsection}{\numberline {5.11.1}Descripci\IeC {\'o}n completa}{39}{subsection.5.11.1}
 \contentsline {subsection}{\numberline {5.11.2}Atributos importantes}{39}{subsection.5.11.2}
 \contentsline {subsection}{\numberline {5.11.3}Trayectorias del Caso de Uso}{39}{subsection.5.11.3}
-\contentsline {chapter}{\numberline {6}Modelo de la Interacci\IeC {\'o}n}{41}{chapter.6}
-\contentsline {section}{\numberline {6.1}Modelo de navegaci\IeC {\'o}n}{41}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}IULogin Pantalla de Control de Acceso}{42}{subsection.6.1.1}
-\contentsline {subsubsection}{Objetivo}{42}{section*.2}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{42}{section*.3}
-\contentsline {subsubsection}{Salidas}{42}{section*.4}
-\contentsline {subsubsection}{Entradas}{42}{section*.5}
-\contentsline {subsubsection}{Comandos}{42}{section*.6}
-\contentsline {subsubsection}{Mensajes}{42}{section*.7}
-\contentsline {subsection}{\numberline {6.1.2}IUCaja Pantalla de cajero}{43}{subsection.6.1.2}
-\contentsline {subsubsection}{Objetivo}{43}{section*.8}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{43}{section*.9}
-\contentsline {subsubsection}{Salidas}{43}{section*.10}
-\contentsline {subsubsection}{Entradas}{43}{section*.11}
-\contentsline {subsubsection}{Comandos}{43}{section*.12}
-\contentsline {subsubsection}{Mensajes}{43}{section*.13}
-\contentsline {subsection}{\numberline {6.1.3}IUProv Pantalla de proveedor}{44}{subsection.6.1.3}
-\contentsline {subsubsection}{Objetivo}{44}{section*.14}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{44}{section*.15}
-\contentsline {subsubsection}{Salidas}{44}{section*.16}
-\contentsline {subsubsection}{Entradas}{44}{section*.17}
-\contentsline {subsubsection}{Comandos}{44}{section*.18}
-\contentsline {subsubsection}{Mensajes}{44}{section*.19}
-\contentsline {subsection}{\numberline {6.1.4}IUCompra Pantalla de compra}{44}{subsection.6.1.4}
-\contentsline {subsubsection}{Objetivo}{44}{section*.20}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{45}{section*.21}
-\contentsline {subsubsection}{Salidas}{45}{section*.22}
-\contentsline {subsubsection}{Entradas}{45}{section*.23}
-\contentsline {subsubsection}{Comandos}{45}{section*.24}
-\contentsline {subsubsection}{Mensajes}{46}{section*.25}
-\contentsline {subsection}{\numberline {6.1.5}IUConsulta Pantalla de consulta}{46}{subsection.6.1.5}
-\contentsline {subsubsection}{Objetivo}{46}{section*.26}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{46}{section*.27}
-\contentsline {subsubsection}{Salidas}{46}{section*.28}
-\contentsline {subsubsection}{Entradas}{46}{section*.29}
-\contentsline {subsubsection}{Comandos}{47}{section*.30}
-\contentsline {subsubsection}{Mensajes}{47}{section*.31}
-\contentsline {subsection}{\numberline {6.1.6}IURegistroCita Pantalla de registro de cita}{47}{subsection.6.1.6}
-\contentsline {subsection}{\numberline {6.1.7}Objetivo}{47}{subsection.6.1.7}
-\contentsline {subsection}{\numberline {6.1.8}Dise\IeC {\~n}o}{47}{subsection.6.1.8}
-\contentsline {subsection}{\numberline {6.1.9}Salidas}{48}{subsection.6.1.9}
-\contentsline {subsection}{\numberline {6.1.10}Entradas}{48}{subsection.6.1.10}
-\contentsline {subsection}{\numberline {6.1.11}Comandos}{48}{subsection.6.1.11}
-\contentsline {subsection}{\numberline {6.1.12}Mensajes}{48}{subsection.6.1.12}
+\contentsline {section}{\numberline {5.12}CU13 Crear Receta}{41}{section.5.12}
+\contentsline {subsection}{\numberline {5.12.1}Descripci\IeC {\'o}n completa}{41}{subsection.5.12.1}
+\contentsline {subsection}{\numberline {5.12.2}Atributos importantes}{41}{subsection.5.12.2}
+\contentsline {subsection}{\numberline {5.12.3}Trayectorias del Caso de Uso}{41}{subsection.5.12.3}
+\contentsline {section}{\numberline {5.13}CU12 Modificar Expediente}{43}{section.5.13}
+\contentsline {subsection}{\numberline {5.13.1}Descripci\IeC {\'o}n completa}{43}{subsection.5.13.1}
+\contentsline {subsection}{\numberline {5.13.2}Atributos importantes}{43}{subsection.5.13.2}
+\contentsline {subsection}{\numberline {5.13.3}Trayectorias del Caso de Uso}{43}{subsection.5.13.3}
+\contentsline {section}{\numberline {5.14}CU13 Crear Receta}{45}{section.5.14}
+\contentsline {subsection}{\numberline {5.14.1}Descripci\IeC {\'o}n completa}{45}{subsection.5.14.1}
+\contentsline {subsection}{\numberline {5.14.2}Atributos importantes}{45}{subsection.5.14.2}
+\contentsline {subsection}{\numberline {5.14.3}Trayectorias del Caso de Uso}{45}{subsection.5.14.3}
+\contentsline {chapter}{\numberline {6}Modelo de la Interacci\IeC {\'o}n}{47}{chapter.6}
+\contentsline {section}{\numberline {6.1}Modelo de navegaci\IeC {\'o}n}{47}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}IULogin Pantalla de Control de Acceso}{48}{subsection.6.1.1}
+\contentsline {subsubsection}{Objetivo}{48}{section*.2}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{48}{section*.3}
+\contentsline {subsubsection}{Salidas}{48}{section*.4}
+\contentsline {subsubsection}{Entradas}{48}{section*.5}
+\contentsline {subsubsection}{Comandos}{48}{section*.6}
+\contentsline {subsubsection}{Mensajes}{48}{section*.7}
+\contentsline {subsection}{\numberline {6.1.2}IUCaja Pantalla de cajero}{49}{subsection.6.1.2}
+\contentsline {subsubsection}{Objetivo}{49}{section*.8}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{49}{section*.9}
+\contentsline {subsubsection}{Salidas}{49}{section*.10}
+\contentsline {subsubsection}{Entradas}{49}{section*.11}
+\contentsline {subsubsection}{Comandos}{49}{section*.12}
+\contentsline {subsubsection}{Mensajes}{49}{section*.13}
+\contentsline {subsection}{\numberline {6.1.3}IUProv Pantalla de proveedor}{50}{subsection.6.1.3}
+\contentsline {subsubsection}{Objetivo}{50}{section*.14}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{50}{section*.15}
+\contentsline {subsubsection}{Salidas}{50}{section*.16}
+\contentsline {subsubsection}{Entradas}{50}{section*.17}
+\contentsline {subsubsection}{Comandos}{50}{section*.18}
+\contentsline {subsubsection}{Mensajes}{50}{section*.19}
+\contentsline {subsection}{\numberline {6.1.4}IUCompra Pantalla de compra}{50}{subsection.6.1.4}
+\contentsline {subsubsection}{Objetivo}{50}{section*.20}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{51}{section*.21}
+\contentsline {subsubsection}{Salidas}{51}{section*.22}
+\contentsline {subsubsection}{Entradas}{51}{section*.23}
+\contentsline {subsubsection}{Comandos}{51}{section*.24}
+\contentsline {subsubsection}{Mensajes}{52}{section*.25}
+\contentsline {subsection}{\numberline {6.1.5}IUConsulta Pantalla de consulta}{52}{subsection.6.1.5}
+\contentsline {subsubsection}{Objetivo}{52}{section*.26}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{52}{section*.27}
+\contentsline {subsubsection}{Salidas}{52}{section*.28}
+\contentsline {subsubsection}{Entradas}{52}{section*.29}
+\contentsline {subsubsection}{Comandos}{53}{section*.30}
+\contentsline {subsubsection}{Mensajes}{53}{section*.31}
+\contentsline {subsection}{\numberline {6.1.6}IURegistroCita Pantalla de registro de cita}{53}{subsection.6.1.6}
+\contentsline {subsection}{\numberline {6.1.7}Objetivo}{53}{subsection.6.1.7}
+\contentsline {subsection}{\numberline {6.1.8}Dise\IeC {\~n}o}{53}{subsection.6.1.8}
+\contentsline {subsection}{\numberline {6.1.9}Salidas}{54}{subsection.6.1.9}
+\contentsline {subsection}{\numberline {6.1.10}Entradas}{54}{subsection.6.1.10}
+\contentsline {subsection}{\numberline {6.1.11}Comandos}{54}{subsection.6.1.11}
+\contentsline {subsection}{\numberline {6.1.12}Mensajes}{54}{subsection.6.1.12}

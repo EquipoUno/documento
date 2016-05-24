@@ -1,0 +1,48 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU12}{Modificar Expediente}{
+		El m\'edico podr\'a modificar un expediente en caso solo para usos medicos y que se requiera el seguimiento de un tratamiento.
+	}
+		\UCitem{Versión}{1.1}
+		\UCitem{Actor}{M\'edico}
+		\UCitem{Propósito}{Que el m\'edico se encargue de modificar expedientes medicos de los pacientes que necesitan de observaciones, seguimiento o tratamiento.}
+		\UCitem{Resumen}{
+		El m\'edico seleccionar\'a la opci\'on para modificar un expediente, solo si existe la necesidad de manetener un seguimiento, tratamiento o simplemente para agregar observaciones de un paciente.}
+		\UCitem{Entradas}{Observaciones o Tratamiento}
+		\UCitem{Salidas}{Expediente actualizado}
+		\UCitem{Precondiciones}{M\'edico deber\'a tener cuenta vigente.}
+		\UCitem{Postcondiciones}{---}
+		\UCitem{Errores}{La cuenta del medico no este habilitada, caida del sistema, fallas electricas.}
+		\UCitem{Autor}{Diana Guadalupe Maldonado Ledo}
+		\UCitem{Revisor}{Ricardo Cuellar Sanchez}
+		\UCitem{Status}{Espera de revision}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] le indica al sistema que desea acceder a la acci\'on de modificar expediente medico, seleccionando la opcion "`Modificar Expediente"' del men\'u \IUref{IUMedico}{Pantalla de M\'edico}.
+		\UCpaso El sistema muestra la \IUref{IUModificaExpediente}{Pantalla de Modificar Expediente}\label{IUConsulta} .
+		\UCpaso[\UCactor] ingresa observaciones o tratamiento a seguir del paciente a quien atendi\'o en consulta. 
+		\UCpaso El sistema guarda en la BD los datos agregados y valida los mismos. \Trayref{A}
+		\UCpaso [\UCactor] selecciona la opción "`Guardar"'. 
+		\UCpaso[] Termina el caso de uso.
+	\end{UCtrayectoria}
+		
+		\begin{UCtrayectoriaA}{A}{Modificacion candelada}
+			\UCpaso Muestra el mensaje {\bf ERRMdoficiacionExpedienteCancelada} "Usted ha cancelado la operacion".
+			\UCpaso[\UCactor] oprime el botón \IUbutton{Aceptar}
+			\UCpaso[\UCactor] regresa al paso 1 de la trayectoria principal.  
+			\UCpaso[] Termina la trayectoria.
+		\end{UCtrayectoriaA}
+		
+		
+		
+%-------------------------------------- TERMINA descripción del caso de uso.

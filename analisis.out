@@ -78,17 +78,29 @@
 \BOOKMARK [2][-]{subsection.5.11.1}{Descripci\363n completa}{section.5.11}% 78
 \BOOKMARK [2][-]{subsection.5.11.2}{Atributos importantes}{section.5.11}% 79
 \BOOKMARK [2][-]{subsection.5.11.3}{Trayectorias del Caso de Uso}{section.5.11}% 80
-\BOOKMARK [0][-]{chapter.6}{Modelo de la Interacci\363n}{}% 81
-\BOOKMARK [1][-]{section.6.1}{Modelo de navegaci\363n}{chapter.6}% 82
-\BOOKMARK [2][-]{subsection.6.1.1}{IULogin Pantalla de Control de Acceso}{section.6.1}% 83
-\BOOKMARK [2][-]{subsection.6.1.2}{IUCaja Pantalla de cajero}{section.6.1}% 84
-\BOOKMARK [2][-]{subsection.6.1.3}{IUProv Pantalla de proveedor}{section.6.1}% 85
-\BOOKMARK [2][-]{subsection.6.1.4}{IUCompra Pantalla de compra}{section.6.1}% 86
-\BOOKMARK [2][-]{subsection.6.1.5}{IUConsulta Pantalla de consulta}{section.6.1}% 87
-\BOOKMARK [2][-]{subsection.6.1.6}{IURegistroCita Pantalla de registro de cita}{section.6.1}% 88
-\BOOKMARK [2][-]{subsection.6.1.7}{Objetivo}{section.6.1}% 89
-\BOOKMARK [2][-]{subsection.6.1.8}{Dise\361o}{section.6.1}% 90
-\BOOKMARK [2][-]{subsection.6.1.9}{Salidas}{section.6.1}% 91
-\BOOKMARK [2][-]{subsection.6.1.10}{Entradas}{section.6.1}% 92
-\BOOKMARK [2][-]{subsection.6.1.11}{Comandos}{section.6.1}% 93
-\BOOKMARK [2][-]{subsection.6.1.12}{Mensajes}{section.6.1}% 94
+\BOOKMARK [1][-]{section.5.12}{CU13 Crear Receta}{chapter.5}% 81
+\BOOKMARK [2][-]{subsection.5.12.1}{Descripci\363n completa}{section.5.12}% 82
+\BOOKMARK [2][-]{subsection.5.12.2}{Atributos importantes}{section.5.12}% 83
+\BOOKMARK [2][-]{subsection.5.12.3}{Trayectorias del Caso de Uso}{section.5.12}% 84
+\BOOKMARK [1][-]{section.5.13}{CU12 Modificar Expediente}{chapter.5}% 85
+\BOOKMARK [2][-]{subsection.5.13.1}{Descripci\363n completa}{section.5.13}% 86
+\BOOKMARK [2][-]{subsection.5.13.2}{Atributos importantes}{section.5.13}% 87
+\BOOKMARK [2][-]{subsection.5.13.3}{Trayectorias del Caso de Uso}{section.5.13}% 88
+\BOOKMARK [1][-]{section.5.14}{CU13 Crear Receta}{chapter.5}% 89
+\BOOKMARK [2][-]{subsection.5.14.1}{Descripci\363n completa}{section.5.14}% 90
+\BOOKMARK [2][-]{subsection.5.14.2}{Atributos importantes}{section.5.14}% 91
+\BOOKMARK [2][-]{subsection.5.14.3}{Trayectorias del Caso de Uso}{section.5.14}% 92
+\BOOKMARK [0][-]{chapter.6}{Modelo de la Interacci\363n}{}% 93
+\BOOKMARK [1][-]{section.6.1}{Modelo de navegaci\363n}{chapter.6}% 94
+\BOOKMARK [2][-]{subsection.6.1.1}{IULogin Pantalla de Control de Acceso}{section.6.1}% 95
+\BOOKMARK [2][-]{subsection.6.1.2}{IUCaja Pantalla de cajero}{section.6.1}% 96
+\BOOKMARK [2][-]{subsection.6.1.3}{IUProv Pantalla de proveedor}{section.6.1}% 97
+\BOOKMARK [2][-]{subsection.6.1.4}{IUCompra Pantalla de compra}{section.6.1}% 98
+\BOOKMARK [2][-]{subsection.6.1.5}{IUConsulta Pantalla de consulta}{section.6.1}% 99
+\BOOKMARK [2][-]{subsection.6.1.6}{IURegistroCita Pantalla de registro de cita}{section.6.1}% 100
+\BOOKMARK [2][-]{subsection.6.1.7}{Objetivo}{section.6.1}% 101
+\BOOKMARK [2][-]{subsection.6.1.8}{Dise\361o}{section.6.1}% 102
+\BOOKMARK [2][-]{subsection.6.1.9}{Salidas}{section.6.1}% 103
+\BOOKMARK [2][-]{subsection.6.1.10}{Entradas}{section.6.1}% 104
+\BOOKMARK [2][-]{subsection.6.1.11}{Comandos}{section.6.1}% 105
+\BOOKMARK [2][-]{subsection.6.1.12}{Mensajes}{section.6.1}% 106

@@ -24,12 +24,13 @@
 		\UCitem{Postcondiciones}{ La base de datos  guarda al nuevo personal}
 		\UCitem{Errores}{El personal ya está registrado, las contraseñas ingresadas no coinciden.}
 		\UCitem{Autor}{Ricardo Cuéllar Sánchez}
-		\UCitem{Revisor}{Gerardo Aramis Cabello Acosta}
-		\UCitem{Status}{Por revisar}
+		\UCitem{Revisor}{Maldonado Ledo Diana Guadalupe}
+		\UCitem{Status}{Terminado}
 	\end{UseCase}
 
 	\begin{UCtrayectoria}{Registro de Personal}
-		\UCpaso[\UCactor] Ingresa nombre de usuario y contraseña que desea resgistrar. \IUref{IURegPersonal}{Pantalla de Registro de Personal}\label{CU10RegistroPersonal}.
+	\UCpaso[\UCactor] selecciona la opci\'on "Agregar Personal"  de la \IUref{IURegPersonal}{Pantalla de Registro de Personal} \label{CU10RegistroPersonal}.
+		\UCpaso[\UCactor] Ingresa nombre de usuario y contraseña que desea resgistrar. 
 		\UCpaso[\UCactor] Confirma la contraseña.
 		\UCpaso El sistema válida si la contraseña escrita coincide con la primera.\Trayref{A}
 		\UCpaso[\UCactor]Selecciona el rol que tomará el nuevo usuario.
@@ -44,6 +45,8 @@
 		\begin{UCtrayectoriaA}{A}{Las contraseñas no coinciden.}
 			\UCpaso El sistema muestra mensaje de error{\bf ERRContraseñaSinCoin-}
 			\UCpaso[\UCactor]Oprime el botón \IUbutton{Aceptar}.
+			\UCpaso[\UCactor] regresa al paso 2 de la trayectoria principal.  
+			\UCpaso[] Termina la trayectoria.
 		\end{UCtrayectoriaA}
 		
 		
@@ -51,11 +54,15 @@
 			\UCpaso El sistema manda el mensaje {\bf ERRUsuarioExistente}
 			\UCpaso[\UCactor]Oprime el botón \IUbutton{Aceptar}.
 			\UCpaso El sistema limpia todos los datos. 
+			\UCpaso[\UCactor] regresa al paso 1 de la trayectoria principal.  
+			\UCpaso[] Termina la trayectoria.
 		\end{UCtrayectoriaA}
 		
 		\begin{UCtrayectoriaA}{C}{}
 			\UCpaso[\UCactor]Oprime el botón \IUbutton{Cancelar}
 			\UCpaso El sistema limpia todos los datos de la pantalla. 
+			\UCpaso[\UCactor] regresa al paso 1 de la trayectoria principal.  
+			\UCpaso[] Termina la trayectoria.
 		\end{UCtrayectoriaA}
 		
 %-------------------------------------- TERMINA descripción del caso de uso.
