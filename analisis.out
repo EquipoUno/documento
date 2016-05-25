@@ -46,61 +46,65 @@
 \BOOKMARK [2][-]{subsection.5.3.1}{Descripci\363n completa}{section.5.3}% 46
 \BOOKMARK [2][-]{subsection.5.3.2}{Atributos importantes}{section.5.3}% 47
 \BOOKMARK [2][-]{subsection.5.3.3}{Trayectorias del Caso de Uso}{section.5.3}% 48
-\BOOKMARK [1][-]{section.5.4}{CU2 Efectuar compra}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.4}{CU1.4 Iniciar sesi\363n como doctor}{chapter.5}% 49
 \BOOKMARK [2][-]{subsection.5.4.1}{Descripci\363n completa}{section.5.4}% 50
 \BOOKMARK [2][-]{subsection.5.4.2}{Atributos importantes}{section.5.4}% 51
 \BOOKMARK [2][-]{subsection.5.4.3}{Trayectorias del Caso de Uso}{section.5.4}% 52
-\BOOKMARK [1][-]{section.5.5}{CU3 Consultar Stock}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.5}{CU2 Efectuar compra}{chapter.5}% 53
 \BOOKMARK [2][-]{subsection.5.5.1}{Descripci\363n completa}{section.5.5}% 54
 \BOOKMARK [2][-]{subsection.5.5.2}{Atributos importantes}{section.5.5}% 55
 \BOOKMARK [2][-]{subsection.5.5.3}{Trayectorias del Caso de Uso}{section.5.5}% 56
-\BOOKMARK [1][-]{section.5.6}{CU4 Buscar Medicamento}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.6}{CU3 Consultar Stock}{chapter.5}% 57
 \BOOKMARK [2][-]{subsection.5.6.1}{Descripci\363n completa}{section.5.6}% 58
 \BOOKMARK [2][-]{subsection.5.6.2}{Atributos importantes}{section.5.6}% 59
 \BOOKMARK [2][-]{subsection.5.6.3}{Trayectorias del Caso de Uso}{section.5.6}% 60
-\BOOKMARK [1][-]{section.5.7}{CU5 Pago de transacci\363n}{chapter.5}% 61
+\BOOKMARK [1][-]{section.5.7}{CU4 Buscar Medicamento}{chapter.5}% 61
 \BOOKMARK [2][-]{subsection.5.7.1}{Descripci\363n completa}{section.5.7}% 62
 \BOOKMARK [2][-]{subsection.5.7.2}{Atributos importantes}{section.5.7}% 63
 \BOOKMARK [2][-]{subsection.5.7.3}{Trayectorias del Caso de Uso}{section.5.7}% 64
-\BOOKMARK [1][-]{section.5.8}{CU7 Agregar Medicamento}{chapter.5}% 65
+\BOOKMARK [1][-]{section.5.8}{CU5 Pago de transacci\363n}{chapter.5}% 65
 \BOOKMARK [2][-]{subsection.5.8.1}{Descripci\363n completa}{section.5.8}% 66
 \BOOKMARK [2][-]{subsection.5.8.2}{Atributos importantes}{section.5.8}% 67
 \BOOKMARK [2][-]{subsection.5.8.3}{Trayectorias del Caso de Uso}{section.5.8}% 68
-\BOOKMARK [1][-]{section.5.9}{CU8 Agendar cita}{chapter.5}% 69
+\BOOKMARK [1][-]{section.5.9}{CU7 Agregar Medicamento}{chapter.5}% 69
 \BOOKMARK [2][-]{subsection.5.9.1}{Descripci\363n completa}{section.5.9}% 70
 \BOOKMARK [2][-]{subsection.5.9.2}{Atributos importantes}{section.5.9}% 71
 \BOOKMARK [2][-]{subsection.5.9.3}{Trayectorias del Caso de Uso}{section.5.9}% 72
-\BOOKMARK [1][-]{section.5.10}{CU9 Registrar Medicamento}{chapter.5}% 73
+\BOOKMARK [1][-]{section.5.10}{CU8 Agendar cita}{chapter.5}% 73
 \BOOKMARK [2][-]{subsection.5.10.1}{Descripci\363n completa}{section.5.10}% 74
 \BOOKMARK [2][-]{subsection.5.10.2}{Atributos importantes}{section.5.10}% 75
 \BOOKMARK [2][-]{subsection.5.10.3}{Trayectorias del Caso de Uso}{section.5.10}% 76
-\BOOKMARK [1][-]{section.5.11}{CU10 Registrar Personal}{chapter.5}% 77
+\BOOKMARK [1][-]{section.5.11}{CU9 Registrar Medicamento}{chapter.5}% 77
 \BOOKMARK [2][-]{subsection.5.11.1}{Descripci\363n completa}{section.5.11}% 78
 \BOOKMARK [2][-]{subsection.5.11.2}{Atributos importantes}{section.5.11}% 79
 \BOOKMARK [2][-]{subsection.5.11.3}{Trayectorias del Caso de Uso}{section.5.11}% 80
-\BOOKMARK [1][-]{section.5.12}{CU13 Crear Receta}{chapter.5}% 81
+\BOOKMARK [1][-]{section.5.12}{CU10 Registrar Personal}{chapter.5}% 81
 \BOOKMARK [2][-]{subsection.5.12.1}{Descripci\363n completa}{section.5.12}% 82
 \BOOKMARK [2][-]{subsection.5.12.2}{Atributos importantes}{section.5.12}% 83
 \BOOKMARK [2][-]{subsection.5.12.3}{Trayectorias del Caso de Uso}{section.5.12}% 84
-\BOOKMARK [1][-]{section.5.13}{CU12 Modificar Expediente}{chapter.5}% 85
+\BOOKMARK [1][-]{section.5.13}{CU13 Crear Receta}{chapter.5}% 85
 \BOOKMARK [2][-]{subsection.5.13.1}{Descripci\363n completa}{section.5.13}% 86
 \BOOKMARK [2][-]{subsection.5.13.2}{Atributos importantes}{section.5.13}% 87
 \BOOKMARK [2][-]{subsection.5.13.3}{Trayectorias del Caso de Uso}{section.5.13}% 88
-\BOOKMARK [1][-]{section.5.14}{CU13 Crear Receta}{chapter.5}% 89
+\BOOKMARK [1][-]{section.5.14}{CU12 Modificar Expediente}{chapter.5}% 89
 \BOOKMARK [2][-]{subsection.5.14.1}{Descripci\363n completa}{section.5.14}% 90
 \BOOKMARK [2][-]{subsection.5.14.2}{Atributos importantes}{section.5.14}% 91
 \BOOKMARK [2][-]{subsection.5.14.3}{Trayectorias del Caso de Uso}{section.5.14}% 92
-\BOOKMARK [0][-]{chapter.6}{Modelo de la Interacci\363n}{}% 93
-\BOOKMARK [1][-]{section.6.1}{Modelo de navegaci\363n}{chapter.6}% 94
-\BOOKMARK [2][-]{subsection.6.1.1}{IULogin Pantalla de Control de Acceso}{section.6.1}% 95
-\BOOKMARK [2][-]{subsection.6.1.2}{IUCaja Pantalla de cajero}{section.6.1}% 96
-\BOOKMARK [2][-]{subsection.6.1.3}{IUProv Pantalla de proveedor}{section.6.1}% 97
-\BOOKMARK [2][-]{subsection.6.1.4}{IUCompra Pantalla de compra}{section.6.1}% 98
-\BOOKMARK [2][-]{subsection.6.1.5}{IUConsulta Pantalla de consulta}{section.6.1}% 99
-\BOOKMARK [2][-]{subsection.6.1.6}{IURegistroCita Pantalla de registro de cita}{section.6.1}% 100
-\BOOKMARK [2][-]{subsection.6.1.7}{Objetivo}{section.6.1}% 101
-\BOOKMARK [2][-]{subsection.6.1.8}{Dise\361o}{section.6.1}% 102
-\BOOKMARK [2][-]{subsection.6.1.9}{Salidas}{section.6.1}% 103
-\BOOKMARK [2][-]{subsection.6.1.10}{Entradas}{section.6.1}% 104
-\BOOKMARK [2][-]{subsection.6.1.11}{Comandos}{section.6.1}% 105
-\BOOKMARK [2][-]{subsection.6.1.12}{Mensajes}{section.6.1}% 106
+\BOOKMARK [1][-]{section.5.15}{CU13 Crear Receta}{chapter.5}% 93
+\BOOKMARK [2][-]{subsection.5.15.1}{Descripci\363n completa}{section.5.15}% 94
+\BOOKMARK [2][-]{subsection.5.15.2}{Atributos importantes}{section.5.15}% 95
+\BOOKMARK [2][-]{subsection.5.15.3}{Trayectorias del Caso de Uso}{section.5.15}% 96
+\BOOKMARK [0][-]{chapter.6}{Modelo de la Interacci\363n}{}% 97
+\BOOKMARK [1][-]{section.6.1}{Modelo de navegaci\363n}{chapter.6}% 98
+\BOOKMARK [2][-]{subsection.6.1.1}{IULogin Pantalla de Control de Acceso}{section.6.1}% 99
+\BOOKMARK [2][-]{subsection.6.1.2}{IUCaja Pantalla de cajero}{section.6.1}% 100
+\BOOKMARK [2][-]{subsection.6.1.3}{IUProv Pantalla de proveedor}{section.6.1}% 101
+\BOOKMARK [2][-]{subsection.6.1.4}{IUCompra Pantalla de compra}{section.6.1}% 102
+\BOOKMARK [2][-]{subsection.6.1.5}{IUConsulta Pantalla de consulta}{section.6.1}% 103
+\BOOKMARK [2][-]{subsection.6.1.6}{IURegistroCita Pantalla de registro de cita}{section.6.1}% 104
+\BOOKMARK [2][-]{subsection.6.1.7}{Objetivo}{section.6.1}% 105
+\BOOKMARK [2][-]{subsection.6.1.8}{Dise\361o}{section.6.1}% 106
+\BOOKMARK [2][-]{subsection.6.1.9}{Salidas}{section.6.1}% 107
+\BOOKMARK [2][-]{subsection.6.1.10}{Entradas}{section.6.1}% 108
+\BOOKMARK [2][-]{subsection.6.1.11}{Comandos}{section.6.1}% 109
+\BOOKMARK [2][-]{subsection.6.1.12}{Mensajes}{section.6.1}% 110

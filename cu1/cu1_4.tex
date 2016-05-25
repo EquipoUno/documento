@@ -1,0 +1,40 @@
+% \IUref{IUAdmPS}{Administrar Planta de Selección}
+% \IUref{IUModPS}{Modificar Planta de Selección}
+% \IUref{IUEliPS}{Eliminar Planta de Selección}
+
+% 
+
+
+% Copie este bloque por cada caso de uso:
+%-------------------------------------- COMIENZA descripción del caso de uso.
+
+%\begin{UseCase}[archivo de imágen]{UCX}{Nombre del Caso de uso}{
+	\begin{UseCase}{CU1.4}{Iniciar sesión como doctor}{
+		Los doctores est\'an a cargo de impartir las consultas m\'edicas. Dentro de las consultas es posible que el doctor tenga la necesidad de emitir una receta m\'edica para que el paciente pueda comprar medicamentos en la farmacia. tambi\'en en ocasiones el doctor debe generar, consultar y/o modificar expedientes m\'edicos de sus pacientes. Para poder realizar todas \'estas acciones mencionadas, el m\'edico deber\'a identificarse en el sistema como un "`Doctor"'.
+
+	}
+		\UCitem{Versión}{1.0}
+		\UCitem{Actor}{Doctor}
+		\UCitem{Propósito}{Que el doctor pueda efectuar las acciones a las que tiene acceso}
+		\UCitem{Resumen}{
+		El sistema muestra una pantalla de registro, donde el actor ingresa su informaci\'on de acceso, y si el sistema lo verifica correctamente como un doctor, le dar\'a acceso como "`Doctor"'.}
+		\UCitem{Entradas}{Nombre de usuario y contraseña.}
+		\UCitem{Salidas}{ --- }
+		\UCitem{Precondiciones}{Tener una cuenta de tipo "`Doctor"'  registrada en el sistema.}
+		\UCitem{Postcondiciones}{El actor tendr\'a acceso a la funci\'on que un proveedor de la cl\'inica posee.}
+		\UCitem{Errores}{Si no hay ninguna cuenta con los datos ingresados, muestra el Mensaje {\bf ERRDatosIncorrectos-}``No existe ninguna cuenta con los datos ingresados. Favor de revisar la informaci\'on introducida''.}
+		\UCitem{Autor}{Gerardo Aramis Cabello Acosta.}
+		\UCitem{Revisor}{Diana Guadalupe Maldonado Ledo}
+		\UCitem{Status}{Terminado}
+	\end{UseCase}
+
+	\begin{UCtrayectoria}{Principal}
+		\UCpaso[\UCactor] Introduce su Nombre de usuario y Contraseña en el sistema vía la  \IUref{IULogin}{Pantalla de Control de Acceso}\label{CU1_1Login}.
+		\UCpaso El sistema verifica que exista cuenta de tipo "`Doctor"' con el nombre de usuario ingresado.
+		\UCpaso El sistema verifica que la contraseña ingresada coincida con la de la cuenta encontrada
+		\UCpaso Se despliega en pantalla la \IUref{IUMedico}{Pantalla de m\'edico}.	
+	\end{UCtrayectoria}
+		
+		
+		
+%-------------------------------------- TERMINA descripción del caso de uso.
