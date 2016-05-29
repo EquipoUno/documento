@@ -146,3 +146,10 @@
 \contentsline {subsubsection}{Entradas}{55}{section*.41}
 \contentsline {subsubsection}{Comandos}{56}{section*.42}
 \contentsline {subsubsection}{Mensajes}{56}{section*.43}
+\contentsline {subsection}{\numberline {6.1.8}IUAdmin Pantalla de Administrador}{56}{subsection.6.1.8}
+\contentsline {subsubsection}{Objetivo}{56}{section*.44}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{56}{section*.45}
+\contentsline {subsubsection}{Salidas}{56}{section*.46}
+\contentsline {subsubsection}{Entradas}{56}{section*.47}
+\contentsline {subsubsection}{Comandos}{56}{section*.48}
+\contentsline {subsubsection}{Mensajes}{57}{section*.49}
