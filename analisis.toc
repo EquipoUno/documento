@@ -79,7 +79,7 @@
 \contentsline {subsection}{\numberline {5.11.1}Descripci\IeC {\'o}n completa}{38}{subsection.5.11.1}
 \contentsline {subsection}{\numberline {5.11.2}Atributos importantes}{38}{subsection.5.11.2}
 \contentsline {subsection}{\numberline {5.11.3}Trayectorias del Caso de Uso}{38}{subsection.5.11.3}
-\contentsline {section}{\numberline {5.12}CU10 Registrar Personal}{40}{section.5.12}
+\contentsline {section}{\numberline {5.12}CU10 Registrar Usuario}{40}{section.5.12}
 \contentsline {subsection}{\numberline {5.12.1}Descripci\IeC {\'o}n completa}{40}{subsection.5.12.1}
 \contentsline {subsection}{\numberline {5.12.2}Atributos importantes}{40}{subsection.5.12.2}
 \contentsline {subsection}{\numberline {5.12.3}Trayectorias del Caso de Uso}{40}{subsection.5.12.3}
@@ -153,3 +153,17 @@
 \contentsline {subsubsection}{Entradas}{56}{section*.47}
 \contentsline {subsubsection}{Comandos}{56}{section*.48}
 \contentsline {subsubsection}{Mensajes}{57}{section*.49}
+\contentsline {subsection}{\numberline {6.1.9}IURegUsuario Pantalla de Registro de Usuario}{57}{subsection.6.1.9}
+\contentsline {subsubsection}{Objetivo}{57}{section*.50}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{57}{section*.51}
+\contentsline {subsubsection}{Salidas}{57}{section*.52}
+\contentsline {subsubsection}{Entradas}{57}{section*.53}
+\contentsline {subsubsection}{Comandos}{57}{section*.54}
+\contentsline {subsubsection}{Mensajes}{58}{section*.55}
+\contentsline {subsection}{\numberline {6.1.10}IURegMed Pantalla de Registro de Medicamentos}{58}{subsection.6.1.10}
+\contentsline {subsubsection}{Objetivo}{58}{section*.56}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{58}{section*.57}
+\contentsline {subsubsection}{Salidas}{58}{section*.58}
+\contentsline {subsubsection}{Entradas}{58}{section*.59}
+\contentsline {subsubsection}{Comandos}{59}{section*.60}
+\contentsline {subsubsection}{Mensajes}{59}{section*.61}

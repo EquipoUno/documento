@@ -1,0 +1,30 @@
+\subsection{IURegUsuario Pantalla de Registro de Usuario}
+
+\subsubsection{Objetivo}
+	Permitirle a un administrador agregar un nuevo usuario que no esté dado de alta en el sistema.
+
+\subsubsection{Diseño}
+	\'Esta pantalla aparece despu\'es de seleccionar la opción de "`Agregar usuario"'. Es un formulario donde se pide la informaci\'on necesaria para agregar a un nuevo usuario al sistema.
+
+\IUfig[.5]{gui/IUAgregarUsuario}{IURegUsuario}{Pantalla de Registro de Usuario.}
+
+\subsubsection{Salidas}
+
+	Confirmación de que el usuario ha sido agregado correctamente.
+
+\subsubsection{Entradas}
+	Nombre de usuario, Contraseña, Confirmación de contraseña y Rol del usuario.
+
+\subsubsection{Comandos}
+\begin{itemize}
+		\item \IUbutton{Registrar} : El sistema muestra el mensaje "Usuario registrado correctamente".
+		\item \IUbutton{Regresar} :El sistema muestra la \IUref{IUAdmin}{Pantalla de Administrador}\label{IUAdmin}
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf WARNUsuario} - ``Introduce un Usuario".
+		\item {\bf WARNNombre} - ``Introduce una contraseña".
+		\item {\bf ERRSustAct} - ``Contraseña inválida".
+		\item {\bf WARNEx}- ``Ya existe usuario con ese nombre".
+	\end{Citemize}

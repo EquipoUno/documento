@@ -1,0 +1,29 @@
+\subsection{IURegMed Pantalla de Registro de Medicamentos}
+
+\subsubsection{Objetivo}
+	Permitirle a un administrador agregar un nuevo medicamento que no exista en el sistema.
+
+\subsubsection{Diseño}
+	\'Esta pantalla aparece despu\'es de seleccionar la opción de ``Agregar Medicamento". Es un formulario donde se pide la informaci\'on necesaria para agregar un nuevo medicamento al sistema.
+
+\IUfig[.5]{gui/IUAgregarMedicamento}{IURegMed}{Pantalla de Registro de Medicamentos.}
+
+\subsubsection{Salidas}
+
+	Confirmación de que el medicamento ha sido agregado correctamente.
+
+\subsubsection{Entradas}
+	ID de medicamento, Nombre, Laboratorio, Descripción, Sustancia activa, Precio y control del medicamento.
+
+\subsubsection{Comandos}
+\begin{itemize}
+		\item \IUbutton{Registrar} : El sistema muestra el mensaje "El medicamento ha sido agregado correctamente".
+		\item \IUbutton{Regresar} :El sistema muestra la \IUref{IUAdmin}{Pantalla de Administrador}\label{IUAdmin}
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf WARNID} - ``Introduce un ID".
+		\item {\bf WARNNombre} - ``Introduce un nombre".
+		\item {\bf WARNSustAct} - ``Introduce una sustancia activa".
+	\end{Citemize}

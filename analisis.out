@@ -78,7 +78,7 @@
 \BOOKMARK [2][-]{subsection.5.11.1}{Descripci\363n completa}{section.5.11}% 78
 \BOOKMARK [2][-]{subsection.5.11.2}{Atributos importantes}{section.5.11}% 79
 \BOOKMARK [2][-]{subsection.5.11.3}{Trayectorias del Caso de Uso}{section.5.11}% 80
-\BOOKMARK [1][-]{section.5.12}{CU10 Registrar Personal}{chapter.5}% 81
+\BOOKMARK [1][-]{section.5.12}{CU10 Registrar Usuario}{chapter.5}% 81
 \BOOKMARK [2][-]{subsection.5.12.1}{Descripci\363n completa}{section.5.12}% 82
 \BOOKMARK [2][-]{subsection.5.12.2}{Atributos importantes}{section.5.12}% 83
 \BOOKMARK [2][-]{subsection.5.12.3}{Trayectorias del Caso de Uso}{section.5.12}% 84
@@ -104,3 +104,5 @@
 \BOOKMARK [2][-]{subsection.6.1.6}{IURegistroCita Pantalla de registro de cita}{section.6.1}% 104
 \BOOKMARK [2][-]{subsection.6.1.7}{IUCupo Pantalla de cupo en los consultorios}{section.6.1}% 105
 \BOOKMARK [2][-]{subsection.6.1.8}{IUAdmin Pantalla de Administrador}{section.6.1}% 106
+\BOOKMARK [2][-]{subsection.6.1.9}{IURegUsuario Pantalla de Registro de Usuario}{section.6.1}% 107
+\BOOKMARK [2][-]{subsection.6.1.10}{IURegMed Pantalla de Registro de Medicamentos}{section.6.1}% 108
