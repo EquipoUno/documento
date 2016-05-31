@@ -1,0 +1,28 @@
+\subsection{IUGeneraExp Pantalla de Genera Expediente}
+
+\subsubsection{Objetivo}
+	Permitir al M\'edico generar un expediente desde el inicio de alg\'un paciente de nuevo ingreso.
+
+\subsubsection{Diseño}
+	Esta pantalla aparece despu\'es de seleccionar la opci\'on "`Generar expediente m\'edico"' de la \IUref{IUMedico}{Pantalla de Medico}\label{IUMedico}. Aqu\'i el medico puede generar el expeidente m\'edico de algun paciente de nuevo ingreso en la cl\'inica.
+
+\IUfig[.7]{gui/IUGeneraExp}{IUGeneraExp}{Pantalla de Genera Expediente M\'edico.}
+
+\subsubsection{Salidas}
+
+	Expediente M\'edico generado.
+
+\subsubsection{Entradas}
+Datos personales y medicos del paciente.
+
+\subsubsection{Comandos}
+\begin{itemize}
+		\item \IUbutton{Generar}: El m\'edico seleccionar\'a la opcion de Generar y el sistema guardar\'a el Expediente m\'edico en la BD de la c\'inica.
+		\item \IUbutton{Regresar}: Regresa al men\'u del m\'edico.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf WARNDatosErr} - "`Dato ingresado incorrectamente."'.
+		\item {\bf ERRExpExiste} - "`El expediente m\'edico ya existe en el sistema."'.
+	\end{Citemize}

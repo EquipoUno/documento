@@ -1,0 +1,28 @@
+\subsection{IUConsultaExp Pantalla de consulta de Expediente}
+
+\subsubsection{Objetivo}
+	Permitir al M\'edico consultar el expediente de algun paciente.
+
+\subsubsection{Diseño}
+	Esta pantalla aparece despu\'es de seleccionar la opci\'on "`Consultar expediente m\'edico"' de la \IUref{IUMedico}{Pantalla de Medico}\label{IUMedico}. Aqu\'i el medico puede buscar el expeidente m\'edico de algun paciente.
+
+\IUfig[.7]{gui/IUConsultaExp}{IUConsultaExp}{Pantalla de Consulta de Expediente M\'edico.}
+
+\subsubsection{Salidas}
+
+	Datos en Expediente M\'edico.
+
+\subsubsection{Entradas}
+CURP del paciente a buscar.
+
+\subsubsection{Comandos}
+\begin{itemize}
+		\item \IUbutton{Consultar}: El sistema buscar\'a el registro del CURP ingresado por el M\'edico y mostrar\'a en pantalla los datos del expediente encontrado.
+		\item \IUbutton{Regresar}: Regresa al men\'u del m\'edico.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf WARNDatosErr} - "`Dato ingresado incorrectamente."'.
+		\item {\bf ERRExpInex} - "`No existe el expediente por el CURP solicitado. Favor de revisar sus datos."'.
+	\end{Citemize}

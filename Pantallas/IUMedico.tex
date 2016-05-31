@@ -1,0 +1,33 @@
+\subsection{IUMedico Pantalla Medico}
+
+\subsubsection{Objetivo}
+	Permitir al M\'edico acceder a las opciones que tiene permitas dentro del men\'u.
+
+\subsubsection{Diseño}
+	Esta pantalla aparece despu\'es de iniciar sesi\'on como "`Medico"'. Aqu\'i el m\'edico podr\'a seleccionar generar reeta, crear, modificar o generar un expediente medico. Una vez seleccionada la opciones, el m\'edico podr\'a ver la pantalla desplegada correspondiente a cada opcion, y de esta manera realizar la actividad correspondiente sin algun inconveniente.
+
+\IUfig[.5]{gui/IUMedico}{IUMedico}{Pantalla de Medico.}
+
+\subsubsection{Salidas}
+
+	Ninguna.
+
+\subsubsection{Entradas}
+Ninguna.
+
+\subsubsection{Comandos}
+\begin{itemize}
+		\item \IUbutton{Generar Receta}: El m\'edico crea una receta medica, con base a un diagnostico ya existente para despu\'es entregar a cliente. Despu\'es muestra la \IUref{IUConfirmar}{Pantalla de Confirmaci\'on de Receta}\label{IUConfirmar}.
+		\item \IUbutton{Consulta Expediente M\'edico}: Accesa a la opcion para poder hacer alguna consulta a un expediente m\'edico.
+		\item \IUbutton{Generar Expediente M\'edico}: Genera desde el inicio un expediente m\'edico para alg\'un paciente nuevo.
+		\item \IUbutton{Modificar Expediente M\'edico}: El m\'edico podr\'a modificar algun campo del expediente m\'edico para fines de tratamientos a inter\'ees del paciente.
+		\item \IUbutton{Cerrar sesi\'on}: Cierra la sesi\'on del m\'edico.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf } - "`"'.
+		\item {\bf } - "`"'.
+		\item {\bf } - "`"'.
+		\item {\bf } - "`"'.
+	\end{Citemize}

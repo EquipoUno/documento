@@ -1,0 +1,29 @@
+\subsection{IUModificaExp Pantalla de Modificar Expediente}
+
+\subsubsection{Objetivo}
+	Permitir al M\'edico modificar un expediente para fines medicos y de tratamientos del paciente.
+
+\subsubsection{Diseño}
+	Esta pantalla aparece despu\'es de seleccionar la opci\'on "`Modificar expediente m\'edico"' de la \IUref{IUMedico}{Pantalla de Medico}\label{IUMedico}. Aqu\'i el medico puede modificar el expeidente m\'edico de algun paciente en caso de que sea necesario.
+
+\IUfig[.7]{gui/IUModificaExp}{IUModificaExp}{Pantalla de Modificar Expediente M\'edico.}
+
+\subsubsection{Salidas}
+
+	Expediente M\'edico actualizado.
+
+\subsubsection{Entradas}
+Observaciones o datos modificados por parte del m\'edico.
+
+\subsubsection{Comandos}
+\begin{itemize}
+		\item \IUbutton{Buscar}: El m\'edico seleccionar\'a la opcion de Buscar, ingresar\'a CURP y el sistema mostrar\'a el expediente resultante, que se modificar\'a.
+		\item \IUbutton{Modificar}: El m\'edico seleccionar\'a la opcion de Modificarr y el sistema actualizar\'a el Expediente m\'edico.
+		\item \IUbutton{Regresar}: Regresa al men\'u del m\'edico.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf WARNDatosErr} - "`Dato ingresado incorrectamente."'.
+		\item {\bf ERRExpInex} - "`El expediente m\'edico no existe en el sistema."'.
+	\end{Citemize}
