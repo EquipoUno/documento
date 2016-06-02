@@ -1,0 +1,29 @@
+\subsection{IUBusqueda Pantalla de Busqueda de Medicammento}
+
+\subsubsection{Objetivo}
+	Permitir al dependiente realizar la busqueda de un medicamento.
+
+\subsubsection{Diseño}
+	Esta pantalla aparece despu\'es de seleccionar la opci\'on "`Buscar"' en la parte superior de la \IUref{IUCompra}{Pantalla de Compra}\label{IUCompra}. Aqu\'i eldependiente podr\'a introducir por nombre o por sustancia activa un medicamento y que, el sistema buscar\'a en la BD si es que dicho medicamento tiene existencias en almac\'en.
+
+\IUfig[.7]{gui/IUBusqueda}{IUBusqueda}{Pantalla de Busqueda.}
+
+\subsubsection{Salidas}
+
+	Lista de medicamentos en existencia.
+
+\subsubsection{Entradas}
+Nombre o Sustancia activa del medicamento.
+
+\subsubsection{Comandos}
+\begin{itemize}
+		\item \IUbutton{Buscar por Sustancia}: El sistema buscar\'a en la BD los medicamentos que contengan similitud en la sustancia activa introducidos, lanzando una lista correspondiente de dichos medicamentos.
+		\item \IUbutton{Buscar por Nombre}:El sistema buscar\'a si existe algun medicamento por el nombre buscado .
+		\item \IUbutton{Cerrar Ventana}: Cierra la ventana, regresando a \IUref{IUCompra}{Pantalla de Compra} \label{IUCompra}.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf ERRNombreIncorr} - "`No hay ningun medicamento con el nombre ingresado"'.
+		\item {\bf ERRSustActiva} - "`No hay ning\'un medicamento con la sustancia activa ingresada."'.
+	\end{Citemize}

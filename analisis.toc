@@ -195,3 +195,10 @@
 \contentsline {subsubsection}{Entradas}{63}{section*.83}
 \contentsline {subsubsection}{Comandos}{63}{section*.84}
 \contentsline {subsubsection}{Mensajes}{63}{section*.85}
+\contentsline {subsection}{\numberline {6.1.15}IUBusqueda Pantalla de Busqueda de Medicammento}{63}{subsection.6.1.15}
+\contentsline {subsubsection}{Objetivo}{63}{section*.86}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{64}{section*.87}
+\contentsline {subsubsection}{Salidas}{64}{section*.88}
+\contentsline {subsubsection}{Entradas}{64}{section*.89}
+\contentsline {subsubsection}{Comandos}{64}{section*.90}
+\contentsline {subsubsection}{Mensajes}{64}{section*.91}
