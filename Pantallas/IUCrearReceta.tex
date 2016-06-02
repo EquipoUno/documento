@@ -1,0 +1,32 @@
+\subsection{IUCrearReceta Pantalla de Creaci\'on de Receta}
+
+\subsubsection{Objetivo}
+	Permitir al M\'edico crear una receta, de tal forma que el paciente pueda ir a la farmacia a comprar sus medicamentos con ella.
+
+\subsubsection{Diseño}
+	Esta pantalla aparece despu\'es de seleccionar la opci\'on "`Generar receta"' de la \IUref{IUMedico}{Pantalla de Medico}\label{IUMedico}. Aqu\'i el m\'edico agrega los medicamentos a la receta mediante su ID. En caso de no saberlo, puede realizar una b\'usqueda de medicamentos con las opciones que tiene en la parte superior de la pantalla. El diseño de \'esta pantalla es bastanta similar a la \IUref{IUCompra}{Pantalla de Compra}\label{IUCompra}
+
+\IUfig[.7]{gui/IUCrearReceta}{IUCrearReceta}{Pantalla de Creacion de Receta.}
+
+\subsubsection{Salidas}
+
+	Receta m\'edica
+
+\subsubsection{Entradas}
+Nombre o sustancia del medicamento a buscar
+ID de medicamento
+Dosis o notas (Por medicamento)
+
+\subsubsection{Comandos}
+\begin{itemize}
+		\item \IUbutton{Buscar por sustancia}: El sistema muestra los medicamentos encontrados con la sustancia ingresada mediante la \IUref{IUResultados}{Pantalla de Resultados}\label{IUResultados}.
+		\item \IUbutton{Buscar por nombre}: El sistema muestra los medicamentos encontrados con el nombre ingresado mediante la \IUref{IUResultados}{Pantalla de Resultados}\label{IUResultados}.
+		\item \IUbutton{Agregar medicamento}: El sistema agrega una nueva fila para poder ingresar la informaci\'on de otro medicamento.
+		\item \IUbutton{Eliminar}: Se elimina la fila completa del bot\'on al cual se le dio click.
+\end{itemize}
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf ERRMedInex} - "`No existe medicamento con el ID ingresado. Favor de revisar sus datos."'.
+		\item {\bf WARNVac\'io} - "`Ning\'un campo debe estar vac\'io. Favor de revisar la informaci\'on ingresada"'.
+	\end{Citemize}

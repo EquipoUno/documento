@@ -208,3 +208,10 @@
 \contentsline {subsubsection}{Salidas}{65}{section*.94}
 \contentsline {subsubsection}{Entradas}{65}{section*.95}
 \contentsline {subsubsection}{Mensajes}{65}{section*.96}
+\contentsline {subsection}{\numberline {6.1.17}IUCrearReceta Pantalla de Creaci\'on de Receta}{65}{subsection.6.1.17}
+\contentsline {subsubsection}{Objetivo}{65}{section*.97}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{65}{section*.98}
+\contentsline {subsubsection}{Salidas}{66}{section*.99}
+\contentsline {subsubsection}{Entradas}{66}{section*.100}
+\contentsline {subsubsection}{Comandos}{66}{section*.101}
+\contentsline {subsubsection}{Mensajes}{66}{section*.102}
