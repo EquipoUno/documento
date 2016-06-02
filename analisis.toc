@@ -174,31 +174,38 @@
 \contentsline {subsubsection}{Entradas}{59}{section*.65}
 \contentsline {subsubsection}{Comandos}{59}{section*.66}
 \contentsline {subsubsection}{Mensajes}{60}{section*.67}
-\contentsline {subsection}{\numberline {6.1.12}IUGeneraExp Pantalla de Genera Expediente}{60}{subsection.6.1.12}
+\contentsline {subsection}{\numberline {6.1.12}IUCrearReceta Pantalla de Creaci\'on de Receta}{60}{subsection.6.1.12}
 \contentsline {subsubsection}{Objetivo}{60}{section*.68}
 \contentsline {subsubsection}{Dise\IeC {\~n}o}{60}{section*.69}
 \contentsline {subsubsection}{Salidas}{60}{section*.70}
 \contentsline {subsubsection}{Entradas}{60}{section*.71}
 \contentsline {subsubsection}{Comandos}{61}{section*.72}
 \contentsline {subsubsection}{Mensajes}{61}{section*.73}
-\contentsline {subsection}{\numberline {6.1.13}IUModificaExp Pantalla de Modificar Expediente}{61}{subsection.6.1.13}
+\contentsline {subsection}{\numberline {6.1.13}IUGeneraExp Pantalla de Genera Expediente}{61}{subsection.6.1.13}
 \contentsline {subsubsection}{Objetivo}{61}{section*.74}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{61}{section*.75}
-\contentsline {subsubsection}{Salidas}{61}{section*.76}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{62}{section*.75}
+\contentsline {subsubsection}{Salidas}{62}{section*.76}
 \contentsline {subsubsection}{Entradas}{62}{section*.77}
 \contentsline {subsubsection}{Comandos}{62}{section*.78}
 \contentsline {subsubsection}{Mensajes}{62}{section*.79}
-\contentsline {subsection}{\numberline {6.1.14}IUConsultaExp Pantalla de consulta de Expediente}{62}{subsection.6.1.14}
-\contentsline {subsubsection}{Objetivo}{62}{section*.80}
-\contentsline {subsubsection}{Dise\IeC {\~n}o}{62}{section*.81}
+\contentsline {subsection}{\numberline {6.1.14}IUModificaExp Pantalla de Modificar Expediente}{63}{subsection.6.1.14}
+\contentsline {subsubsection}{Objetivo}{63}{section*.80}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{63}{section*.81}
 \contentsline {subsubsection}{Salidas}{63}{section*.82}
 \contentsline {subsubsection}{Entradas}{63}{section*.83}
 \contentsline {subsubsection}{Comandos}{63}{section*.84}
-\contentsline {subsubsection}{Mensajes}{63}{section*.85}
-\contentsline {subsection}{\numberline {6.1.15}IUBusqueda Pantalla de Busqueda de Medicammento}{63}{subsection.6.1.15}
-\contentsline {subsubsection}{Objetivo}{63}{section*.86}
+\contentsline {subsubsection}{Mensajes}{64}{section*.85}
+\contentsline {subsection}{\numberline {6.1.15}IUConsultaExp Pantalla de consulta de Expediente}{64}{subsection.6.1.15}
+\contentsline {subsubsection}{Objetivo}{64}{section*.86}
 \contentsline {subsubsection}{Dise\IeC {\~n}o}{64}{section*.87}
 \contentsline {subsubsection}{Salidas}{64}{section*.88}
 \contentsline {subsubsection}{Entradas}{64}{section*.89}
 \contentsline {subsubsection}{Comandos}{64}{section*.90}
-\contentsline {subsubsection}{Mensajes}{64}{section*.91}
+\contentsline {subsubsection}{Mensajes}{65}{section*.91}
+\contentsline {subsection}{\numberline {6.1.16}IUBusqueda Pantalla de Busqueda de Medicammento}{65}{subsection.6.1.16}
+\contentsline {subsubsection}{Objetivo}{65}{section*.92}
+\contentsline {subsubsection}{Dise\IeC {\~n}o}{65}{section*.93}
+\contentsline {subsubsection}{Salidas}{65}{section*.94}
+\contentsline {subsubsection}{Entradas}{65}{section*.95}
+\contentsline {subsubsection}{Comandos}{65}{section*.96}
+\contentsline {subsubsection}{Mensajes}{66}{section*.97}
