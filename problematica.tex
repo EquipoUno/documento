@@ -1,13 +1,13 @@
-En \'este cap\'itulo se describir\'a al an\'alisis realizado para identificar los procesos llevados a cabo dentro de la cl\'inica, los problemas de la misma, sus causas y propuestas para solucionarlo
+En \'este cap\'itulo se describir\'a al an\'alisis realizado para identificar los procesos llevados a cabo dentro de la cl\'inica, los problemas de la misma, sus causas y propuestas para solucionarlo.
 
 %--------------------------------------------------
 \section{Contexto del sistema}
 
-	La cl\'inica m\'edica de homeopat\'ia requiere de un sistema que realice las funciones que se realizan dentro de ella, y lleve el control de las citas por internet, llevar control sobre inventarios en farmacia as\' como los expedientes m\'edicos, con el fin de garantizar un mejor servicio a los pacientes de dicha cl\'inica.
+	La cl\'inica m\'edica de homeopat\'ia requiere de un sistema que realice las funciones que se realizan dentro de ella, y lleve el control de las citas por internet, llevar control sobre inventarios en farmacia as\'i como los expedientes m\'edicos, con el fin de garantizar un mejor servicio a los pacientes de dicha cl\'inica.
 La cl\'inica cuenta con 12 consultorios y una farmacia. Para que una consulta sea llevada a cabo, es necesario
-que exista una cita previa, ya sea para Consulta General o Especialidad, la \'unica diferencia entre ambas es el costo y el docotr que atienda la consulta.
+que exista una cita previa, ya sea para Consulta General o Especialidad, la \'unica diferencia entre ambas es el costo y el m\'edico que atienda la consulta.
 Para obtener una cita m\'edica es necesario llamar al tel\'efono de la cl\'inica, acudir personalmente a la misma, o bien, realizarla a trav\'es del sitio web de la cl\'inica. En caso de que no haya cupo en el horario que el usuario desee en ning\'un consultorio, se lo notificar\'a para que escoja un nuevo horario y/o fecha. Despu\'es de realizar la cita, el usuario recibir\'a u n\'umero de folio, con el cual deber\'a pagar en la caja de la cl\'inica a m\'as tardar diez minutos antes de la cita programada. En caso de que la cita no sea pagada en \'este tiempo, uno de los pacientes de espera podr\'a ingresar a esa consulta.
-Al finaliza una consulta, el paciente recibir\'a una receta, la cual, en caso de querer abastecerla en la cl\'inica misma, deber\'a ir al m\'odulo de Farmacia para tomar un recibo de pago, pagar la cantidad indicada en el recibo en la caja, devolver el recibo con sello de "`Pagado"', y finalmente recoger sus medicamentos y su receta con sello de "`Entregado"'.
+Al finaliza una consulta, el paciente recibir\'a una receta, la cual, en caso de querer abastecerla en la cl\'inica misma, deber\'a ir al m\'odulo de Farmacia para tomar un recibo de pago, pagar la cantidad indicada en el recibo en caja, devolver el recibo con sello de "`Pagado"', y finalmente recoger sus medicamentos y su receta con sello de "`Entregado"'.
 
 %--------------------------------------------------
 \section{Procesos actuales}
@@ -17,7 +17,7 @@ Al finaliza una consulta, el paciente recibir\'a una receta, la cual, en caso de
 \item \bfseries{Pago de medicamentos} \mdseries{: El paciente acude a la farmacia con una receta m\'edica. El dependiente de la farmacia la revisa, verifica que en el almac\'en haya los suficientes medicamentos para abastecer la receta. En caso de que sí haya suficientes medicamentos, el dependiente procede a cobrarle al paciente el monto correspondiente a la receta m\'edica y finalmente el paciente recibe los medicamentos solicitados.}
 \item \bfseries{Suministro de medicamentos} \mdseries{: El proveedor suministra medicamentos al almac\'en de la farmacia, y registra cada uno de los cambios que hizo en el stock en un cuaderno. Realiza \'este procedimiento cada quince d\'ias.}
 \item \bfseries{Generaci\'on de expediente} \mdseries{: Cuando el expediente m\'edico de un paciente no existe, \'este debe ser generado. El m\'edico llena un formulario f\'isico con base en la informaci\'on que el paciente le proporciona. Al finalizar, \'este expediente es almacenado en un estante de archivos, intentando que el orden alfab\'etico (por apellido paterno) de los archivos no se altere.}
-\item \bfseries{Cosulta} \mdseries{: Si el paciente pag\'o su consulta a tiempo, entrar\'a al consultorio que le haya sido asignado, y lo atender\'a el doctor que se halle en ese consultorio. La consulta no tiene una duraci\'on definida.}
+\item \bfseries{Cosulta} \mdseries{: Si el paciente pag\'o su consulta a tiempo, entrar\'a al consultorio que le haya sido asignado, y lo atender\'a el doctor que se halle en ese consultorio. La consulta no tiene una duraci\'on definida (pero tiene un tiempo estimado de 20 min.).}
 \item \bfseries{Expedici\'on de receta m\'edica} \mdseries{: Al finalizar una consulta, si es necesario el doctor le otorgar\'a una receta m\'edica al paciente. \'Esto lo hace llenando un formulario (previamente impreso) donde indica los medicamentos recetados, su cantidad, el nombre del doctor y su firma o sello}
 \end{itemize}
 % - - - - - - - - - - - - - - - - - - - - - - - - -

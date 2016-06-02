@@ -1,0 +1,22 @@
+\subsection{IUResultado Pantalla de Resultado}
+
+\subsubsection{Objetivo}
+	Permitir al dependiente observar en pantalla los medicamentos encontrados con los datos de busqueda ingresados.
+
+\subsubsection{Diseño}
+	Esta pantalla aparece despu\'es de seleccionar la opci\'on "`Buscar"' de la \IUref{IUConsulta}{Pantalla de Consulta}\label{IUConsulta} y de haber introducido los datos de busqueda correspondientes. Aqu\'i el dependiente conocer\'a lo que hay en existencias en almac\'en.
+
+\IUfig[.7]{gui/IUResultado}{IUResultado}{Pantalla de Resultados.}
+
+\subsubsection{Salidas}
+
+	Informaci\'on de medicamentos en almac\'en.
+
+\subsubsection{Entradas}
+Busqueda por Nombre o Sustancia Activa.
+
+\subsubsection{Mensajes}
+	\begin{Citemize}
+		\item {\bf ERRNombreIncorr} - "`No hay ningun medicamento con el nombre ingresado"'.
+		\item {\bf ERRSustActiva} - "`No hay ning\'un medicamento con la sustancia activa ingresada."'.
+	\end{Citemize}
